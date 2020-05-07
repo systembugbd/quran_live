@@ -159,14 +159,10 @@ function showSuraPerPage(sura, perPage, totalAyatNum) {
       }
     }
     console.log(perPage + " times quran() function is called");
-    // document.getElementsByClassName("loader").style.display = "none";
     //calling Quran function as per length provided like i<= number times
   }
 
-  // $('.ayahBox.qarabic').show();
-  // document.getElementsByClassName('ayahBox').style.display = "block";
-  // document.getElementsByClassName('ayahBox').style.display = "none";
-
+ 
   $(".ayahBox.qarabic").hide();
   $("#coverGraphy img").css({ display: "block", "z-index": "1" });
   $(".heading").css({ display: "block", top: "100px" });
@@ -178,9 +174,7 @@ function showSuraPerPage(sura, perPage, totalAyatNum) {
   }, 1500);
 }
 
-// function showHideBox() {
-//   $(".ayahBox.qarabic").show();
-// }
+ 
 
 function quran(chapter, verse) {
   let src = "http://qzaidi.github.io/quran/js/quran.js";
@@ -199,12 +193,12 @@ function quran(chapter, verse) {
   transDiv.classList.add("translate");
 
   script.setAttribute("trans", "#" + transDiv.id);
-  script.setAttribute("translator", "hindi");
+  // script.setAttribute("translator", "hindi");
   script.setAttribute("count", 0);
   script.setAttribute("chapter", chapter);
   script.setAttribute("verse", verse);
   script.setAttribute("selector", "#" + verseDiv.id);
-  script.setAttribute("audio", "true");
+  // script.setAttribute("audio", "true");
   script.src = src;
 
   suraBody.append(script);
