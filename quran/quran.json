@@ -1,0 +1,240 @@
+[
+{
+    "sura":{
+        "fatiha": {
+            "attr": {
+                "ar": "الفاتحة",
+                "bn": "সূরা আল-ফাতেহা",
+                "en": "Surat Al-Fatiha",
+                "audio": "http://www.quraanshareef.org/audio/1-Surah-Al-Fatihah.mp3",
+                "len": 7,
+                "index": 1
+            },
+            "aya": {
+                "1": {
+                    "ar": "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ ",
+                    "bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+                    "en": "In the name of Allah, Most Gracious, Most Merciful.",
+                    "no": "﴿١﴾"
+                },
+                "2": {
+                    "ar": "الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ ",
+                    "bn": "যাবতীয় প্রশংসা আল্লাহ তা’আলার যিনি সকল সৃষ্টি জগতের পালনকর্তা।",
+                    "en": "Praise be to Allah, the Cherisher and Sustainer of the worlds;",
+                    "no": "﴿٢﴾"
+                },
+                "3": {
+                    "ar": "الرَّحْمَـٰنِ الرَّحِيمِ ",
+                    "bn": "যিনি নিতান্ত মেহেরবান ও দয়ালু।",
+                    "en": "Most Gracious, Most Merciful;",
+                    "no": "﴿٣﴾"
+                },
+                "4": {
+                    "ar": "مَالِكِ يَوْمِ الدِّينِ",
+                    "bn": "যিনি বিচার দিনের মালিক।",
+                    "en": "Master of the Day of Judgment.",
+                    "no": "﴿٤﴾"
+                },
+                "5": {
+                    "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+                    "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
+                    "en": "Thee do we worship, and Thine aid we seek.",
+                    "no": "﴿٥﴾"
+                },
+                "6": {
+                    "ar": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ",
+                    "bn": "আমাদেরকে সরল পথ দেখাও,",
+                    "en": "Show us the straight way,",
+                    "no": "﴿٦﴾"
+                },
+                "7": {
+                    "ar": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ",
+                    "bn": "সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।",
+                    "en": "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.",
+                    "no": "﴿٧﴾"
+                }
+                
+            }
+        },
+        "bakara": {
+            "attr": {
+                "ar": "سورة البقرة",
+                "bn": "সূরা আল বাক্বারাহ",
+                "en": "Surah Al-Baqara",
+                "audio": "http://www.quraanshareef.org/audio/2-Surah-Al-Baqara.mp3",
+                "len": 10,
+                "index": 2
+            },
+            "aya": {
+                "1": {
+                    "ar": " بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ الم",
+                    "bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু। আলিফ লাম মীম।",
+                    "en": "In the name of Allah, Most Gracious, Most Merciful. A.L.M.",
+                    "no": "﴿١﴾"
+                },
+                "2": {
+                    "ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+                    "bn": "এ সেই কিতাব যাতে কোনই সন্দেহ নেই। পথ প্রদর্শনকারী পরহেযগারদের জন্য,",
+                    "en": "This is the Book; in it is guidance sure, without doubt, to those who fear Allah.",
+                    "no": "﴿٢﴾"
+                },
+                "3": {
+                    "ar": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ",
+                    "bn": "যারা অদেখা বিষয়ের উপর বিশ্বাস স্থাপন করে এবং নামায প্রতিষ্ঠা করে। আর আমি তাদেরকে যে রুযী দান করেছি তা থেকে ব্যয় করে",
+                    "en": "Who believe in the Unseen, are steadfast in prayer, and spend out of what We have provided for them;",
+                    "no": "﴿٣﴾"
+                },
+                "4": {
+                    "ar": "والَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالآخِرَةِ هُمْ يُوقِنُونَ",
+                    "bn": "এবং যারা বিশ্বাস স্থাপন করেছে সেসব বিষয়ের উপর যা কিছু তোমার প্রতি অবতীর্ণ হয়েছে এবং সেসব বিষয়ের উপর যা তোমার পূর্ববর্তীদের প্রতি অবতীর্ণ হয়েছে। আর আখেরাতকে যারা নিশ্চিত বলে বিশ্বাস করে।",
+                    "en": "And who believe in the Revelation sent to thee, and sent before thy time, and (in their hearts) have the assurance of the Hereafter.",
+                    "no": "﴿٤﴾"
+                },
+                "5": {
+                    "ar": "أُوْلَـئِكَ عَلَى هُدًى مِّن رَّبِّهِمْ وَأُوْلَـئِكَ هُمُ الْمُفْلِحُونَ",
+                    "bn": "তারাই নিজেদের পালনকর্তার পক্ষ থেকে সুপথ প্রাপ্ত, আর তারাই যথার্থ সফলকাম।",
+                    "en": "They are on (true) guidance, from their Lord, and it is these who will prosper.",
+                    "no": "﴿٥﴾"
+                },
+                "6": {
+                    "ar": "إِنَّ الَّذِينَ كَفَرُواْ سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لاَ يُؤْمِنُونَ",
+                    "bn": "নিশ্চিতই যারা কাফের হয়েছে তাদেরকে আপনি ভয় প্রদর্শন করুন আর নাই করুন তাতে কিছুই আসে যায় না, তারা ঈমান আনবে না।",
+                    "en": "As to those who reject Faith, it is the same to them whether thou warn them or do not warn them; they will not believe.",
+                    "no": "﴿٦﴾"
+                },
+                "7": {
+                    "ar": "خَتَمَ اللّهُ عَلَى قُلُوبِهمْ وَعَلَى سَمْعِهِمْ وَعَلَى أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عظِيمٌ",
+                    "bn": "আল্লাহ তাদের অন্তকরণ এবং তাদের কানসমূহ বন্ধ করে দিয়েছেন, আর তাদের চোখসমূহ পর্দায় ঢেকে দিয়েছেন। আর তাদের জন্য রয়েছে কঠোর শাস্তি।",
+                    "en": "Allah hath set a seal on their hearts and on their hearing, and on their eyes is a veil; great is the penalty they (incur).",
+                    "no": "﴿٧﴾"
+                },
+                "8": {
+                    "ar": "وَمِنَ النَّاسِ مَن يَقُولُ آمَنَّا بِاللّهِ وَبِالْيَوْمِ الآخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+                    "bn": "আর মানুষের মধ্যে কিছু লোক এমন রয়েছে যারা বলে, আমরা আল্লাহ ও পরকালের প্রতি ঈমান এনেছি অথচ আদৌ তারা ঈমানদার নয়।",
+                    "en": "Of the people there are some who say: 'We believe in Allah and the Last Day;' but they do not (really) believe.",
+                    "no": "﴿٨﴾"
+                },
+                "9": {
+                    "ar": "يُخَادِعُونَ اللّهَ وَالَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ إِلاَّ أَنفُسَهُم وَمَا يَشْعُرُونَ",
+                    "bn": "তারা আল্লাহ এবং ঈমানদারগণকে ধোঁকা দেয়। অথচ এতে তারা নিজেদেরকে ছাড়া অন্য কাউকে ধোঁকা দেয় না অথচ তারা তা অনুভব করতে পারে না।",
+                    "en": "Fain would they deceive Allah and those who believe, but they only deceive themselves, and realise (it) not!",
+                    "no": "﴿٩﴾"
+                },
+                "10": {
+                    "ar": "فِي قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ اللّهُ مَرَضاً وَلَهُم عَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْذِبُونَ",
+                    "bn": "তাদের অন্তঃকরণ ব্যধিগ্রস্ত আর আল্লাহ তাদের ব্যধি আরো বাড়িয়ে দিয়েছেন। বস্তুতঃ তাদের জন্য নির্ধারিত রয়েছে ভয়াবহ আযাব, তাদের মিথ্যাচারের দরুন।",
+                    "en": "In their hearts is a disease; and Allah has increased their disease: And grievous is the penalty they (incur), because they are false (to themselves).",
+                    "no": "﴿١٠﴾"
+                },
+                "11": {
+                    "ar": "وَإِذَا قِيلَ لَهُمْ لاَ تُفْسِدُواْ فِي الأَرْضِ قَالُواْ إِنَّمَا نَحْنُ مُصْلِحُونَ",
+                    "bn": "আর যখন তাদেরকে বলা হয় যে, দুনিয়ার বুকে দাঙ্গা-হাঙ্গামা সৃষ্টি করো না, তখন তারা বলে, আমরা তো মীমাংসার পথ অবলম্বন করেছি।",
+                    "en": "When it is said to them: 'Make not mischief on the earth,' they say: 'Why, we only Want to make peace!",
+                    "no": "﴿١١﴾"
+                },
+                "12": {
+                    "ar": "أَلا إِنَّهُمْ هُمُ الْمُفْسِدُونَ وَلَـكِن لاَّ يَشْعُرُونَ",
+                    "bn": "মনে রেখো, তারাই হাঙ্গামা সৃষ্টিকারী, কিন্তু তারা তা উপলব্ধি করে না।",
+                    "en": "Of a surety, they are the ones who make mischief, but they realise (it) not.",
+                    "no": "﴿١٢﴾"
+                },
+                "13": {
+                    "ar": "وَإِذَا قِيلَ لَهُمْ آمِنُواْ كَمَا آمَنَ النَّاسُ قَالُواْ أَنُؤْمِنُ كَمَا آمَنَ السُّفَهَاء أَلا إِنَّهُمْ هُمُ السُّفَهَاء وَلَـكِن لاَّ يَعْلَمُونَ",
+                    "bn": "আর যখন তাদেরকে বলা হয়, অন্যান্যরা যেভাবে ঈমান এনেছে তোমরাও সেভাবে ঈমান আন, তখন তারা বলে, আমরাও কি ঈমান আনব বোকাদেরই মত! মনে রেখো, প্রকৃতপক্ষে তারাই বোকা, কিন্তু তারা তা বোঝে না।",
+                    "en": "When it is said to them: 'Believe as the others believe:' They say: 'Shall we believe as the fools believe?' Nay, of a surety they are the fools, but they do not know.",
+                    "no": "﴿١٣﴾"
+                },
+                "14": {
+                    "ar": "وَإِذَا لَقُواْ الَّذِينَ آمَنُواْ قَالُواْ آمَنَّا وَإِذَا خَلَوْاْ إِلَى شَيَاطِينِهِمْ قَالُواْ إِنَّا مَعَكْمْ إِنَّمَا نَحْنُ مُسْتَهْزِؤُونَ",
+                    "bn": "আর তারা যখন ঈমানদারদের সাথে মিশে, তখন বলে, আমরা ঈমান এনেছি। আবার যখন তাদের শয়তানদের সাথে একান্তে সাক্ষাৎ করে, তখন বলে, আমরা তোমাদের সাথে রয়েছি। আমরা তো (মুসলমানদের সাথে) উপহাস করি মাত্রা।",
+                    "en": "When they meet those who believe, they say: 'We believe;' but when they are alone with their evil ones, they say: 'We are really with you: We (were) only jesting.'",
+                    "no": "﴿١٤﴾"
+                },
+                "15": {
+                    "ar": "اللّهُ يَسْتَهْزِىءُ بِهِمْ وَيَمُدُّهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ",
+                    "bn": "বরং আল্লাহই তাদের সাথে উপহাস করেন। আর তাদেরকে তিনি ছেড়ে দিয়েছেন যেন তারা নিজেদের অহংকার ও কুমতলবে হয়রান ও পেরেশান থাকে।",
+                    "en": "Allah will throw back their mockery on them, and give them rope in their trespasses; so they will wander like blind ones (To and fro).",
+                    "no": "﴿١٥﴾"
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            }
+        },
+        "imran": {
+            "attr": {
+                "ar": "سورة البقرة",
+                "bn": "সূরা আল Imran",
+                "en": "Surah Al-Imran",
+                "audio": "http://www.quraanshareef.org/audio/2-Surah-Al-Baqara.mp3",
+                "len": 8,
+                "index": 3
+            },
+            "aya": {
+                "1": {
+                    "ar": " بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ الم",
+                    "bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু। আলিফ লাম মীম।",
+                    "en": "In the name of Allah, Most Gracious, Most Merciful. A.L.M.",
+                    "no": "﴿١﴾"
+                },
+                "2": {
+                    "ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
+                    "bn": "এ সেই কিতাব যাতে কোনই সন্দেহ নেই। পথ প্রদর্শনকারী পরহেযগারদের জন্য,",
+                    "en": "This is the Book; in it is guidance sure, without doubt, to those who fear Allah.",
+                    "no": "﴿٢﴾"
+                },
+                "3": {
+                    "ar": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ",
+                    "bn": "যারা অদেখা বিষয়ের উপর বিশ্বাস স্থাপন করে এবং নামায প্রতিষ্ঠা করে। আর আমি তাদেরকে যে রুযী দান করেছি তা থেকে ব্যয় করে",
+                    "en": "Who believe in the Unseen, are steadfast in prayer, and spend out of what We have provided for them;",
+                    "no": "﴿٣﴾"
+                },
+                "4": {
+                    "ar": "والَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالآخِرَةِ هُمْ يُوقِنُونَ",
+                    "bn": "এবং যারা বিশ্বাস স্থাপন করেছে সেসব বিষয়ের উপর যা কিছু তোমার প্রতি অবতীর্ণ হয়েছে এবং সেসব বিষয়ের উপর যা তোমার পূর্ববর্তীদের প্রতি অবতীর্ণ হয়েছে। আর আখেরাতকে যারা নিশ্চিত বলে বিশ্বাস করে।",
+                    "en": "And who believe in the Revelation sent to thee, and sent before thy time, and (in their hearts) have the assurance of the Hereafter.",
+                    "no": "﴿٤﴾"
+                },
+                "5": {
+                    "ar": "أُوْلَـئِكَ عَلَى هُدًى مِّن رَّبِّهِمْ وَأُوْلَـئِكَ هُمُ الْمُفْلِحُونَ",
+                    "bn": "তারাই নিজেদের পালনকর্তার পক্ষ থেকে সুপথ প্রাপ্ত, আর তারাই যথার্থ সফলকাম।",
+                    "en": "They are on (true) guidance, from their Lord, and it is these who will prosper.",
+                    "no": "﴿٥﴾"
+                },
+                "6": {
+                    "ar": "إِنَّ الَّذِينَ كَفَرُواْ سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لاَ يُؤْمِنُونَ",
+                    "bn": "নিশ্চিতই যারা কাফের হয়েছে তাদেরকে আপনি ভয় প্রদর্শন করুন আর নাই করুন তাতে কিছুই আসে যায় না, তারা ঈমান আনবে না।",
+                    "en": "As to those who reject Faith, it is the same to them whether thou warn them or do not warn them; they will not believe.",
+                    "no": "﴿٦﴾"
+                },
+                "7": {
+                    "ar": "خَتَمَ اللّهُ عَلَى قُلُوبِهمْ وَعَلَى سَمْعِهِمْ وَعَلَى أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عظِيمٌ",
+                    "bn": "আল্লাহ তাদের অন্তকরণ এবং তাদের কানসমূহ বন্ধ করে দিয়েছেন, আর তাদের চোখসমূহ পর্দায় ঢেকে দিয়েছেন। আর তাদের জন্য রয়েছে কঠোর শাস্তি।",
+                    "en": "Allah hath set a seal on their hearts and on their hearing, and on their eyes is a veil; great is the penalty they (incur).",
+                    "no": "﴿٧﴾"
+                },
+                "8": {
+                    "ar": "وَمِنَ النَّاسِ مَن يَقُولُ آمَنَّا بِاللّهِ وَبِالْيَوْمِ الآخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+                    "bn": "আর মানুষের মধ্যে কিছু লোক এমন রয়েছে যারা বলে, আমরা আল্লাহ ও পরকালের প্রতি ঈমান এনেছি অথচ আদৌ তারা ঈমানদার নয়।",
+                    "en": "Of the people there are some who say: 'We believe in Allah and the Last Day;' but they do not (really) believe.",
+                    "no": "﴿٨﴾"
+                }
+            }
+        }
+
+
+
+    }  
+}
+]

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description"
+    content="Browse, Search With accurate Quran text and Quran translations in various languages." />
+  <meta name="keywords" content="Quran Translation Authentic Accurate Qur'an Text Kuran Roots Koran Recitation Tartil Tarteel Learn Quraan Online Application Download
+  تنزيل القرآن الكريم قرائت قرآن ترتيل Keywords" />
+  <meta name="author" content="Shaheb">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    font-family: 'Saira Stencil One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; -->
+
+
+  <title>Quran-Ul-Karim | القرآن الكريم</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <style>
+    .selected {
+      background: #e9ffee67;
+    }
+
+    .suraContainer>span {
+      direction: rtl;
+      float: right;
+      display: inline;
+
+    }
+
+    .suraContainer .ar span.aya {
+      padding: 10px;
+      position: relative;
+
+    }
+
+    .suraContainer .ar {
+      text-align: justify;
+      font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
+      font-size: 3.15em;
+      font-weight: normal;
+      background: rgb(156, 200, 236);
+      padding: 30px 55px;
+    }
+
+    .suraContainer .bn {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.15em;
+      font-weight: normal;
+      color: #444;
+      background: rgb(197, 233, 228);
+      padding: 10px 20px;
+      display: none;
+    }
+
+    .suraContainer .en {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.15em;
+      font-weight: normal;
+      color: #444;
+      background: rgb(210, 243, 239);
+      padding: 10px 20px;
+      direction: ltr;
+      display: none;
+    }
+
+    .suraContainer .name {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2.15em;
+      font-weight: normal;
+      color: #444;
+      background: rgb(210, 243, 239);
+      padding: 10px 20px;
+      direction: ltr;
+    }
+
+
+    .suraContainer .ar span.aya:hover {
+      background: #e9ffee33;
+      cursor: pointer;
+    }
+
+    .trans {
+      display: none;
+      width: 250px;
+      ;
+      /* min-width:300px;  */
+      /* max-width:250px; */
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 99;
+      padding: 10px;
+
+      opacity: 1;
+      transform: translate(-150%, -100%);
+    }
+    .transFixed {
+      display: block !important;
+      position: relative !important;
+      top: 0px !important;
+      left: 0px !important;
+      padding: 10px 0px 0 10px!important;
+      width: 100%!important;
+    }
+
+    .card {
+      font-size: 16px;
+      direction: ltr;
+      text-align: left;
+
+    }
+
+    .card-header {
+      padding: 0px;
+      ;
+      border-bottom: 1px solid #18c8e4;
+      padding-bottom: 5px;
+    }
+
+    .card-text {
+      padding-top: 5px;
+    }
+
+    .bg-info {
+      background-color: #17a2b8 !important;
+      border: 1px solid #32def9;
+    }
+
+    .suraContainer .ar:hover {
+      display: block;
+
+    }
+
+   
+    a:hover {
+      text-decoration: none;
+    }
+
+    @media screen and (max-width:768px) {
+      .suraContainer .ar {
+        text-align: justify;
+        font-size: 2.15em;
+        padding: 20px;
+      }
+      .suraContainer .ar span.aya {
+       
+        display:block !important;
+      }
+      .card-header:after {
+         display: block;
+      }
+      .suraContainer .name {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Quran Container Start-->
+  <div class="container">
+    <div class="row">
+      <div>
+        <select id="suraMenu">
+          <option selected>Select a Sura</option>
+          <option value="fatiha">1. الفاتحة</option>
+          <option value="bakara">2. البقرة</option>
+          <option value="imran">2. البقرة</option>
+        </select>
+      </div>
+
+      <div>
+        <select id="translation">
+          <option selected>Select a Translation</option>
+          <option value="bn">Bangla</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-light  active">
+          <input type="radio" name="trans" id="overTrans" autocomplete="off" checked> Show On Hover Translation
+        </label>
+        <label class="btn btn-light ">
+          <input type="radio" name="trans" id="fixedTrans" autocomplete="off"> Show in Fixed Translation
+        </label>
+        <label class="btn btn-light ">
+          <input type="radio" name="trans" id="hideTrans" autocomplete="off"> Dont' Show Translation
+        </label>
+
+        <button type="button" class="btn btn-primary" id="playPause" data-toggle="button" aria-pressed="false"
+          autocomplete="off" onclick="playAudio()">
+          Play
+        </button>
+      </div>
+
+      <div class="suraContainer" id="suraContainer" style="background: #eee; padding:10px;">
+
+
+
+      </div>
+    </div>
+
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+  <!-- Menu Toggle Script -->
+
+
+</body>
+
+</html>
