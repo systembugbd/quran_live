@@ -1,0 +1,258 @@
+/*
+    font-family: 'lovea_hegenaregular';
+    font-family: "font_islamic_colorregular";
+*/
+@font-face {
+  font-family: "MyWebFont";
+  src: url("../font/fontislamiccolor-5egv-webfont.eot");
+  src: url("../font/fontislamiccolor-5egv-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/fontislamiccolor-5egv-webfont.woff") format("woff"),
+    url("../font/FontIslamicColor-5Egv.ttf") format("truetype"),
+    url("../font/fontislamiccolor-5egv-webfont#webfont") format("svg");
+}
+
+@font-face {
+    font-family: "MyWebFont";
+    src: url("../font/loveahegena-yw1ym-webfont.eot");
+    src: url("../font/loveahegena-yw1ym-webfont.eot?#iefix")
+        format("embedded-opentype"),
+      url("../font/loveahegena-yw1ym-webfont.woff") format("woff"),
+      url("../font/loveahegena-yw1ym-webfont.ttf") format("truetype"),
+      url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
+  }
+.quranContainer {
+  width: 100%;
+  padding-top: 20px;
+  direction: rtl;
+  font-family: "Times New Roman";
+  clear: both;
+ 
+  background-image: url("../assets/cover_page.png");
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: contain;
+  min-height: 842px;
+  height: auto;
+  padding: 0 20px;
+  flex-direction: column ;
+
+}
+/* .hover:after {
+    content: "D";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background: #40937c5c;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+    height: 100%;
+    padding: 16px;
+} */
+
+body {
+  background: #2d5075;
+}
+div#sidebar-wrapper {
+  padding: 20px;
+}
+.border-right {
+  border-right: 1px solid #2e6eb3 !important;
+}
+.bg-light {
+  background-color: #2d5075 !important;
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #e3e3e3;
+}
+.border-bottom {
+  border-bottom: 1px solid #2e6eb3 !important;
+}
+#caliOne {
+    font-family: "font_islamic_colorregular";
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 241px;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #bf6d29;
+    position: relative;
+    top: -91px;
+}
+#quranName{
+justify-content: center;
+    font-size: 67px;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #bf6d29;
+    text-align: center;
+    font-family: 'lovea_hegenaregular';
+    top: -200px;
+    position: relative;
+    background: #2d5075d1;
+}
+.quranContainer {
+  width: 1000px;
+  display: flex;
+
+}
+.selected {
+  background: #00ffa13d;
+}
+.suraContainer {
+  display: block;
+  overflow: hidden;
+  background: #2d5075eb;
+}
+.suraContainer > span {
+  direction: rtl;
+  float: right;
+  display: inline;
+  color: #222222;
+}
+.suraContainer .ar span a {
+  color: #388e72;
+}
+
+.suraContainer .ar {
+  text-align: justify;
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh !important;
+  font-size: 3.15em;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.suraContainer .ar span.aya {
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #f9ef86;
+  color: #eeeeee;
+}
+.suraContainer .ar span.aya a {
+  color: #31d0a4;
+}
+.suraContainer .bn {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15em;
+  font-weight: normal;
+  color: #444;
+  background: rgb(197, 233, 228);
+  padding: 10px 20px;
+  display: none;
+}
+
+.suraContainer .en {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15em;
+  font-weight: normal;
+  color: #444;
+  background: rgb(210, 243, 239);
+  padding: 10px 20px;
+  direction: ltr;
+  display: none;
+}
+
+.suraContainer .suraname {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.15em;
+    font-weight: normal;
+    background: rgb(46, 167, 133);
+    padding: 10px 20px;
+    direction: ltr;
+    color: #fff;
+}
+
+.suraContainer .ar span.aya:hover {
+  background: #ffc80040;
+  cursor: pointer;
+}
+
+.trans {
+  display: none;
+  width: 250px;
+  /* min-width:300px;  */
+  /* max-width:250px; */
+  position: absolute;
+  top: -117px;
+  left: 0px;
+  z-index: 9999;
+  padding: 10px;
+
+  opacity: 1;
+}
+
+.card {
+  font-size: 16px;
+  direction: ltr;
+  text-align: left;
+}
+
+.card-header {
+  padding: 0px;
+  border-bottom: 1px solid #18c8e4;
+  padding-bottom: 5px;
+}
+
+.card-text {
+  padding-top: 5px;
+}
+
+.bg-info {
+  background-color: #17a2b8 !important;
+  border: 1px solid #32def9;
+}
+
+.suraContainer .ar:hover {
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.transFixed {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .transFixed {
+    display: block !important;
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 10px 0px 0 10px !important;
+    width: 100% !important;
+    transform:translate(-0%, -0%) !important
+  }
+  .suraContainer .ar {
+    text-align: justify;
+    font-size: 2.15em;
+    padding: 10px;
+  }
+  .suraContainer .ar span.aya {
+    display: block !important;
+  }
+  .card-header:after {
+    display: block;
+  }
+  .suraContainer .name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+  }
+  div#sidebar-wrapper{
+      padding:0px;
+  }
+}

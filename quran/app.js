@@ -1,6 +1,8 @@
-let playPause = document.getElementById("playPause");
+let playAudioBtn = document.getElementById("playAudioBtn");
 let selectedSura = document.getElementById("suraMenu");
 let suraContainer = document.getElementById("suraContainer");
+let pauseAudioBtn = document.getElementById("pauseAudioBtn");
+
 let isPlaying = false;
 let isPlayingClickOnAya = false;
 
@@ -17,14 +19,26 @@ let searchState = async (input) => {
 
 function showData(data, input) {
   let suraContainer = document.getElementById("suraContainer");
+  let caliOne = document.getElementById("caliOne");
+  let quranName = document.getElementById("quranName");
+  let sideBar = document.querySelector('.d-flex');
+  caliOne.style.display = "none";
+  quranName.style.display = "none";
+
+  const mq = window.matchMedia("(max-width: 768px)");
+  if (mq.matches) {
+    $(sideBar).removeClass('toggled');
+  }
+
+  playAudioBtn.style.display = "block";
+  pauseAudioBtn.style.display = "none";
 
   for (let v in data) {
     if (v === input) {
       suraContainer.innerHTML = "";
       let name = document.createElement("div");
-      name.classList.add("name");
-      name.innerHTML =
-        data[v].attr.bn + " " + data[v].attr.ar + " " + data[v].attr.en;
+      name.classList.add("suraname");
+      name.innerHTML = `${data[v].attr.bn} | ${data[v].attr.ar} | ${data[v].attr.en} (${data[v].attr.index})`;
 
       suraContainer.appendChild(name);
 
@@ -76,21 +90,11 @@ function showData(data, input) {
 }
 selectedSura.addEventListener("change", () => searchState(selectedSura.value));
 
-// let audio ='';
-// function audioPlayPuase(audio){
-//     let all = document.querySelectorAll('span.aya');
-// for(let i = 0; i < all.length; i++){
-//     all[i].addEventListener('click', function () {
-//         if(audio.paused){
-//             isPlayingClickOnAya=true;
-//         }else{
-//             isPlayingClickOnAya=false;
-//         }
-//     });
+function playAudio(aya = 1, doubleClicked = "") {
 
-// }
-// }
-function playAudio(aya = 1) {
+  pauseAudioBtn.style.display = "block";
+  playAudioBtn.style.display = "none";
+
   let audio = document.createElement("audio");
   console.log(" I am playing", aya);
 
@@ -107,19 +111,17 @@ function playAudio(aya = 1) {
   $(firstElm).siblings().removeClass("selected");
 
   /*Show First Translation with Audio in Desktop*/
-  $(firstElm).children('span').show();
-  $(firstElm).siblings().children('span').hide();
+  $(firstElm).children("span").show();
+  $(firstElm).siblings().children("span").hide();
 
   const mq = window.matchMedia("(max-width: 768px)");
   if (mq.matches) {
-  $(firstElm)
-      .children("span")
-      .addClass("transFixed")
-      .css({ transform: "translate(-0, -0) !important" });
+    $(firstElm).children("span").addClass("transFixed").css({
+      transform: "translate(-0, -0) !important",
+    });
 
-  $(firstElm).siblings().children("span").removeClass("transFixed").hide();
-  $(firstElm).children("span").removeClass("trans");
-   
+    $(firstElm).siblings().children("span").removeClass("transFixed").hide();
+    $(firstElm).children("span").removeClass("trans");
   }
   /**
    * Ayat Selection End
@@ -148,61 +150,80 @@ function playAudio(aya = 1) {
 
   audio.innerHTML = src;
 
-  /**
-   * Play/Pause Start
-   */
-  console.log(totalAya[aya]);
-  totalAya[aya - 1].addEventListener("click", function () {
-    audio.pause();
-    playPause.innerHTML = "&#9658;";
-  });
   togglePlay(audio);
+
+  document.getElementById("pauseAudioBtn").addEventListener("click", function () {
+    // audio.pause();
+    playAudioBtn.style.display ="block";
+    pauseAudioBtn.style.display ="none";
+    togglePlay(audio);
+  });
+  /**
+   * Play/Pause Start its working perfectly
+   */
+   totalAya[aya - 1].addEventListener("click", function () {
+    if(audio.paused){
+      
+     togglePlay(audio);
+      isPlayingClickOnAya = true;
+    }else{
+      togglePlay(audio);
+      isPlayingClickOnAya = false;
+
+    }
+    playAudioBtn.innerHTML = "&#9658;";
+  });
 
   /**
    * Play/Pause end
    */
 
   audio.addEventListener("ended", function () {
-    if (aya < totalAya.length) {
+    if (ayatNum < totalAya.length) {
       playAudio(ayatNum + 1);
-      console.log("audio ended, i am calling in if conditon");
+      // console.log("audio ended, i am calling in if conditon");
     }
     $(totalAya[aya]).addClass("selected");
     $(totalAya[aya]).siblings().removeClass("selected");
 
     /*Show Translation with Audio in Desktop*/
 
-    $(totalAya[aya]).children('span').show().animate({ opacity: 1 }, "slow");
-    $(totalAya[aya]).siblings().children('span').hide();
+    $(totalAya[aya]).children("span").show().animate(
+      {
+        opacity: 1,
+      },
+      "slow"
+    );
+    $(totalAya[aya]).siblings().children("span").hide();
 
     /*Show Translation with Audio in Mobile*/
     const mq = window.matchMedia("(max-width: 768px)");
     if (mq.matches) {
-    $(totalAya[aya])
-        .children("span")
-        .addClass("transFixed")
-        .css({ transform: "translate(-0, -0) !important" });
+      $(totalAya[aya]).children("span").addClass("transFixed").css({
+        transform: "translate(-0, -0) !important",
+      });
 
-    $(totalAya[aya]).siblings().children("span").removeClass("transFixed").hide();
-    $(totalAya[aya]).children("span").removeClass("trans");
-     
+      $(totalAya[aya])
+        .siblings()
+        .children("span")
+        .removeClass("transFixed")
+        .hide();
+      $(totalAya[aya]).children("span").removeClass("trans");
     }
-  
   });
   console.log(" I am recurseive");
-}
+} //Audio Playing Function end
 
 function showTranslation() {
   console.log("i am claing... showTranslation");
   let totalAya = document.querySelectorAll("#suraContainer span>span.aya");
 
   for (let i = 0; i < totalAya.length; i++) {
-    //totalAya[i] is showing each aya 
+    //totalAya[i] is showing each aya
 
     totalAya[i].addEventListener("dblclick", function (e) {
       e.preventDefault();
       let audio = document.createElement("audio");
-      // console.log(this.getAttribute('id'));
       let suraNumber = $(this).attr("id").split(":")[0];
       let ayatNum = $(this).attr("id").split(":")[1];
 
@@ -228,24 +249,14 @@ function showTranslation() {
 
       src = `<source src="https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/${modifiedSuraNumber}${modifiedAyatNum}.mp3" type="audio/mpeg"> Your browser does not support the audio element.`;
 
-      //   console.log(src);
-      //   console.log(modifiedAyatNum);
+      console.log(this + ayatNum + "I am after doucble click");
 
       audio.innerHTML = src;
-
       $(totalAya[i]).addClass("selected");
       $(totalAya[i]).siblings().removeClass("selected");
       togglePlay(audio);
 
-      audio.addEventListener("ended", function () {
-        if (ayatNum < totalAya.length) {
-          playAudio(ayatNum + 1);
-        }
-        $(this).addClass("selected");
-        playPause.innerHTML = "&#9658;";
-      });
-
-      // togglePlay(audio);
+     
     });
 
     /**
@@ -268,50 +279,48 @@ function showTranslation() {
         "#suraContainer span>span.aya.hover"
       );
       hoverAya.addEventListener("mousemove", function (es) {
-        $(this).children("span.trans").show().animate({ opacity: 1 }, "slow");
+        $(this).children("span.trans").show().animate(
+          {
+            opacity: 1,
+          },
+          "slow"
+        );
         $(this).children("span.trans").css({
           position: "absolute",
           top: "0",
           left: "50%",
-          // transform: 'translate(-150%, -100%)'
+          transform: "translate(-50%, -100%)"
         });
 
-        
         const mq = window.matchMedia("(max-width: 768px)");
         if (mq.matches) {
-        $(this)
-            .children("span")
-            .addClass("transFixed")
-            .css({ transform: "translate(-0, -0) !important" });
+          $(this).children("span").addClass("transFixed").css({
+            transform: "translate(-0, -0) !important",
+          });
 
-        $(this).siblings().children("span").removeClass("transFixed").hide();
-        $(this).children("span").removeClass("trans");
-         
+          $(this).siblings().children("span").removeClass("transFixed").hide();
+          $(this).children("span").removeClass("trans");
         }
-      
       });
-       
+
       $(this).siblings().children("span.trans").hide();
     });
-    
 
     totalAya[i].addEventListener("mouseleave", function (e) {
       $(this).find(".trans").hide();
-
     });
   } //for Loop End
-
 }
 
 function togglePlay(audio) {
   if (isPlayingClickOnAya) {
     audio.pause();
     audio.currentTime = 0;
-    playPause.innerHTML = "&#9658;";
+    playAudioBtn.innerHTML = "&#9658;";
+
   } else {
     audio.play();
-    playPause.innerHTML = "||";
-
+    pauseAudioBtn.innerHTML = "||";
     audio.currentTime = 0;
   }
 
@@ -324,6 +333,33 @@ function togglePlay(audio) {
 
   // audio.onended = function () { };
 }
+
+function nightModeOnOff() {}
+
+// body {
+//   background: #2d5075;
+// }
+
+// .suraContainer .ar span.aya a {
+//   color: #31d0a4;
+// }
+// .suraContainer .ar span.aya {
+//   padding: 10px;
+//   position: relative;
+//   border-bottom: 1px solid #f9ef86;
+//   color: #e3e3e3;
+// }
+// *, ::after, ::before {
+//   box-sizing: border-box;
+// }
+// .suraContainer .ar {
+//   text-align: justify;
+//   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
+//   font-size: 3.15em;
+//   font-weight: normal;
+//   background: #2d5075;
+//   padding: 30px 55px;
+// }
 
 // function selectedAyaForAudio(suraNumber, ayatNum) {
 
