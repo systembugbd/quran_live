@@ -62,18 +62,7 @@ function showData(data, input) {
 
         // console.log(data[v].aya[i + 1].ar);
 
-        ar.innerHTML += `<span class="aya" id="${data[v].attr.index}:${
-          i + 1
-        }">${data[v].aya[i + 1].ar}<a href="#${data[v].attr.index}:${i + 1}">${
-          data[v].aya[i + 1].no
-        }</a><span class="trans card text-white bg-info">
-                        <span class="card-header">${data[v].attr.bn} | ${
-          data[v].attr.index
-        }:${i + 1}</span>
-                        <span class="card-body">
-                        <p class="card-text">${data[v].aya[i + 1].bn}</p>
-                        </span>
-                        </span></span>`;
+        ar.innerHTML += `<span class="aya" id="${data[v].attr.index}:${i + 1}">${data[v].aya[i+1].ar} <a href="#${data[v].attr.index}:${i + 1}">${data[v].aya[i + 1].no}</a><span class="trans card text-white bg-info"><span class="card-header">${data[v].attr.bn} | ${data[v].attr.index}:${i + 1}</span><span class="card-body"><p class="card-text">${data[v].aya[i + 1].bn}</p></span></span></span>`;
         /*transFixed class to show translation in fixed way*/
 
         bn.innerHTML += data[v].aya[i + 1].bn;

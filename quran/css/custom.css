@@ -4,6 +4,15 @@
 */
 @font-face {
   font-family: "MyWebFont";
+  src: url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.eot");
+  src: url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.woff") format("woff"),
+    url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.ttf") format("truetype"),
+    url("../font/KFGQPC/KFGQPCUthmanTahaNaskh#webfont") format("svg");
+}
+@font-face {
+  font-family: "MyWebFont";
   src: url("../font/fontislamiccolor-5egv-webfont.eot");
   src: url("../font/fontislamiccolor-5egv-webfont.eot?#iefix")
       format("embedded-opentype"),
@@ -21,6 +30,15 @@
       url("../font/loveahegena-yw1ym-webfont.ttf") format("truetype"),
       url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
   }
+
+  .form-control{
+    background-color: #9aabbd;
+    color:#fff;
+  }
+  .form-control option {
+    background: #2d5075;
+    color: #fff;
+}
 .quranContainer {
   width: 100%;
   padding-top: 20px;
@@ -57,15 +75,14 @@
 body {
   background: #2d5075;
 }
-div#sidebar-wrapper {
-  padding: 20px;
-}
+
 .border-right {
   border-right: 1px solid #2e6eb3 !important;
 }
 .bg-light {
   background-color: #2d5075 !important;
   color: #fff !important;
+  z-index: 9999;
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
@@ -79,6 +96,17 @@ div#sidebar-wrapper {
 .border-bottom {
   border-bottom: 1px solid #2e6eb3 !important;
 }
+.sidebar-heading{
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh, Arial, Helvetica, sans-serif;
+  padding: 0.875rem 1.25rem !important;
+  font-size:15px !important;
+
+}
+.sidebar-heading .arabicName{
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
+  font-size:5vh;
+}
+
 #caliOne {
     font-family: "font_islamic_colorregular";
     right: 0;
@@ -123,14 +151,30 @@ justify-content: center;
 .suraContainer .ar span a {
   color: #388e72;
 }
+.suraContainer .suraname {
+  text-align: center;
 
+  font-size: 2.15em;
+  font-weight: normal;
+  background: #6d859e;
+  padding: 10px 20px;
+  direction: ltr;
+  color: #fff;
+  margin-top: 50px;
+  text-shadow: 2px 4px 6px #2d5075;
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh, Arial, Helvetica, sans-serif;
+
+}
 .suraContainer .ar {
   text-align: justify;
-  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh !important;
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
   font-size: 3.15em;
   font-weight: normal;
   padding: 30px;
+  border: 30px solid #9aabbd;
+  border-style: solid double;
 }
+
 
 .suraContainer .ar span.aya {
   padding: 10px;
@@ -164,17 +208,6 @@ justify-content: center;
   display: none;
 }
 
-.suraContainer .suraname {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.15em;
-    font-weight: normal;
-    background: rgb(46, 167, 133);
-    padding: 10px 20px;
-    direction: ltr;
-    color: #fff;
-
-}
 
 .suraContainer .ar span.aya:hover {
   background: #ffc80040;
@@ -212,7 +245,7 @@ justify-content: center;
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #067d90 !important;
   border: 1px solid #32def9;
 }
 
@@ -225,6 +258,9 @@ a:hover {
 }
 .transFixed {
   display: none !important;
+} 
+#sidebar-wrapper .list-group {
+  padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -241,6 +277,8 @@ a:hover {
     text-align: justify;
     font-size: 2.15em;
     padding: 10px;
+    border: 10px solid #9aabbd;
+    border-style: solid double;
   }
   .suraContainer .ar span.aya {
     display: block !important;
@@ -256,8 +294,14 @@ a:hover {
   div#sidebar-wrapper{
       padding:0px;
   }
+  #sidebar-wrapper .list-group {
+    padding: 10px;
+}
+.sidebar-heading{
+  padding: 0.875rem 1.25rem !important;
+}
   .suraContainer .suraname {
-
+    margin-top:20px;
     font-size: 6vw;
   }
   .quranContainer{
@@ -271,6 +315,5 @@ a:hover {
   #caliOne{
       display: none;
   }
- 
  
 }

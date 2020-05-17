@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'KFGQPC Uthman Taha Naskh';
+    src: url('KFGQPCUthmanTahaNaskh.eot');
+    src: url('KFGQPCUthmanTahaNaskh.eot?#iefix') format('embedded-opentype'),
+        url('KFGQPCUthmanTahaNaskh.woff2') format('woff2'),
+        url('KFGQPCUthmanTahaNaskh.woff') format('woff'),
+        url('KFGQPCUthmanTahaNaskh.ttf') format('truetype'),
+        url('KFGQPCUthmanTahaNaskh.svg#KFGQPCUthmanTahaNaskh') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
