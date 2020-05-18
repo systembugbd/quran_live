@@ -40,13 +40,17 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"> The Holy Al-Quran-Ul-Karim<br> <span class="arabicName">القرآن الكريم</span></div>
+      
+     <div id="sideBarFixed">
+      <div class="sidebar-heading-a">b ​a</span></div>
+      <!-- <div class="sidebar-heading-b">#​</span></div> -->
+      <!-- <div class="sidebar-heading"> The Holy Al-Quran-Ul-Karim<br><span class="bnName">পবিত্র কুরআন শরীফ</span><br> <span class="arabicName">القرآن الكريم</span></div> -->
       <div class="list-group list-group-flush">
 
         <div class="form-group">
-          <label for="exampleSelect1">Select a Sura</label>
+          <label for="exampleSelect1">Select Sura</label>
           <select class="form-control"  id="suraMenu">
-            <option selected>Select a Sura</option>
+            <option selected value="">-- Select Sura --</option>
             <option value="fatiha">1. الفاتحة | সূরা আল-ফাতেহা</option>
             <option value="bakara">2. البقرة | সূরা আল বাক্বারাহ</option>
             <option value="imran">2. البقرة</option>
@@ -55,20 +59,84 @@
 
         
         <div class="form-group">
-          <label for="exampleSelect1">Select a Trans Lang</label>
+          <label for="exampleSelect1">Select Translation</label>
           <select class="form-control"  id="translation">
-            <option selected>Select a Translation</option>
+            <option selected>Select Translation</option>
             <option value="bn">Bangla</option>
             <option value="en">English</option>
           </select>
         </div>
   
-     
-        <!-- <a href="#" class="list-group-item list-group-item-action bg-light"></a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a> -->
+        <fieldset>
+          <legend>Custom forms</legend>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+              <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" disabled="">
+              <label class="custom-control-label" for="customRadio3">Disabled custom radio</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+              <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck2" disabled="">
+              <label class="custom-control-label" for="customCheck2">Disabled custom checkbox</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <legend>Translation</legend>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="autoScrollonOff">
+              <label class="custom-control-label" for="autoScrollonOff">Auto Scrolling ( On | Off )</label>
+            </div>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="translationFixedOnOff">
+              <label class="custom-control-label" for="translationFixedOnOff">Show Fixed</label>
+            </div>
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="translationWithVideoOnOff">
+              <label class="custom-control-label" for="translationWithVideoOnOff">Show/Hide Aya By Aya</label>
+            </div>
+             
+             
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="translationOffMouseOver" checked>
+              <label class="custom-control-label" for="translationOffMouseOver">Show/Hide on Hover</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <select class="custom-select">
+              <option selected="">Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <div class="input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+              </div>
+              <div class="input-group-append">
+                <span class="input-group-text" id="">Upload</span>
+              </div>
+            </div>
+          </div>
+        </fieldset>
     
       </div>
+     </div>
     </div>
     <!-- /#sidebar-wrapper -->
 
@@ -76,7 +144,7 @@
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+        <button class="btn btn-primary" id="menu-toggle">Toggle Sidebar</button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -87,8 +155,10 @@
         <button type="button" class="btn btn-primary" id="pauseAudioBtn" data-toggle="button" aria-pressed="false"
         autocomplete="off" style="display:none;">Pause</button>
 
+      
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -109,13 +179,14 @@
             </li>
           </ul>
         </div>
+      
       </nav>
 
       <div class="container-fluid">
         <div class="row">
          <div class="quranContainer">
           <span id="caliOne">A</span>
-          <span id="quranName">Quran-Ul-Karim<br>القرآن الكريم</span>
+          <span id="quranName"><span class="bnNameCover">পবিত্র কুরআন শরীফ</span><br>Quran-Ul-Karim<br>القرآن الكريم</span>
           <div class="suraContainer" id="suraContainer"></div>
          </div>
         </div>

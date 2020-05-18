@@ -5,47 +5,65 @@
 @font-face {
   font-family: "MyWebFont";
   src: url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.eot");
-  src: url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.eot?#iefix") format("embedded-opentype"),
     url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.woff") format("woff"),
     url("../font/KFGQPC/KFGQPCUthmanTahaNaskh.ttf") format("truetype"),
     url("../font/KFGQPC/KFGQPCUthmanTahaNaskh#webfont") format("svg");
 }
+
 @font-face {
   font-family: "MyWebFont";
   src: url("../font/fontislamiccolor-5egv-webfont.eot");
-  src: url("../font/fontislamiccolor-5egv-webfont.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("../font/fontislamiccolor-5egv-webfont.eot?#iefix") format("embedded-opentype"),
     url("../font/fontislamiccolor-5egv-webfont.woff") format("woff"),
     url("../font/FontIslamicColor-5Egv.ttf") format("truetype"),
     url("../font/fontislamiccolor-5egv-webfont#webfont") format("svg");
 }
 
 @font-face {
-    font-family: "MyWebFont";
-    src: url("../font/loveahegena-yw1ym-webfont.eot");
-    src: url("../font/loveahegena-yw1ym-webfont.eot?#iefix")
-        format("embedded-opentype"),
-      url("../font/loveahegena-yw1ym-webfont.woff") format("woff"),
-      url("../font/loveahegena-yw1ym-webfont.ttf") format("truetype"),
-      url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
-  }
-
-  .form-control{
-    background-color: #9aabbd;
-    color:#fff;
-  }
-  .form-control option {
-    background: #2d5075;
-    color: #fff;
+  font-family: "MyWebFont";
+  src: url("../font/loveahegena-yw1ym-webfont.eot");
+  src: url("../font/loveahegena-yw1ym-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../font/loveahegena-yw1ym-webfont.woff") format("woff"),
+    url("../font/loveahegena-yw1ym-webfont.ttf") format("truetype"),
+    url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
 }
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.border-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.form-control {
+  background-color: #9aabbd;
+  color: #fff;
+
+
+}
+
+.form-control option {
+  background: #2d5075;
+  color: #fff;
+}
+
+span.bnName {
+  font-size: 2.3vh;
+  font-weight: bold;
+}
+
+span.bnNameCover {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
 .quranContainer {
   width: 100%;
   padding-top: 20px;
   direction: rtl;
   font-family: "Times New Roman";
   clear: both;
- 
+
   background-image: url("../assets/cover_page.png");
   background-repeat: repeat-y;
   background-position: top center;
@@ -53,9 +71,11 @@
   min-height: 842px;
   height: auto;
   padding: 0 20px;
-  flex-direction: column ;
+  flex-direction: column;
+  margin-top: 60px;
 
 }
+
 /* .hover:after {
     content: "D";
     position: absolute;
@@ -74,84 +94,111 @@
 
 body {
   background: #2d5075;
-  font-family: "KFGQPC Uthman Taha Naskh";
+  font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh, Arial, Helvetica, sans-serif;
 }
 
 .border-right {
   border-right: 1px solid #2e6eb3 !important;
 }
+
 .bg-light {
   background-color: #2d5075 !important;
   color: #fff !important;
-  z-index: 9999;
+
 }
-.navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link,
+
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   color: #fff;
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: #e3e3e3;
 }
+
 .border-bottom {
   border-bottom: 1px solid #2e6eb3 !important;
 }
-.sidebar-heading{
+
+.sidebar-heading-a {
+  font-family: "font_islamic_colorregular";
+  font-size: 8vh;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.sidebar-heading-b {
+  font-family: "font_islamic_colorregular";
+  font-size: 20vh;
+  text-align: center;
+  line-height: 20vh;
+}
+
+.sidebar-heading {
   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh, Arial, Helvetica, sans-serif;
   padding: 0.875rem 1.25rem !important;
-  font-size:15px !important;
+  font-size: 15px !important;
 
 }
-.sidebar-heading .arabicName{
+
+.sidebar-heading .arabicName {
   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
-  font-size:5vh;
+  font-size: 5vh;
 }
 
 #caliOne {
-    font-family: "font_islamic_colorregular";
-    right: 0;
-    display: flex;
-    justify-content: center;
-    font-size: 241px;
-    color: #ffffff;
-    text-shadow: 5px 5px 5px #bf6d29;
-    position: relative;
-    top: -91px;
+  font-family: "font_islamic_colorregular";
+  right: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 241px;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px #bf6d29;
+  position: relative;
+  top: -91px;
 }
-#quranName{
-justify-content: center;
-    font-size: 67px;
-    color: #ffffff;
-    text-shadow: 5px 5px 5px #bf6d29;
-    text-align: center;
-    font-family: 'lovea_hegenaregular';
-    top: -200px;
-    position: relative;
-    background: #2d5075d1;
+
+#quranName {
+  justify-content: center;
+  font-size: 67px;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px #bf6d29;
+  text-align: center;
+  font-family: 'lovea_hegenaregular';
+  top: -200px;
+  position: relative;
+  background: #2d5075d1;
 }
+
 .quranContainer {
   width: 1000px;
   display: flex;
 
 }
+
 .selected {
-  background: #00ffa13d;
+  background:#00000033
 }
+
 .suraContainer {
   display: block;
   overflow: hidden;
   background: #2d5075eb;
 }
-.suraContainer > span {
+
+.suraContainer>span {
   direction: rtl;
   float: right;
   display: inline;
   color: #222222;
 }
+
 .suraContainer .ar span a {
   color: #388e72;
 }
+
 .suraContainer .suraname {
   text-align: center;
 
@@ -166,14 +213,18 @@ justify-content: center;
   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh, Arial, Helvetica, sans-serif;
 
 }
+
 .suraContainer .ar {
   text-align: justify;
   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
   font-size: 3.15em;
+  line-height: 2.1em;
   font-weight: normal;
   padding: 30px;
   border: 30px solid #9aabbd;
   border-style: solid double;
+  width:100%;
+
 }
 
 
@@ -183,24 +234,33 @@ justify-content: center;
   border-bottom: 1px solid #f9ef86;
   color: #eeeeee;
 }
+
+.suraContainer .ar span:last-child {
+  /* border-bottom: none !important; */
+}
+
 .suraContainer .ar span.aya a {
   color: #31d0a4;
 }
+
 .suraContainer .bn {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.15em;
+  line-height: 28px;
   font-weight: normal;
   color: #444;
   background: rgb(197, 233, 228);
   padding: 10px 20px;
   display: none;
+
 }
 
 .suraContainer .en {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.15em;
+  line-height: 28px;
   font-weight: normal;
   color: #444;
   background: rgb(210, 243, 239);
@@ -211,21 +271,36 @@ justify-content: center;
 
 
 .suraContainer .ar span.aya:hover {
-  background: #ffc80040;
+  background: #008aa07a;
   cursor: pointer;
 }
 
+.transFixed {
+    display: block !important;
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 10px 0px 0 10px !important;
+    width: 100% !important;
+    transform: translate(-0%, -0%) !important;
+    margin-top: 10px;
+  }
+  .transAyaByAya {
+    display: none;
+    width: 300px;
+    position: absolute;
+    top: -117px;
+    left: 0px;
+    padding: 10px;
+    opacity: 1;
+  }
 .trans {
   display: none;
-  width: 250px;
-  /* min-width:300px;  */
-  /* max-width:250px; */
+  width: 300px;
   position: absolute;
   top: -117px;
   left: 0px;
-  z-index: 9999;
   padding: 10px;
-
   opacity: 1;
 }
 
@@ -233,12 +308,13 @@ justify-content: center;
   font-size: 16px;
   direction: ltr;
   text-align: left;
+  line-height: 28px;
 }
 
 .card-header {
   padding: 0px;
   border-bottom: 1px solid #18c8e4;
-  padding-bottom: 5px;
+
 }
 
 .card-text {
@@ -257,14 +333,34 @@ justify-content: center;
 a:hover {
   text-decoration: none;
 }
-.transFixed {
-  display: none !important;
-} 
+
+
 #sidebar-wrapper .list-group {
   padding: 10px;
 }
+div#sidebar-wrapper {
+  padding: 0px;
+  width: 33.5vh;
+  position: relative;
+}
+
+
+div#sideBarFixed {
+  position: fixed;
+ 
+}  
+
+/* #wrapper.toggled #sidebar-wrapper {
+  margin-left: -18.5rem;
+} */
 
 @media screen and (max-width: 768px) {
+
+  div#sideBarFixed {
+    position: relative;
+   
+  } 
+ 
   .transFixed {
     display: block !important;
     position: relative !important;
@@ -272,8 +368,10 @@ a:hover {
     left: 0px !important;
     padding: 10px 0px 0 10px !important;
     width: 100% !important;
-    transform:translate(-0%, -0%) !important
+    transform: translate(-0%, -0%) !important;
+    margin-top: 10px;
   }
+
   .suraContainer .ar {
     text-align: justify;
     font-size: 2.15em;
@@ -281,40 +379,84 @@ a:hover {
     border: 10px solid #9aabbd;
     border-style: solid double;
   }
+
   .suraContainer .ar span.aya {
     display: block !important;
   }
+
   .card-header:after {
     display: block;
   }
+
   .suraContainer .name {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
   }
-  div#sidebar-wrapper{
-      padding:0px;
-  }
+
+  div#sidebar-wrapper {
+    padding: 0px;
+    }
+ 
   #sidebar-wrapper .list-group {
     padding: 10px;
-}
-.sidebar-heading{
-  padding: 0.875rem 1.25rem !important;
-}
+  }
+
+
+  .sidebar-heading {
+    padding: 0.875rem 1.25rem !important;
+  }
+
   .suraContainer .suraname {
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 6vw;
   }
-  .quranContainer{
+
+  .quranContainer {
     padding: 0;
     background-repeat: no-repeat;
   }
-  #quranName{
+
+  #quranName {
     font-size: 10vw;
     margin-top: 247px;
   }
-  #caliOne{
-      display: none;
+
+  #caliOne {
+    display: none;
   }
- 
+
+  .suraContainer .ar {
+    line-height: 50px;
+  }
+
+  span.bnNameCover {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 460px){
+  /* #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0rem !important;
+  } */
+}
+@media (min-width: 768px) and (max-width:1024px) {
+  div#sidebar-wrapper {
+    width: 40.5vh;
+  }
+  /* #wrapper.toggled #sidebar-wrapper {
+    margin-left: -20rem !important
+  } */
+
+  .suraContainer .suraname {
+    font-size: 3vw;
+  }
+
+  span.bnName {
+    font-size: 2vh;
+
+  }
+
+  .sidebar-heading .arabicName {
+    font-size: 4vh;
+  }
 }
