@@ -451,7 +451,7 @@ div#sideBarFixed {
 @media (min-width: 768px) and (max-width:1024px) {
 
   div#sidebar-wrapper {
-    width: 40.5vh;
+    width: 370px;
   }
   /* #wrapper.toggled #sidebar-wrapper {
     margin-left: -20rem !important
@@ -476,7 +476,7 @@ div#sideBarFixed {
 
 @media (max-width: 1024px) and (min-width: 768px){
   #wrapper.toggled #sidebar-wrapper {
-      margin-left: -341px;
+      margin-left: -368px;
   }
 }
 
@@ -569,7 +569,7 @@ div#sideBarFixed {
 
 @media screen and (min-width: 1024px) and (max-width:1366px) {
   #wrapper.toggled #sidebar-wrapper{
-    width:342px;
+    width:371px;
   }
 }
 
