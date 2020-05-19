@@ -57,7 +57,8 @@ function showData(data, input) {
     pauseAudioBtn.style.display = "none";
 
     if (mq.matches) {
-      $(sideBar).removeClass("toggled");
+      console.log('media query matched',mq);
+      $(sideBar).addClass("toggled");
     }
   } else {
     allflase = true;

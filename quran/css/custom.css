@@ -342,6 +342,7 @@ div#sidebar-wrapper {
   padding: 0px;
   width: 33.5vh;
   position: relative;
+ 
 }
 
 
@@ -353,9 +354,133 @@ div#sideBarFixed {
 /* #wrapper.toggled #sidebar-wrapper {
   margin-left: -18.5rem;
 } */
+@media (min-width: 768px){
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -20rem;
+}
+}
+@media screen and (min-width: 461px) and (max-width: 768px) {
 
-@media screen and (max-width: 768px) {
+  
+ 
+  .transFixed {
+    display: block !important;
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    padding: 10px 0px 0 10px !important;
+    width: 100% !important;
+    transform: translate(-0%, -0%) !important;
+    margin-top: 10px;
+  }
 
+  .suraContainer .ar {
+    text-align: justify;
+    font-size: 2.15em;
+    padding: 10px;
+    border: 10px solid #9aabbd;
+    border-style: solid double;
+  }
+
+  .suraContainer .ar span.aya {
+    display: block !important;
+  }
+
+  .card-header:after {
+    display: block;
+  }
+
+  .suraContainer .name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+  }
+
+  div#sidebar-wrapper {
+    padding: 0px;
+    margin-left: 0;
+    width: 250px;
+
+    }
+ 
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -341px;
+      position: relative;
+    }
+  #sidebar-wrapper .list-group {
+    padding: 10px;
+  }
+
+
+  .sidebar-heading {
+    padding: 0.875rem 1.25rem !important;
+  }
+
+  .suraContainer .suraname {
+    margin-top: 20px;
+    font-size: 6vw;
+  }
+
+  .quranContainer {
+    padding: 0;
+    background-repeat: no-repeat;
+  }
+
+  #quranName {
+    font-size: 12vw;
+    margin-top: 247px;
+  }
+
+  #caliOne {
+    display: none;
+  }
+
+  .suraContainer .ar {
+    line-height: 50px;
+  }
+
+  span.bnNameCover {
+    font-size: 5vh;
+  }
+ 
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+  div#sidebar-wrapper {
+    width: 40.5vh;
+  }
+  /* #wrapper.toggled #sidebar-wrapper {
+    margin-left: -20rem !important
+  } */
+
+  .suraContainer .suraname {
+    font-size: 3vw;
+  }
+
+  span.bnName {
+    font-size: 2vh;
+
+  }
+
+  .sidebar-heading .arabicName {
+    font-size: 4vh;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -412px;
+}
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+  #wrapper.toggled #sidebar-wrapper {
+      margin-left: -341px;
+  }
+}
+
+@media screen and (max-width: 460px){
   div#sideBarFixed {
     position: relative;
    
@@ -396,6 +521,9 @@ div#sideBarFixed {
 
   div#sidebar-wrapper {
     padding: 0px;
+    margin-left: 0;
+    width: 250px;
+    margin-left:-243px;
     }
  
   #sidebar-wrapper .list-group {
@@ -418,7 +546,7 @@ div#sideBarFixed {
   }
 
   #quranName {
-    font-size: 10vw;
+    font-size: 12vw;
     margin-top: 247px;
   }
 
@@ -431,32 +559,12 @@ div#sideBarFixed {
   }
 
   span.bnNameCover {
-    font-size: 3vh;
+    font-size: 5vh;
   }
+ 
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0px;
 }
-@media screen and (max-width: 460px){
-  /* #wrapper.toggled #sidebar-wrapper {
-    margin-left: 0rem !important;
-  } */
 }
-@media (min-width: 768px) and (max-width:1024px) {
-  div#sidebar-wrapper {
-    width: 40.5vh;
-  }
-  /* #wrapper.toggled #sidebar-wrapper {
-    margin-left: -20rem !important
-  } */
 
-  .suraContainer .suraname {
-    font-size: 3vw;
-  }
-
-  span.bnName {
-    font-size: 2vh;
-
-  }
-
-  .sidebar-heading .arabicName {
-    font-size: 4vh;
-  }
-}
+ 
