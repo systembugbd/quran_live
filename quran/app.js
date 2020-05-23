@@ -6,6 +6,13 @@ let dFlexToggle = document.getElementById("menu-toggle");
 let showSideBar = document.getElementById("showSideBar");
 let pauseAudioBtn = document.getElementById("pauseAudioBtn");
 
+let langSelection = document.getElementById("langSelection");
+
+let customtransBnEnCheckBox = document.getElementById("customtransBnEnCheckBox");
+
+let translationSection = document.getElementById("translationSection");
+let showOnlyTranslationEL = document.getElementById("showOnlyTranslation");
+
 let autoScrollonOff = document.getElementById("autoScrollonOff");
 let translationWithVideoOnOff = document.getElementById(
   "translationWithVideoOnOff"
@@ -42,9 +49,13 @@ let searchState = async (input) => {
 };
 
 function showData(data, input) {
-  if(isPlayingClickOnAya){
+
+  $(translationSection).show();
+
+
+  if (isPlayingClickOnAya) {
     alert("Please Pause Audio First to Change Sura");
-   return false;
+    return false;
   }
   let suraContainer = document.getElementById("suraContainer");
   if (input == "") {
@@ -57,7 +68,7 @@ function showData(data, input) {
     pauseAudioBtn.style.display = "none";
 
     if (mq.matches) {
-      console.log('media query matched',mq);
+      console.log('media query matched', mq);
       $(sideBar).addClass("toggled");
     }
   } else {
@@ -106,17 +117,17 @@ function showData(data, input) {
 
           ar.innerHTML += `<span class="aya" id="${data[v].attr.index}:${
             i + 1
-          }">${data[v].aya[i + 1].ar} <a href="#${data[v].attr.index}:${
+            }">${data[v].aya[i + 1].ar} <a href="#${data[v].attr.index}:${
             i + 1
-          }">${
+            }">${
             data[v].aya[i + 1].no
-          }</a><span class="trans card text-white bg-info"><span class="card-header">${
+            }</a><span class="trans card text-white bg-info"><span class="card-header">${
             data[v].attr.bn
-          } | ${data[v].attr.index}:${
+            } | ${data[v].attr.index}:${
             i + 1
-          }</span><span class="card-body"><p class="card-text">${
+            }</span><span class="card-body"><p class="card-text">${
             data[v].aya[i + 1].bn
-          }</p></span></span></span>`;
+            }</p></span></span></span>`;
           /*transFixed class to show translation in fixed way*/
 
           bn.innerHTML += data[v].aya[i + 1].bn;
@@ -125,11 +136,13 @@ function showData(data, input) {
           suraContainer.appendChild(ar);
           suraContainer.appendChild(bn);
           suraContainer.appendChild(en);
+          showOnlyTranslationHideArabic(data[v], i);
         }
       }
     }
 
     showTranslation();
+
   }
 
   /**
@@ -209,54 +222,92 @@ selectedSura.addEventListener("change", () => searchState(selectedSura.value));
 
 /**
  * TranslationFixedOnOff function
+ * Show Fixed
  */
+
+
 function showTranslationFixed(checkdOrNot) {
+  
   if (checkdOrNot) {
-    if(!translationOffMouseOver || !translation){
-      $(".aya").children("span.card").addClass("transFixed");
-      $(".aya").children("span.card").removeClass("trans");
-      $(".aya").css({display:'block',position: 'relative'});
+    translationOffMouseOver.removeAttribute('checked', "");
+    translationWithVideoOnOff.removeAttribute('checked', "");
+    $(".aya").children("span.card").addClass("transFixed");
+    $(".aya").children("span.card").removeClass("trans");
+    $(".aya").css({
+      display: 'block',
+      position: 'relative'
+    });
 
-      $(translationOffMouseOver).parent().hide();
-      $(translationWithVideoOnOff).parent().hide();
-    }else{
-      translationOffMouseOver.removeAttribute('checked', "");
-      translationWithVideoOnOff.removeAttribute('checked', "");
-      $(".aya").children("span.card").addClass("transFixed");
-      $(".aya").children("span.card").removeClass("trans");
-      $(".aya").css({display:'block',position: 'relative'});
+    $(translationOffMouseOver).parent().hide();
+    $(translationWithVideoOnOff).parent().hide();
+    console.log('I am fixed on', showOnlyTranslationEL.setAttribute('checked',''));
+    
+    //hiding translation only wrapper showOnlyTranslationHideArabic()
+    $(langSelection).hide();
+    showOnlyTranslationEL.removeAttribute('checked', '');
+    // customtransBnEnCheckBox.removeAttribute('checked');
+    // $(customtransBnEnCheckBox).hide();
+    showTranslationOnly = false;
+    $('.ar').show();
+    $('.aya').show();
+    $('.transFrame').hide();
 
-      $(translationOffMouseOver).parent().hide();
-      $(translationWithVideoOnOff).parent().hide();
-    }
+    translationOffMouseOver.removeAttribute('checked', '');
+
   } else {
-    if(translationMouseOver){
+    //showing translation only wrapper showOnlyTranslationHideArabic()
+    $(langSelection).show();
+    // showOnlyTranslationEL.removeAttribute('checked', '');
+
+
+    translationMouseOver = translationOffMouseOver.getAttribute('checked') == 'checked' ? true : false;
+    if (translationMouseOver == true) {
+
+
       $(".aya").children("span.card").addClass("trans");
+      $(".aya").children("span.card").removeClass("transFixed");
+      // translationOffMouseOver.add('checked');
+
+
+    } else {
+
+      $(".aya").children("span.card").removeClass("transFixed");
+      $(".aya").children("span.card").addClass("overTransHide");
+      translationOffMouseOver.removeAttribute('checked');
     }
-   
-    $(".aya").children("span.card").removeClass("transFixed");
-    $(".aya").css({display:'inline',position: 'relative'});
-   
+
+    $(".aya").css({
+      display: 'inline',
+      position: 'relative'
+    });
+
     //show Hover checkbox
     $(translationOffMouseOver).parent().show();
     $(translationWithVideoOnOff).parent().show();
-  
+
+    // translationOffMouseOver.setAttribute('checked', "checked");
+
+    translationFixed = false;
   }
 }
 
+
 /**
- * TranslationFixedOnOff function
+ * showHideTranslationMouseOver function
+ * Show/Hide on Hover
  */
 function showHideTranslationMouseOver(checkdOrNot) {
-  if (checkdOrNot) {
+  if (checkdOrNot || translationFixed) {
 
     $("span.card").addClass("trans");
-    $(singleAya).children('span').removeClass('transAyaByAya');
-    $(singleAya).children('span').removeClass('transFixed');
+    $("span.card").removeClass('transAyaByAya');
+    $("span.card").removeClass('transFixed');
 
 
   } else {
-    $("span.card").removeClass("trans");
+    translationFixed = false;
+    $("span.card").removeClass('trans');
+    $("span.card").addClass('overTransHide');
     $('span.trans').hide();
   }
 }
@@ -313,9 +364,9 @@ function playAudio(aya = 1, doubleClicked = "") {
    */
   $(firstElm).addClass("selected");
   $(firstElm).siblings().removeClass("selected");
- 
-    showTranslationWithVideo(firstElm, "", totalAya.length, ayatNum);
- 
+
+  showTranslationWithVideo(firstElm, "", totalAya.length, ayatNum);
+
   /**
    * Check weather Translation is on or not and show translatin for first element (Mobile included)
    */
@@ -409,29 +460,73 @@ function playAudio(aya = 1, doubleClicked = "") {
       pauseAudioBtn.style.display = "none";
       playAudioBtn.style.display = "block";
       playAudioBtn.innerHTML = "Play";
-      
+
     }
 
     /**
      * Auto Scrolling
      *
      */
-
-    if (autoScroll == true) {
-      if (mq.matches) {
-        console.log("i am scrolling... for mobile");
-        window.scrollBy({
-          top: 100,
-          behavior: "smooth",
-        });
-      } else {
-        console.log("i am scrolling... for dekstop");
-        window.scrollBy({
-          top: 100,
-          behavior: "smooth",
-        });
-      }
+    
+  
+   
+    let isPaused = false;
+   
+ function scrollingPlays(){
+     
+          isPaused = true;
+          if (mq.matches) {
+            console.log("i am scrolling... for mobile");
+            setInterval(function(){
+              window.scrollBy({
+                top: 1,
+                behavior: "smooth",
+              });
+            }, 200);             
+           
+    
+          } else {
+            console.log("i am scrolling... for dekstop");
+            
+            setInterval(function(){
+              window.scrollBy({
+                top: 1,
+                behavior: "smooth",
+              });
+            }, 200);
+             
+          }
     }
+    
+ 
+    if (autoScroll == true && !isPaused) {
+        
+            scrollingPlays();
+        
+      }
+      
+    
+   
+ 
+    // if (autoScroll == true && !isPaused) {
+    //   console.log('i am auto scrolling...', autoScroll);
+
+    //   if (!isPaused) {
+      
+    //       scrollingPlays();
+       
+      
+
+    //   }
+
+    // } else {
+    //   isPaused = true;
+    //   // console.log('i am not auto scrolling...', autoScroll);
+    //   clearInterval(() => {
+    //     scrollingPlays();
+    //   }, 300);
+
+    // }
 
     /**
      * Check weather Translation is on or not and show translatin for first element (Mobile included)
@@ -467,26 +562,26 @@ function showTranslationWithVideo(firstElm, singleAya, totalaya, ayatNum) {
   /**
    * Check weather Translation is on or not and show translatin for first element (Mobile included)
    */
-  
+
   if (translation) {
-   if(translationMouseOver==false){
-    $(firstElm).children('span').addClass('transAyaByAya');
-    $(singleAya).children('span').hide();
-    $(singleAya).siblings().children('span').hide();
-    $(singleAya).children('span').addClass('transAyaByAya');
-   }else{
-    $(singleAya).children('span').removeClass('transAyaByAya');
-   }
+    if (translationMouseOver == false) {
+      $(firstElm).children('span').addClass('transAyaByAya');
+      $(singleAya).children('span').hide();
+      $(singleAya).siblings().children('span').hide();
+      $(singleAya).children('span').addClass('transAyaByAya');
+    } else {
+      $(singleAya).children('span').removeClass('transAyaByAya');
+    }
     /*Show First Translation with Audio in Desktop*/
-    if(ayatNum==totalaya){
+    if (ayatNum == totalaya) {
       $(firstElm).children("span").hide();
-       
+
       return false;
     }
-      $(firstElm).children("span").show();
-      $(firstElm).siblings().children("span").hide();
- 
-   
+    $(firstElm).children("span").show();
+    $(firstElm).siblings().children("span").hide();
+
+
 
     // const mq = window.matchMedia("(max-width: 768px)");
     if (mq.matches) {
@@ -498,8 +593,7 @@ function showTranslationWithVideo(firstElm, singleAya, totalaya, ayatNum) {
       $(firstElm).children("span").removeClass("trans");
     }
 
-    $(singleAya).children("span").show().animate(
-      {
+    $(singleAya).children("span").show().animate({
         opacity: 1,
       },
       "slow"
@@ -519,7 +613,7 @@ function showTranslationWithVideo(firstElm, singleAya, totalaya, ayatNum) {
     $("span.trans").hide();
     $("span.transFixed").hide();
     $("span.transAyaByAya").hide();
-   
+
   }
 }
 
@@ -598,8 +692,7 @@ function showTranslation() {
         "#suraContainer span>span.aya.hover"
       );
       hoverAya.addEventListener("mousemove", function (es) {
-        $(this).children("span.trans").show().animate(
-          {
+        $(this).children("span.trans").show().animate({
             opacity: 1,
           },
           "slow"
@@ -633,7 +726,7 @@ function showTranslation() {
 
 console.log(
   translationMouseOver +
-    "out side of function checking working or not working...."
+  "out side of function checking working or not working...."
 );
 
 function togglePlay(audio) {
@@ -655,4 +748,99 @@ function togglePlay(audio) {
   };
 
   // audio.onended = function () { };
+}
+
+
+
+/**
+ * ShowTranslationOnly
+ * Show Translation Only
+ */
+function showOnlyTranslationHideArabic(data, i) {
+  let bntrans = document.querySelector('.bn');
+      bntrans.innerHTML = ''; 
+  let entrans = document.querySelector('.en');
+      entrans.innerHTML = '';
+ 
+
+  $(langSelection).show();
+ 
+
+  showOnlyTranslationEL.addEventListener('change', function () {
+    showTranslationOnly = true;
+   
+    if (this.checked && showTranslationOnly) {
+      $('#customtransBnEn').show();
+      console.log('i am checked', this);
+  
+      // $(customtransBnEnCheckBox).show();
+      customtransBnEnCheckBox.addEventListener('change', function () {
+       
+        if (this.checked ) {
+          bntrans.innerHTML+=`<span class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data.aya[i + 1].bn }</span >`;
+          $(bntrans).addClass('transFrame');
+          $(entrans).removeClass('transFrame');
+          entrans.innerHTML= "";
+          $(bntrans).show();
+          $(entrans).hide();
+          $('.langTrans').hover(function () {
+            console.log('i am hover', this);
+              $(this).addClass('transHover');
+              $(this).css({
+                padding: '10px'
+              });
+          }, function () {
+              $(this).removeClass('transHover');
+          });
+
+        }else{
+          entrans.innerHTML+=`<span class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data.aya[i + 1].en }</span >`;
+          $(entrans).addClass('transFrame');
+          $(bntrans).removeClass('transFrame');
+          bntrans.innerHTML= "";
+          $(bntrans).hide();
+          $(entrans).show();
+          $('.langTrans').hover(function () {
+            console.log('i am hover', this);
+              $(this).addClass('transHover');
+              $(this).css({
+                padding: '10px'
+              });
+          }, function () {
+              $(this).removeClass('transHover');
+          });
+        }
+      });
+      
+      $('.ar').hide();
+      $('.aya').hide();
+     
+
+      //mouseover and leave on Translation
+     
+
+      // $('.transFrame').show();
+ 
+    } else {
+      $('#customtransBnEn').hide();
+      showTranslationOnly = false;
+      customtransBnEnCheckBox.removeAttribute('checked');
+      // console.log('i am not checked', this);
+  
+ 
+      $('.ar').show();
+      $('.aya').show();
+      $('.transFrame').hide();
+ 
+      entrans.innerHTML= "";
+      bntrans.innerHTML= "";
+
+ 
+    }
+
+    entrans.innerHTML= "";
+    bntrans.innerHTML= "";
+
+  }); //showOnlyTranslationEL
+
 }

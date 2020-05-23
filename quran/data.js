@@ -1,140 +1,121 @@
-,
-   ,
-    "4": {
-        "ar": "مَالِكِ يَوْمِ الدِّينِ",
-        "bn": "যিনি বিচার দিনের মালিক।",
-        "en": "Master of the Day of Judgment.",
-        "no": "﴿٤﴾"
-    },
-    "5": {
-        "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-        "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
-        "en": "Thee do we worship, and Thine aid we seek.",
-        "no": "﴿٥﴾"
-    },
-    "6": {
-        "ar": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
-        "bn": "আমাদেরকে সরল পথ দেখাও,",
-        "en": "Show us the straight way,",
-        "no": "﴿٦﴾"
-    },
-    "7": {
-        "ar": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
-        "bn": "সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।",
-        "en": "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.",
-        "no": "﴿٧﴾"
-    }
+
+let translationSection = document.getElementById("translationSection");
+
+let showOnlyTranslationEL = document.getElementById("showOnlyTranslation");
+
+$(translationSection).show();
+
+showOnlyTranslationHideArabic();
 
 
+// /**
+//  * TranslationFixedOnOff function
+//  * Show/Hide on Hover
+//  */
+// function showHideTranslationMouseOver(checkdOrNot) {
+//   if (checkdOrNot || translationFixed) {
+
+//     $("span.card").addClass("trans");
+//     $("span.card").removeClass('transAyaByAya');
+//     $("span.card").removeClass('transFixed');
 
 
+//   } else {
+//     translationFixed=false;
+//     $("span.card").removeClass('trans');
+//     $("span.card").addClass('overTransHide');
+//     $('span.trans').hide();
+//   }
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var form = new FormData();
-// form.append("soundfile", "<file goes here>");
-
-// fetch("https://sms-voice-messages.p.rapidapi.com/call/%252B12167101101/%7Bto_number%7D", {
-// 	"method": "POST",
-// 	"headers": {
-// 		"x-rapidapi-host": "sms-voice-messages.p.rapidapi.com",
-// 		"x-rapidapi-key": "bdf3399734msh864079f0cbd6619p1e4e9cjsn7b0e129ec244",
-// 		"content-type": "multipart/form-data"
-// 	}
-// })
-// .then(response => {
-// 	console.log(response);
-// })
-// .catch(err => {
-// 	console.log(err);
-// });
-
-
-dFlexToggle.addEventListener('click', function(){
+// /**
+//  * TranslationFixedOnOff function
+//  * Show Fixed
+//  */
  
-    if(mq.matches){
+
+// function showTranslationFixed(checkdOrNot) {
+//   if (checkdOrNot) {
+//       translationOffMouseOver.removeAttribute('checked', "");
+//       translationWithVideoOnOff.removeAttribute('checked', "");
+//       $(".aya").children("span.card").addClass("transFixed");
+//       $(".aya").children("span.card").removeClass("trans");
+//       $(".aya").css({display:'block',position: 'relative'});
+
+//       $(translationOffMouseOver).parent().hide();
+//       $(translationWithVideoOnOff).parent().hide();
+//       console.log('I am fixed on');
    
-      $(window).scroll(function() {
-         if($(window).scrollTop() > 100){
-          $(dFlexToggle).addClass('scrolled');
-          $('#sidebar-wrapper').css({ position:"fixed", height: "100%", zIndex: "9999", marginTop: "57px", marginLeft: "-20rem", opacity:0 });
-  
-      }else{
-          $(dFlexToggle).removeClass('scrolled');
-          $('#sidebar-wrapper').css({ position:"relative", height: "100%", zIndex: "9999", marginTop: "0px", marginLeft: "-0rem", opacity:1 });
-          
-        }
-  
-        
-     });
-    
-  }
-  // if($(dFlexToggle).hasClass('toggled')){
-  //   if($(dFlexToggle).hasClass('scrolled')){
-  //     $('.scrolled').on('click', function(e){
-  //       $('#sidebar-wrapper').css({ position:"fixed", height: "100%", zIndex: "9999", marginTop: "57px", marginLeft: "0rem", opacity:1 });
-  //     });
-  //   }else{
-  //     $('#sidebar-wrapper').css({ position:"fixed", height: "100%", zIndex: "9999", marginTop: "57px", marginLeft: "-20rem", opacity:0 });
-  //   }
-  // }else{
-  //   $('#sidebar-wrapper').css({ position:"relative", height: "100%", zIndex: "9999", marginTop: "0", marginLeft: "0rem", opacity:1 });
-  // }
-  
-  
-  // if($(dFlexToggle).hasClass('toggled')){
-  // if(mq460.matches){ 
-  //     console.log($(window).scrollTop());
-  //     console.log($(window).height());
-  //     console.log($(document).height());
-  //     $(window).scroll(function() {
-    
-  //       if($(window).scrollTop() > 100){
-  //         // alert(`scrollTop is window.height ${$(window).scrollTop()} ${$(window).height()}`, );
-  //         console.log(`scrollTop is window.height ${$(window).scrollTop()} ${$(window).height()}`);
-  //         $('#sidebar-wrapper').css({
-  //               position:"fixed",
-  //               height: "100%",
-  //               zIndex: "9999",
-  //               marginTop: "57px",
-  //               marginLeft: "-17rem"
-  
-  //         });
-  //       }else{
-  //         $('#sidebar-wrapper').css({
-  //           position:"relative",
-  //           height: "100%",
-  //           zIndex: "1",
-  //           marginTop: "0px",
-  //           marginLeft: "-15rem"
-  //     });
-  //       }
-  //    });
-  //   }else{
+//   } else {
+//     translationMouseOver = translationOffMouseOver.getAttribute('checked') == 'checked' ? true : false;
+//    if(translationMouseOver == true){
+
+      
+//       $(".aya").children("span.card").addClass("trans");
+//       $(".aya").children("span.card").removeClass("transFixed");
+//       translationOffMouseOver.add('checked');
+
+
+//     }else{
        
-  //   }
-  // }
+//       $(".aya").children("span.card").removeClass("transFixed");
+//       $(".aya").children("span.card").addClass("overTransHide");
+//        translationOffMouseOver.removeAttribute('checked');
+//     }
+    
+//     $(".aya").css({display:'inline',position: 'relative'});
+
+//     //show Hover checkbox
+//     $(translationOffMouseOver).parent().show();
+//     $(translationWithVideoOnOff).parent().show();
+
+//     translationOffMouseOver.setAttribute('checked', "checked");
+
+//     translationFixed=false;
+//   }
+// }
+
+
+
+
+// /**
+//  * ShowTranslationOnly
+//  * Show Translation Only
+//  */
+// function showOnlyTranslationHideArabic(){
+
+//   showOnlyTranslationEL.addEventListener('change', function(){
+ 
+//     if(this.checked){
+//       showTranslationOnly=true;
+
+//       console.log('Hello I am changing...', showTranslationOnly);
+//       $('.arabicAya').hide();
+//       $('.aya').css({
+//         borderBottom:'none',
+//         lineHeight: 'none',
+//         padding:'0px'
+//       });
+//       $('.arabicAya').siblings('span').addClass('transFixed');
+//       $('.arabicAya').siblings('span.trans').removeClass('trans');
+
+      
+//     }else{
+//       $('.arabicAya').show();
+//       $('.aya').css({
+//         borderBottom:'1px solid #f9ef86',
+//         lineHeight: '2.1em',
+//         padding:'10px'
+//       });
+//       $('.arabicAya').siblings('span').addClass('trans');
+//       $('.arabicAya').siblings('span.trans').removeClass('transFixed');
+//       showTranslationOnly=false;
+ 
+//       console.log('Hello I am changing...', showTranslationOnly);
+
+//     }
+    
+
 //   });
-  
+// }

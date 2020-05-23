@@ -7,7 +7,7 @@
     "bn": "সূরা আল-ফাতেহা",
     "en": "Surat Al-Fatiha",
     "audio": "http://www.quraanshareef.org/audio/1-Surah-Al-Fatihah.mp3",
-    "len": 3,
+    "len": 7,
     "index": 1
 },
 "aya": {
@@ -28,7 +28,33 @@
         "bn": "যিনি নিতান্ত মেহেরবান ও দয়ালু।",
         "en": "Most Gracious, Most Merciful;",
         "no": "﴿٣﴾"
-    }
+    },
+    "4": {
+         "ar": "مَالِكِ يَوْمِ الدِّينِ",
+         "bn": "যিনি বিচার দিনের মালিক।",
+         "en": "Master of the Day of Judgment.",
+         "no": "﴿٤﴾"
+     },
+     "5": {
+         "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+         "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
+         "en": "Thee do we worship, and Thine aid we seek.",
+         "no": "﴿٥﴾"
+     },
+     "6": {
+         "ar": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+         "bn": "আমাদেরকে সরল পথ দেখাও,",
+         "en": "Show us the straight way,",
+         "no": "﴿٦﴾"
+     },
+     "7": {
+         "ar": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+         "bn": "সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।",
+         "en": "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.",
+         "no": "﴿٧﴾"
+     }
+ 
+ 
     
 }
 },
@@ -38,7 +64,7 @@
     "bn": "সূরা আল বাক্বারাহ",
     "en": "Surah Al-Baqara",
     "audio": "http://www.quraanshareef.org/audio/2-Surah-Al-Baqara.mp3",
-    "len": 60,
+    "len": 101,
     "index": 2
 },
 "aya": {
@@ -407,7 +433,276 @@
         "bn": "আর তোমরা যখন বললে, হে মূসা, আমরা একই ধরনের খাদ্য-দ্রব্যে কখনও ধৈর্য্যধারণ করব না। কাজেই তুমি তোমার পালনকর্তার নিকট আমাদের পক্ষে প্রার্থনা কর, তিনি যেন আমাদের জন্যে এমন বস্তুসামগ্রী দান করেন যা জমিতে উৎপন্ন হয়, তরকারী, কাকড়ী, গম, মসুরি, পেঁয়াজ প্রভৃতি। মূসা (আঃ) বললেন, তোমরা কি এমন বস্তু নিতে চাও যা নিকৃষ্ট সে বস্তুর পরিবর্তে যা উত্তম? তোমরা কোন নগরীতে উপনীত হও, তাহলেই পাবে যা তোমরা কামনা করছ। আর তাদের উপর আরোপ করা হল লাঞ্ছনা ও পরমুখাপেক্ষিতা। তারা আল্লাহর রোষানলে পতিত হয়ে ঘুরতে থাকল। এমন হলো এ জন্য যে, তারা আল্লাহর বিধি বিধান মানতো না এবং নবীগনকে অন্যায়ভাবে হত্যা করত। তার কারণ, তারা ছিল নাফরমান সীমালংঘকারী।",
         "en": "And remember ye said: 'O Moses! we cannot endure one kind of food (always); so beseech thy Lord for us to produce for us of what the earth groweth, -its pot-herbs, and cucumbers, Its garlic, lentils, and onions.' He said: 'Will ye exchange the better for the worse? Go ye down to any town, and ye shall find what ye want!' They were covered with humiliation and misery; they drew on themselves the wrath of Allah. This because they went on rejecting the Signs of Allah and slaying His Messengers without just cause. This because they rebelled and went on transgressing.",
         "no": "﴿٦١﴾"
+    },
+    "62": {
+        "ar": "إِنَّ الَّذِينَ آمَنُواْ وَالَّذِينَ هَادُواْ وَالنَّصَارَى وَالصَّابِئِينَ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الآخِرِ وَعَمِلَ صَالِحاً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلاَ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ",
+        "bn": "নিঃসন্দেহে যারা মুসলমান হয়েছে এবং যারা ইহুদী, নাসারা ও সাবেঈন, (তাদের মধ্য থেকে) যারা ঈমান এনেছে আল্লাহর প্রতি ও কিয়ামত দিবসের প্রতি এবং সৎকাজ করেছে, তাদের জন্য রয়েছে তার সওয়াব তাদের পালনকর্তার কাছে। আর তাদের কোনই ভয়-ভীতি নেই, তারা দুঃখিতও হবে না।",
+        "en": "Those who believe (in the Qur'an), and those who follow the Jewish (scriptures), and the Christians and the Sabians,- any who believe in Allah and the Last Day, and work righteousness, shall have their reward with their Lord; on them shall be no fear, nor shall they grieve.",
+        "no": "﴿٦٢﴾"
+    },
+    "63": {
+        "ar": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُواْ مَا آتَيْنَاكُم بِقُوَّةٍ وَاذْكُرُواْ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+        "bn": "আর আমি যখন তোমাদের কাছ থেকে অঙ্গীকার নিয়েছিলাম এবং তুর পর্বতকে তোমাদের মাথার উপর তুলে ধরেছিলাম এই বলে যে, তোমাদিগকে যে কিতাব দেয়া হয়েছে তাকে ধর সুদৃঢ়ভাবে এবং এতে যা কিছু রয়েছে তা মনে রেখো যাতে তোমরা ভয় কর।",
+        "en": "And remember We took your covenant and We raised above you (The towering height) of Mount (Sinai) : (Saying): 'Hold firmly to what We have given you and bring (ever) to remembrance what is therein: Perchance ye may fear Allah.'",
+        "no": "﴿٦٣﴾"
+    },
+    "64": {
+        "ar": "ثُمَّ تَوَلَّيْتُم مِّن بَعْدِ ذَلِكَ فَلَوْلاَ فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَكُنتُم مِّنَ الْخَاسِرِينَ",
+        "bn": "তারপরেও তোমরা তা থেকে ফিরে গেছ। কাজেই আল্লাহর অনুগ্রহ ও মেহেরবানী যদি তোমাদের উপর না থাকত, তবে অবশ্যই তোমরা ধবংস হয়ে যেতে।",
+        "en": "But ye turned back thereafter: Had it not been for the Grace and Mercy of Allah to you, ye had surely been among the lost.",
+        "no": "﴿٦٤﴾"
+    },
+    "65": {
+        "ar": "وَلَقَدْ عَلِمْتُمُ الَّذِينَ اعْتَدَواْ مِنكُمْ فِي السَّبْتِ فَقُلْنَا لَهُمْ كُونُواْ قِرَدَةً خَاسِئِينَ",
+        "bn": "তোমরা তাদেরকে ভালরূপে জেনেছ, যারা শনিবারের ব্যাপারে সীমা লঙ্ঘণ করেছিল। আমি বলেছিলামঃ তোমরা লাঞ্ছিত বানর হয়ে যাও।",
+        "en": "And well ye knew those amongst you who transgressed in the matter of the Sabbath: We said to them: 'Be ye apes, despised and rejected.'",
+        "no": "﴿٦٥﴾"
+    },
+    "66": {
+        "ar": "فَجَعَلْنَاهَا نَكَالاً لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+        "bn": "অতঃপর আমি এ ঘটনাকে তাদের সমসাময়িক ও পরবর্তীদের জন্য দৃষ্টান্ত এবং আল্লাহভীরুদের জন্য উপদেশ গ্রহণের উপাদান করে দিয়েছি।",
+        "en": "So We made it an example to their own time and to their posterity, and a lesson to those who fear Allah.",
+        "no": "﴿٦٦﴾"
+    },
+    "67": {
+        "ar": "وَإِذْ قَالَ مُوسَى لِقَوْمِهِ إِنَّ اللّهَ يَأْمُرُكُمْ أَنْ تَذْبَحُواْ بَقَرَةً قَالُواْ أَتَتَّخِذُنَا هُزُواً قَالَ أَعُوذُ بِاللّهِ أَنْ أَكُونَ مِنَ الْجَاهِلِينَ",
+        "bn": "যখন মূসা (আঃ) স্বীয় সম্প্রদায়কে বললেনঃ আল্লাহ তোমাদের একটি গরু জবাই করতে বলেছেন। তারা বলল, তুমি কি আমাদের সাথে উপহাস করছ? মূসা (আঃ) বললেন, মূর্খদের অন্তর্ভুক্ত হওয়া থেকে আমি আল্লাহর আশ্রয় প্রার্থনা করছি।",
+        "en": "And remember Moses said to his people: '(Allah) commands that ye sacrifice a heifer.' They said: 'Makest thou a laughing-stock of us?' He said: '(Allah) save me from being an ignorant (fool)!'",
+        "no": "﴿٦٧﴾"
+    },
+    "68": {
+        "ar": "قَالُواْ ادْعُ لَنَا رَبَّكَ يُبَيِّن لّنَا مَا هِيَ قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لاَّ فَارِضٌ وَلاَ بِكْرٌ عَوَانٌ بَيْنَ ذَلِكَ فَافْعَلُواْ مَا تُؤْمَرونَ",
+        "bn": "তারা বলল, তুমি তোমার পালনকর্তার কাছে আমাদের জন্য প্রার্থনা কর, যেন সেটির রূপ বিশ্লেষণ করা হয়। মূসা (আঃ) বললেন, তিনি বলছেন, সেটা হবে একটা গাভী, যা বৃদ্ধ নয় এবং কুমারীও নয়-বার্ধক্য ও যৌবনের মাঝামাঝি বয়সের। এখন আদিষ্ট কাজ করে ফেল।",
+        "en": "They said: 'Beseech on our behalf Thy Lord to make plain to us what (heifer) it is!' He said; 'He says: The heifer should be neither too old nor too young, but of middling age. Now do what ye are commanded!'",
+        "no": "﴿٦٨﴾"
+    },
+    "69": {
+        "ar": "قَالُواْ ادْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا قَالَ إِنَّهُ يَقُولُ إِنّهَا بَقَرَةٌ صَفْرَاء فَاقِـعٌ لَّوْنُهَا تَسُرُّ النَّاظِرِينَ",
+        "bn": "তারা বলল, তোমার পালনকর্তার কাছে আমাদের জন্য প্রার্থনা কর যে, তার রঙ কিরূপ হবে? মূসা (আঃ) বললেন, তিনি বলেছেন যে, গাঢ় পীতবর্ণের গাভী-যা দর্শকদের চমৎকৃত করবে।",
+        "en": "They said: 'Beseech on our behalf Thy Lord to make plain to us Her colour.' He said: 'He says: A fawn-coloured heifer, pure and rich in tone, the admiration of beholders!'",
+        "no": "﴿٦٩﴾"
+    },
+    "70": {
+        "ar": "قَالُواْ ادْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِيَ إِنَّ البَقَرَ تَشَابَهَ عَلَيْنَا وَإِنَّآ إِن شَاء اللَّهُ لَمُهْتَدُونَ",
+        "bn": "তারা বলল, আপনি প্রভুর কাছে প্রার্থনা করুন-তিনি বলে দিন যে, সেটা কিরূপ? কেননা, গরু আমাদের কাছে সাদৃশ্যশীল মনে হয়। ইনশাআল্লাহ এবার আমরা অবশ্যই পথপ্রাপ্ত হব। মূসা (আঃ) বললেন, তিনি বলেন যে, এ গাভী ভূকর্ষণ ও জল সেচনের শ্রমে অভ্যস্ত নয়-হবে নিষ্কলঙ্ক, নিখুঁত।",
+        "en": "They said: 'Beseech on our behalf Thy Lord to make plain to us what she is: To us are all heifers alike: We wish indeed for guidance, if Allah wills.'",
+        "no": "﴿٧٠﴾"
+    },
+    "71": {
+        "ar": "قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لاَّ ذَلُولٌ تُثِيرُ الأَرْضَ وَلاَ تَسْقِي الْحَرْثَ مُسَلَّمَةٌ لاَّ شِيَةَ فِيهَا قَالُواْ الآنَ جِئْتَ بِالْحَقِّ فَذَبَحُوهَا وَمَا كَادُواْ يَفْعَلُونَ",
+        "bn": "তারা বলল, এবার সঠিক তথ্য এনেছ। অতঃপর তারা সেটা জবাই করল, অথচ জবাই করবে বলে মনে হচ্ছিল না।",
+        "en": "He said: 'He says: A heifer not trained to till the soil or water the fields; sound and without blemish.' They said: 'Now hast thou brought the truth.' Then they offered her in sacrifice, but not with good-will.",
+        "no": "﴿٧١﴾"
+    },
+    "72": {
+        "ar": "وَإِذْ قَتَلْتُمْ نَفْساً فَادَّارَأْتُمْ فِيهَا وَاللّهُ مُخْرِجٌ مَّا كُنتُمْ تَكْتُمُونَ",
+        "bn": "যখন তোমরা একজনকে হত্যা করে পরে সে সম্পর্কে একে অপরকে অভিযুক্ত করেছিলে। যা তোমরা গোপন করছিলে, তা প্রকাশ করে দেয়া ছিল আল্লাহর অভিপ্রায়।",
+        "en": "Remember ye slew a man and fell into a dispute among yourselves as to the crime: But Allah was to bring forth what ye did hide.",
+        "no": "﴿٧٢﴾"
+    },
+    "73": {
+        "ar": "فَقُلْنَا اضْرِبُوهُ بِبَعْضِهَا كَذَلِكَ يُحْيِي اللّهُ الْمَوْتَى وَيُرِيكُمْ آيَاتِهِ لَعَلَّكُمْ تَعْقِلُونَ",
+        "bn": "অতঃপর আমি বললামঃ গরুর একটি খন্ড দ্বারা মৃতকে আঘাত কর। এভাবে আল্লাহ মৃতকে জীবিত করেন এবং তোমাদেরকে তাঁর নিদর্শণ সমূহ প্রদর্শন করেন-যাতে তোমরা চিন্তা কর।",
+        "en": "So We said: 'Strike the (body) with a piece of the (heifer).' Thus Allah bringeth the dead to life and showeth you His Signs: Perchance ye may understand.",
+        "no": "﴿٧٣﴾"
+    },
+    "74": {
+        "ar": "ثُمَّ قَسَتْ قُلُوبُكُم مِّن بَعْدِ ذَلِكَ فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً وَإِنَّ مِنَ الْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ الأَنْهَارُ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ الْمَاء وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ اللّهِ وَمَا اللّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
+        "bn": "অতঃপর এ ঘটনার পরে তোমাদের অন্তর কঠিন হয়ে গেছে। তা পাথরের মত অথবা তদপেক্ষাও কঠিন। পাথরের মধ্যে এমন ও আছে; যা থেকে ঝরণা প্রবাহিত হয়, এমনও আছে, যা বিদীর্ণ হয়, অতঃপর তা থেকে পানি নির্গত হয় এবং এমনও আছে, যা আল্লাহর ভয়ে খসেপড়তে থাকে! আল্লাহ তোমাদের কাজকর্ম সম্পর্কে বে-খবর নন।",
+        "en": "Thenceforth were your hearts hardened: They became like a rock and even worse in hardness. For among rocks there are some from which rivers gush forth; others there are which when split asunder send forth water; and others which sink for fear of Allah. And Allah is not unmindful of what ye do.",
+        "no": "﴿٧٤﴾"
+    },
+    "75": {
+        "ar": "أَفَتَطْمَعُونَ أَن يُؤْمِنُواْ لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِّنْهُمْ يَسْمَعُونَ كَلاَمَ اللّهِ ثُمَّ يُحَرِّفُونَهُ مِن بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ",
+        "bn": "হে মুসলমানগণ, তোমরা কি আশা কর যে, তারা তোমাদের কথায় ঈমান আনবে? তাদের মধ্যে একদল ছিল, যারা আল্লাহর বাণী শ্রবণ করত; অতঃপর বুঝে-শুনে তা পরিবর্তন করে দিত এবং তারা তা অবগত ছিল।",
+        "en": "Can ye (o ye men of Faith) entertain the hope that they will believe in you?- Seeing that a party of them heard the Word of Allah, and perverted it knowingly after they understood it.",
+        "no": "﴿٧٥﴾"
+    },
+    "76": {
+        "ar": "وَإِذَا لَقُواْ الَّذِينَ آمَنُواْ قَالُواْ آمَنَّا وَإِذَا خَلاَ بَعْضُهُمْ إِلَىَ بَعْضٍ قَالُواْ أَتُحَدِّثُونَهُم بِمَا فَتَحَ اللّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِ عِندَ رَبِّكُمْ أَفَلاَ تَعْقِلُونَ",
+        "bn": "যখন তারা মুসলমানদের সাথে মিলিত হয়, তখন বলেঃ আমরা মুসলমান হয়েছি। আর যখন পরস্পরের সাথে নিভৃতে অবস্থান করে, তখন বলে, পালনকর্তা তোমাদের জন্যে যা প্রকাশ করেছেন, তা কি তাদের কাছে বলে দিচ্ছ? তাহলে যে তারা এ নিয়ে পালকর্তার সামনে তোমাদেরকে মিথ্যা প্রতিপন্ন করবে। তোমরা কি তা উপলব্ধি কর না?",
+        "en": "Behold! when they meet the men of Faith, they say: 'We believe': But when they meet each other in private, they say: 'Shall you tell them what Allah hath revealed to you, that they may engage you in argument about it before your Lord?'- Do ye not understand (their aim)?",
+        "no": "﴿٧٦﴾"
+    },
+    "77": {
+        "ar": "أَوَلاَ يَعْلَمُونَ أَنَّ اللّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+        "bn": "তারা কি এতটুকুও জানে না যে, আল্লাহ সেসব বিষয়ও পরিজ্ঞাত যা তারা গোপন করে এবং যা প্রকাশ করে?",
+        "en": "Know they not that Allah knoweth what they conceal and what they reveal?",
+        "no": "﴿٧٦﴾"
+    },
+    "78": {
+        "ar": "وَمِنْهُمْ أُمِّيُّونَ لاَ يَعْلَمُونَ الْكِتَابَ إِلاَّ أَمَانِيَّ وَإِنْ هُمْ إِلاَّ يَظُنُّونَ",
+        "bn": "তোমাদের কিছু লোক নিরক্ষর। তারা মিথ্যা আকাঙ্খা ছাড়া আল্লাহর গ্রন্থের কিছুই জানে না। তাদের কাছে কল্পনা ছাড়া কিছুই নেই।",
+        "en": "And there are among them illiterates, who know not the Book, but (see therein their own) desires, and they do nothing but conjecture.",
+        "no": "﴿٧٨﴾"
+    },
+    "79": {
+        "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَـذَا مِنْ عِندِ اللّهِ لِيَشْتَرُواْ بِهِ ثَمَناً قَلِيلاً فَوَيْلٌ لَّهُم مِّمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌ لَّهُمْ مِّمَّا يَكْسِبُونَ",
+        "bn": "অতএব তাদের জন্যে আফসোস! যারা নিজ হাতে গ্রন্থ লেখে এবং বলে, এটা আল্লাহর পক্ষ থেকে অবতীর্ণ-যাতে এর বিনিময়ে সামান্য অর্থ গ্রহণ করতে পারে। অতএব তাদের প্রতি আক্ষেপ, তাদের হাতের লেখার জন্য এবং তাদের প্রতি আক্ষেপ, তাদের উপার্জনের জন্যে।",
+        "en": "Then woe to those who write the Book with their own hands, and then say:'This is from Allah,' to traffic with it for miserable price!- Woe to them for what their hands do write, and for the gain they make thereby.",
+        "no": "﴿٧٩﴾"
+    },
+    "80": {
+        "ar": "وَقَالُواْ لَن تَمَسَّنَا النَّارُ إِلاَّ أَيَّاماً مَّعْدُودَةً قُلْ أَتَّخَذْتُمْ عِندَ اللّهِ عَهْدًا فَلَن يُخْلِفَ اللّهُ عَهْدَهُ أَمْ تَقُولُونَ عَلَى اللّهِ مَا لاَ تَعْلَمُونَ",
+        "bn": "তারা বলেঃ আগুন আমাদিগকে কখনও স্পর্শ করবে না; কিন্তু গণাগনতি কয়েকদিন। বলে দিনঃ তোমরা কি আল্লাহর কাছ থেকে কোন অঙ্গীকার পেয়েছ যে, আল্লাহ কখনও তার খেলাফ করবেন না-না তোমরা যা জান না, তা আল্লাহর সাথে জুড়ে দিচ্ছ।",
+        "en": "And they say: 'The Fire shall not touch us but for a few numbered days:' Say: 'Have ye taken a promise from Allah, for He never breaks His promise? or is it that ye say of Allah what ye do not know?'",
+        "no": "﴿٨٠﴾"
+    },
+    "81": {
+        "ar": "بَلَى مَن كَسَبَ سَيِّئَةً وَأَحَاطَتْ بِهِ خَطِيـئَتُهُ فَأُوْلَـئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
+        "bn": "হাঁ, যে ব্যক্তি পাপ অর্জন করেছে এবং সে পাপ তাকে পরিবেষ্টিত করে নিয়েছে, তারাই দোযখের অধিবাসী। তারা সেখানেই চিরকাল থাকবে।",
+        "en": "Nay, those who seek gain in evil, and are girt round by their sins,- they are companions of the Fire: Therein shall they abide (For ever).",
+        "no": "﴿٨١﴾"
+    },
+    "82": {
+        "ar": "وَالَّذِينَ آمَنُواْ وَعَمِلُواْ الصَّالِحَاتِ أُولَـئِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
+        "bn": "পক্ষান্তরে যারা ঈমান এনেছে এবং সৎকাজ করেছে, তারাই জান্নাতের অধিবাসী। তারা সেখানেই চিরকাল থাকবে।",
+        "en": "But those who have faith and work righteousness, they are companions of the Garden: Therein shall they abide (For ever).",
+        "no": "﴿٨٢﴾"
+    },
+    "83": {
+        "ar": "وَإِذْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ لاَ تَعْبُدُونَ إِلاَّ اللّهَ وَبِالْوَالِدَيْنِ إِحْسَاناً وَذِي الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينِ وَقُولُواْ لِلنَّاسِ حُسْناً وَأَقِيمُواْ الصَّلاَةَ وَآتُواْ الزَّكَاةَ ثُمَّ تَوَلَّيْتُمْ إِلاَّ قَلِيلاً مِّنكُمْ وَأَنتُم مِّعْرِضُونَ",
+        "bn": "যখন আমি বনী-ইসরাঈলের কাছ থেকে অঙ্গীকার নিলাম যে, তোমরা আল্লাহ ছাড়া কারও উপাসনা করবে না, পিতা-মাতা, আত্নীয়-স্বজন, এতীম ও দীন-দরিদ্রদের সাথে সদ্ব্যবহার করবে, মানুষকে সৎ কথাবার্তা বলবে, নামায প্রতিষ্ঠা করবে এবং যাকাত দেবে, তখন সামান্য কয়েকজন ছাড়া তোমরা মুখ ফিরিয়ে নিলে, তোমরাই অগ্রাহ্যকারী।",
+        "en": "And remember We took a covenant from the Children of Israel (to this effect): Worship none but Allah. treat with kindness your parents and kindred, and orphans and those in need; speak fair to the people; be steadfast in prayer; and practise regular charity. Then did ye turn back, except a few among you, and ye backslide (even now).",
+        "no": "﴿٨٣﴾"
+    },
+    "84": {
+        "ar": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ لاَ تَسْفِكُونَ دِمَاءكُمْ وَلاَ تُخْرِجُونَ أَنفُسَكُم مِّن دِيَارِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
+        "bn": "যখন আমি তোমাদের কাছ থেকে অঙ্গীকার নিলাম যে, তোমরা পরস্পর খুনাখুনি করবে না এবং নিজেদেরকে দেশ থেকে বহিস্কার করবে না, তখন তোমরা তা স্বীকার করেছিলে এবং তোমরা তার সাক্ষ্য দিচ্ছিলে।",
+        "en": "And remember We took your covenant (to this effect): Shed no blood amongst you, nor turn out your own people from your homes: and this ye solemnly ratified, and to this ye can bear witness.",
+        "no": "﴿٨٤﴾"
+    },
+    "85": {
+        "ar": "ثُمَّ أَنتُمْ هَـؤُلاء تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقاً مِّنكُم مِّن دِيَارِهِمْ تَظَاهَرُونَ عَلَيْهِم بِالإِثْمِ وَالْعُدْوَانِ وَإِن يَأتُوكُمْ أُسَارَى تُفَادُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ أَفَتُؤْمِنُونَ بِبَعْضِ الْكِتَابِ وَتَكْفُرُونَ بِبَعْضٍ فَمَا جَزَاء مَن يَفْعَلُ ذَلِكَ مِنكُمْ إِلاَّ خِزْيٌ فِي الْحَيَاةِ الدُّنْيَا وَيَوْمَ الْقِيَامَةِ يُرَدُّونَ إِلَى أَشَدِّ الْعَذَابِ وَمَا اللّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
+        "bn": "অতঃপর তোমরাই পরস্পর খুনাখুনি করছ এবং তোমাদেরই একদলকে তাদের দেশ থেকে বহিস্কার করছ। তাদের বিরুদ্ধে পাপ ও অন্যায়ের মাধ্যমে আক্রমণ করছ। আর যদি তারাই কারও বন্দী হয়ে তোমাদের কাছে আসে, তবে বিনিময় নিয়ে তাদের মুক্ত করছ। অথচ তাদের বহিস্কার করাও তোমাদের জন্য অবৈধ। তবে কি তোমরা গ্রন্থের কিয়দংশ বিশ্বাস কর এবং কিয়দংশ অবিশ্বাস কর? যারা এরূপ করে পার্থিব জীবনে দূগর্তি ছাড়া তাদের আর কোনই পথ নেই। কিয়ামতের দিন তাদের কঠোরতম শাস্তির দিকে পৌঁছে দেয়া হবে। আল্লাহ তোমাদের কাজ-কর্ম সম্পর্কে বে-খবর নন।",
+        "en": "After this it is ye, the same people, who slay among yourselves, and banish a party of you from their homes; assist (Their enemies) against them, in guilt and rancour; and if they come to you as captives, ye ransom them, though it was not lawful for you to banish them. Then is it only a part of the Book that ye believe in, and do ye reject the rest? but what is the reward for those among you who behave like this but disgrace in this life?- and on the Day of Judgment they shall be consigned to the most grievous penalty. For Allah is not unmindful of what ye do.",
+        "no": "﴿٨٥﴾"
+    },
+    "86": {
+        "ar": "أُولَـئِكَ الَّذِينَ اشْتَرَوُاْ الْحَيَاةَ الدُّنْيَا بِالآَخِرَةِ فَلاَ يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلاَ هُمْ يُنصَرُونَ",
+        "bn": "এরাই পরকালের বিনিময়ে পার্থিব জীবন ক্রয় করেছে। অতএব এদের শাস্তি লঘু হবে না এবং এরা সাহায্যও পাবে না।",
+        "en": "These are the people who buy the life of this world at the price of the Hereafter: their penalty shall not be lightened nor shall they be helped.",
+        "no": "﴿٨٦﴾"
+    },
+    "87": {
+        "ar": "وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ وَقَفَّيْنَا مِن بَعْدِهِ بِالرُّسُلِ وَآتَيْنَا عِيسَى ابْنَ مَرْيَمَ الْبَيِّنَاتِ وَأَيَّدْنَاهُ بِرُوحِ الْقُدُسِ أَفَكُلَّمَا جَاءكُمْ رَسُولٌ بِمَا لاَ تَهْوَى أَنفُسُكُمُ اسْتَكْبَرْتُمْ فَفَرِيقاً كَذَّبْتُمْ وَفَرِيقاً تَقْتُلُونَ",
+        "bn": "অবশ্যই আমি মূসাকে কিতাব দিয়েছি। এবং তার পরে পর্যায়ক্রমে রসূল পাঠিয়েছি। আমি মরিয়ম তনয় ঈসাকে সুস্পষ্ট মোজেযা দান করেছি এবং পবিত্র রূহের মাধ্যমে তাকে শক্তিদান করেছি। অতঃপর যখনই কোন রসূল এমন নির্দেশ নিয়ে তোমাদের কাছে এসেছে, যা তোমাদের মনে ভাল লাগেনি, তখনই তোমরা অহংকার করেছ। শেষ পর্যন্ত তোমরা একদলকে মিথ্যাবাদী বলেছ এবং একদলকে হত্যা করেছ।",
+        "en": "We gave Moses the Book and followed him up with a succession of apostles; We gave Jesus the son of Mary Clear (Signs) and strengthened him with the holy spirit. Is it that whenever there comes to you an apostle with what ye yourselves desire not, ye are puffed up with pride?- Some ye called impostors, and others ye slay!",
+        "no": "﴿٨٧﴾"
+    },
+    "88": {
+        "ar": "وَقَالُواْ قُلُوبُنَا غُلْفٌ بَل لَّعَنَهُمُ اللَّه بِكُفْرِهِمْ فَقَلِيلاً مَّا يُؤْمِنُونَ",
+        "bn": "তারা বলে, আমাদের হৃদয় অর্ধাবৃত। এবং তাদের কুফরের কারণে আল্লাহ অভিসম্পাত করেছেন। ফলে তারা অল্পই ঈমান আনে।",
+        "en": "They say, 'Our hearts are the wrappings (which preserve Allah.s Word: we need no more).' Nay, Allah.s curse is on them for their blasphemy: Little is it they believe.",
+        "no": "﴿٨٨﴾"
+    },
+    "89": {
+        "ar": "وَلَمَّا جَاءهُمْ كِتَابٌ مِّنْ عِندِ اللّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ وَكَانُواْ مِن قَبْلُ يَسْتَفْتِحُونَ عَلَى الَّذِينَ كَفَرُواْ فَلَمَّا جَاءهُم مَّا عَرَفُواْ كَفَرُواْ بِهِ فَلَعْنَةُ اللَّه عَلَى الْكَافِرِينَ",
+        "bn": "যখন তাদের কাছে আল্লাহর পক্ষ থেকে কিতাব এসে পৌঁছাল, যা সে বিষয়ের সত্যায়ন করে, যা তাদের কাছে রয়েছে এবং তারা পূর্বে করত। অবশেষে যখন তাদের কাছে পৌঁছল যাকে তারা চিনে রেখেছিল, তখন তারা তা অস্বীকার করে বসল। অতএব, অস্বীকারকারীদের উপর আল্লাহর অভিসম্পাত।",
+        "en": "And when there comes to them a Book from Allah, confirming what is with them,- although from of old they had prayed for victory against those without Faith,- when there comes to them that which they (should) have recognised, they refuse to believe in it but the curse of Allah is on those without Faith.",
+        "no": "﴿٨٩﴾"
+    },
+    "90": {
+        "ar": "بِئْسَمَا اشْتَرَوْاْ بِهِ أَنفُسَهُمْ أَن يَكْفُرُواْ بِمَا أنَزَلَ اللّهُ بَغْياً أَن يُنَزِّلُ اللّهُ مِن فَضْلِهِ عَلَى مَن يَشَاء مِنْ عِبَادِهِ فَبَآؤُواْ بِغَضَبٍ عَلَى غَضَبٍ وَلِلْكَافِرِينَ عَذَابٌ مُّهِينٌ",
+        "bn": "যার বিনিময়ে তারা নিজেদের বিক্রি করেছে, তা খুবই মন্দ; যেহেতু তারা আল্লাহ যা নযিল করেছেন, তা অস্বীকার করেছে এই হঠকারিতার দরুন যে, আল্লাহ স্বীয় বান্দাদের মধ্যে যার প্রতি ইচ্ছা অনুগ্রহ নাযিল করেন। অতএব, তারা ক্রোধের উপর ক্রোধ অর্জন করেছে। আর কাফেরদের জন্য রয়েছে অপমানজনক শাস্তি।",
+        "en": "Miserable is the price for which they have sold their souls, in that they deny (the revelation) which Allah has sent down, in insolent envy that Allah of His Grace should send it to any of His servants He pleases: Thus have they drawn on themselves Wrath upon Wrath. And humiliating is the punishment of those who reject Faith.",
+        "no": "﴿٩٠﴾"
+    },
+    "91": {
+        "ar": "وَإِذَا قِيلَ لَهُمْ آمِنُواْ بِمَا أَنزَلَ اللّهُ قَالُواْ نُؤْمِنُ بِمَآ أُنزِلَ عَلَيْنَا وَيَكْفُرونَ بِمَا وَرَاءهُ وَهُوَ الْحَقُّ مُصَدِّقاً لِّمَا مَعَهُمْ قُلْ فَلِمَ تَقْتُلُونَ أَنبِيَاء اللّهِ مِن قَبْلُ إِن كُنتُم مُّؤْمِنِينَ",
+        "bn": "যখন তাদেরকে বলা হয়, আল্লাহ যা পাঠিয়েছেন তা মেনে নাও, তখন তারা বলে, আমরা মানি যা আমাদের প্রতি অবর্তীণ হয়েছে। সেটি ছাড়া সবগুলোকে তারা অস্বীকার করে। অথচ এ গ্রন্থটি সত্য এবং সত্যায়ন করে ঐ গ্রন্থের যা তাদের কাছে রয়েছে। বলে দিন, তবে তোমরা ইতিপূর্বে পয়গম্বরদের হত্যা করতে কেন যদি তোমরা বিশ্বাসী ছিলে?",
+        "en": "When it is said to them, 'Believe in what Allah Hath sent down, 'they say, 'We believe in what was sent down to us:' yet they reject all besides, even if it be Truth confirming what is with them. Say: 'Why then have ye slain the prophets of Allah in times gone by, if ye did indeed believe?'",
+        "no": "﴿٩١﴾"
+    },
+    "92": {
+        "ar": "وَلَقَدْ جَاءكُم مُّوسَى بِالْبَيِّنَاتِ ثُمَّ اتَّخَذْتُمُ الْعِجْلَ مِن بَعْدِهِ وَأَنتُمْ ظَالِمُونَ",
+        "bn": "সুস্পষ্ট মু’জেযাসহ মূসা তোমাদের কাছে এসেছেন। এরপর তার অনুপস্থিতিতে তোমরা গোবৎস বানিয়েছ। বাস্তবিকই তোমরা অত্যাচারী।",
+        "en": "There came to you Moses with clear (Signs); yet ye worshipped the calf (Even) after that, and ye did behave wrongfully.",
+        "no": "﴿٩٢﴾"
+    },
+    "93": {
+        "ar": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُواْ مَا آتَيْنَاكُم بِقُوَّةٍ وَاسْمَعُواْ قَالُواْ سَمِعْنَا وَعَصَيْنَا وَأُشْرِبُواْ فِي قُلُوبِهِمُ الْعِجْلَ بِكُفْرِهِمْ قُلْ بِئْسَمَا يَأْمُرُكُمْ بِهِ إِيمَانُكُمْ إِن كُنتُمْ مُّؤْمِنِينَ",
+        "bn": "আর যখন আমি তোমাদের কাছ থেকে প্রতিশ্রুতি নিলাম এবং তুর পর্বতকে তোমাদের উপর তুলে ধরলাম যে, শক্ত করে ধর, আমি যা তোমাদের দিয়েছি আর শোন। তারা বলল, আমরা শুনেছি আর অমান্য করেছি। কুফরের কারণে তাদের অন্তরে গোবৎসপ্রীতি পান করানো হয়েছিল। বলে দিন, তোমরা বিশ্বাসী হলে, তোমাদের সে বিশ্বাস মন্দ বিষয়াদি শিক্ষা দেয়।",
+        "en": "And remember We took your covenant and We raised above you (the towering height) of Mount (Sinai): (Saying): 'Hold firmly to what We have given you, and hearken (to the Law)': They said:' We hear, and we disobey:' And they had to drink into their hearts (of the taint) of the calf because of their Faithlessness. Say: 'Vile indeed are the behests of your Faith if ye have any faith!'",
+        "no": "﴿٩٣﴾"
+    },
+    "94": {
+        "ar": "قُلْ إِن كَانَتْ لَكُمُ الدَّارُ الآَخِرَةُ عِندَ اللّهِ خَالِصَةً مِّن دُونِ النَّاسِ فَتَمَنَّوُاْ الْمَوْتَ إِن كُنتُمْ صَادِقِينَ",
+        "bn": "বলে দিন, যদি আখেরাতের বাসস্থান আল্লাহর কাছে একমাত্র তোমাদের জন্যই বরাদ্দ হয়ে থাকে-অন্য লোকদের বাদ দিয়ে, তবে মৃত্যু কামনা কর, যদি সত্যবাদী হয়ে থাক।",
+        "en": "Say: 'If the last Home, with Allah, be for you specially, and not for anyone else, then seek ye for death, if ye are sincere.'",
+        "no": "﴿٩٤﴾"
+    },
+    "95": {
+        "ar": "وَلَن يَتَمَنَّوْهُ أَبَدًا بِمَا قَدَّمَتْ أَيْدِيهِمْ وَاللّهُ عَلِيمٌ بِالظَّالِمينَ",
+        "bn": "কস্মিনকালেও তারা মৃত্যু কামনা করবে না ঐসব গোনাহর কারণে, যা তাদের হাত পাঠিয়ে দিয়েছে। আল্লাহ গোনাহগারদের সম্পর্কে সম্যক অবগত রয়েছেন।",
+        "en": "But they will never seek for death, on account of the (sins) which their hands have sent on before them. and Allah is well-acquainted with the wrong-doers.",
+        "no": "﴿٩٥﴾"
+    },
+    "96": {
+        "ar": "وَلَتَجِدَنَّهُمْ أَحْرَصَ النَّاسِ عَلَى حَيَاةٍ وَمِنَ الَّذِينَ أَشْرَكُواْ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِ مِنَ الْعَذَابِ أَن يُعَمَّرَ وَاللّهُ بَصِيرٌ بِمَا يَعْمَلُونَ",
+        "bn": "আপনি তাদেরকে জীবনের প্রতি সবার চাইতে, এমনকি মুশরিকদের চাইতেও অধিক লোভী দেখবেন। তাদের প্রত্যেকে কামনা করে, যেন হাজার বছর আয়ু পায়। অথচ এরূপ আয়ু প্রাপ্তি তাদেরকে শাস্তি থেকে রক্ষা করতে পারবে না। আল্লাহ দেখেন যা কিছু তারা করে।",
+        "en": "Thou wilt indeed find them, of all people, most greedy of life,-even more than the idolaters: Each one of them wishes He could be given a life of a thousand years: But the grant of such life will not save him from (due) punishment. For Allah sees well all that they do.",
+        "no": "﴿٩٦﴾"
+    },
+    "97": {
+        "ar": "قُلْ مَن كَانَ عَدُوًّا لِّجِبْرِيلَ فَإِنَّهُ نَزَّلَهُ عَلَى قَلْبِكَ بِإِذْنِ اللّهِ مُصَدِّقاً لِّمَا بَيْنَ يَدَيْهِ وَهُدًى وَبُشْرَى لِلْمُؤْمِنِينَ",
+        "bn": "আপনি বলে দিন, যে কেউ জিবরাঈলের শত্রু হয়-যেহেতু তিনি আল্লাহর আদেশে এ কালাম আপনার অন্তরে নাযিল করেছেন, যা সত্যায়নকারী তাদের সম্মুখস্থ কালামের এবং মুমিনদের জন্য পথপ্রদর্শক ও সুসংবাদদাতা।",
+        "en": "Say: Whoever is an enemy to Gabriel-for he brings down the (revelation) to thy heart by Allah.s will, a confirmation of what went before, and guidance and glad tidings for those who believe,-",
+        "no": "﴿٩٧﴾"
+    },
+    "98": {
+        "ar": "مَن كَانَ عَدُوًّا لِّلّهِ وَمَلآئِكَتِهِ وَرُسُلِهِ وَجِبْرِيلَ وَمِيكَالَ فَإِنَّ اللّهَ عَدُوٌّ لِّلْكَافِرِينَ",
+        "bn": "যে ব্যক্তি আল্লাহ তাঁর ফেরেশতা ও রসূলগণ এবং জিবরাঈল ও মিকাঈলের শত্রু হয়, নিশ্চিতই আল্লাহ সেসব কাফেরের শত্রু।",
+        "en": "Whoever is an enemy to Allah and His angels and apostles, to Gabriel and Michael,- Lo! Allah is an enemy to those who reject Faith.",
+        "no": "﴿٩٨﴾"
+    },
+    "99": {
+        "ar": "وَلَقَدْ أَنزَلْنَآ إِلَيْكَ آيَاتٍ بَيِّنَاتٍ وَمَا يَكْفُرُ بِهَا إِلاَّ الْفَاسِقُونَ",
+        "bn": "আমি আপনার প্রতি উজ্জ্বল নিদর্শনসমূহ অবতীর্ণ করেছি। অবাধ্যরা ব্যতীত কেউ এগুলো অস্বীকার করে না।",
+        "en": "We have sent down to thee Manifest Signs (ayat); and none reject them but those who are perverse.",
+        "no": "﴿٩٩﴾"
+    },
+    "100": {
+        "ar": "أَوَكُلَّمَا عَاهَدُواْ عَهْداً نَّبَذَهُ فَرِيقٌ مِّنْهُم بَلْ أَكْثَرُهُمْ لاَ يُؤْمِنُونَ",
+        "bn": "কি আশ্চর্য, যখন তারা কোন অঙ্গীকারে আবদ্ধ হয়, তখন তাদের একদল তা ছুঁড়ে ফেলে, বরং অধিকাংশই বিশ্বাস করে না।",
+        "en": "Is it not (the case) that every time they make a covenant, some party among them throw it aside?- Nay, Most of them are faithless.",
+        "no": "﴿١٠٠﴾"
+    },
+    "101": {
+        "ar": "وَلَمَّا جَاءهُمْ رَسُولٌ مِّنْ عِندِ اللّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ نَبَذَ فَرِيقٌ مِّنَ الَّذِينَ أُوتُواْ الْكِتَابَ كِتَابَ اللّهِ وَرَاء ظُهُورِهِمْ كَأَنَّهُمْ لاَ يَعْلَمُونَ",
+        "bn": "যখন তাদের কাছে আল্লাহর পক্ষ থেকে একজন রসূল আগমন করলেন-যিনি ঐ কিতাবের সত্যায়ন করেন, যা তাদের কাছে রয়েছে, তখন আহলে কেতাবদের একদল আল্লাহর গ্রন্থকে পশ্চাতে নিক্ষেপ করল-যেন তারা জানেই না।",
+        "en": "And when there came to them an apostle from Allah, confirming what was with them, a party of the people of the Book threw away the Book of Allah behind their backs, as if (it had been something) they did not know!",
+        "no": "﴿١٠١﴾"
     }
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -33,6 +33,19 @@
 
 <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Quran Container Start-->
 
   
@@ -57,52 +70,40 @@
           </select>
         </div>
 
+       
         
-        <div class="form-group">
-          <label for="exampleSelect1">Select Translation</label>
-          <select class="form-control"  id="translation">
-            <option selected>Select Translation</option>
-            <option value="bn">Bangla</option>
-            <option value="en">English</option>
-          </select>
-        </div>
-  
+ 
+        <fieldset  id="langSelection">
+          <!-- <legend>Translation Onlys</legend> -->
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="showOnlyTranslation">
+            <label class="custom-control-label" for="showOnlyTranslation">Show Translation Only</label>
+            
+          </div>
+
+          <div class="custom-control custom-switch" id="customtransBnEn">
+            <input type="checkbox" class="custom-control-input" id="customtransBnEnCheckBox">
+            <label class="custom-control-label" for="customtransBnEnCheckBox">Bangla/English</label>
+          </div>
+        </fieldset>
+
         <fieldset>
-          <legend>Custom forms</legend>
-          <div class="form-group">
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
-              <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
-            </div>
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-              <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
-            </div>
-            <div class="custom-control custom-radio">
-              <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" disabled="">
-              <label class="custom-control-label" for="customRadio3">Disabled custom radio</label>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
-              <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" id="customCheck2" disabled="">
-              <label class="custom-control-label" for="customCheck2">Disabled custom checkbox</label>
-            </div>
-          </div>
-          <div class="form-group">
-            <legend>Translation</legend>
+          
+       
+         
+       
+          <div class="form-group" id="translationSection">
+           
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="autoScrollonOff">
               <label class="custom-control-label" for="autoScrollonOff">Auto Scrolling ( On | Off )</label>
             </div>
+             
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="translationFixedOnOff">
               <label class="custom-control-label" for="translationFixedOnOff">Show Fixed</label>
             </div>
+           
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="translationWithVideoOnOff">
               <label class="custom-control-label" for="translationWithVideoOnOff">Show/Hide Aya By Aya</label>
@@ -114,7 +115,7 @@
               <label class="custom-control-label" for="translationOffMouseOver">Show/Hide on Hover</label>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group"  style="display: none;">
             <select class="custom-select">
               <option selected="">Open this select menu</option>
               <option value="1">One</option>
@@ -122,7 +123,7 @@
               <option value="3">Three</option>
             </select>
           </div>
-          <div class="form-group">
+          <div class="form-group"  style="display: none;">
             <div class="input-group mb-3">
               <div class="custom-file">
                 <input type="file" class="custom-file-input" id="inputGroupFile02">
@@ -133,8 +134,15 @@
               </div>
             </div>
           </div>
+
+ 
+
+
         </fieldset>
     
+
+
+
       </div>
      </div>
     </div>
@@ -186,7 +194,7 @@
         <div class="row">
          <div class="quranContainer">
           <span id="caliOne">A</span>
-          <span id="quranName"><span class="bnNameCover">পবিত্র কুরআন শরীফ</span><br>Quran-Ul-Karim<br>القرآن الكريم</span>
+          <span id="quranName"><span class="bnNameCover">পবিত্র কুরআন শরীফ</span><br><span class="arNameCover">Quran-Ul-Karim<br>القرآن الكريم</span></span>
           <div class="suraContainer" id="suraContainer"></div>
          </div>
         </div>
@@ -216,6 +224,15 @@
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
+// (function(){
+//   $('#exampleModalCenter').on('shown.bs.modal', function () {
+//       $('#exampleModalCenters').trigger('focus')
+//     })
+// })()
+    
+// $(window).on('load',function(){
+//         $('#exampleModal').modal('show').css({zIndex:9999});
+//     });
   </script>
 
 </body>

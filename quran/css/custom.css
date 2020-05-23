@@ -350,7 +350,40 @@ div#sideBarFixed {
   position: fixed;
  
 }  
-
+#customtransBnEn{
+  display: none;
+  padding-left: 70px;
+}
+#langSelection{
+  display: none;
+}
+#translationSection{
+  display: none;
+}
+#arabicAyaShowHide{
+  display: none;
+}
+#exampleModalCenters{
+  z-index:9999 !important;
+}
+.overTransHide{
+  display:none;
+}
+.transHover{
+  background: rgb(45, 80, 117);
+  padding: 10px;
+  color: #fff;
+}
+.transFrame{
+padding: 30px !important;
+border: 30px solid #9aabbd !important;
+border-style: solid double !important;
+font-size: 20px !important;
+line-height: 35px !important;
+display:blcok!important;
+text-align:left !important;
+direction: ltr !important;
+}
 /* #wrapper.toggled #sidebar-wrapper {
   margin-left: -18.5rem;
 } */
@@ -565,6 +598,7 @@ div#sideBarFixed {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: 0px;
 }
+
 }
 
 @media screen and (min-width: 1024px) and (max-width:1366px) {
