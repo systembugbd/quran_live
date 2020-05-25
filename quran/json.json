@@ -37,20 +37,27 @@
 
 
 
+/*List of Quran App Need to be implemented*/
+/** Inital Implementation before lunch - Dead line before Octobar
+
+    1. Full Quran Add with Inital Bangla and English Translation    - Partial done (Sura Fatia and Bakara 101 Aya added)
+    2. Show Translation only Bangla or English initallly            - Done 
+    3. Adding Auto Scrolling                                        - Done but Pause Not done
+    4. Translation show Hover on aya                                - Done
+    5. Translation show aya by aya during audio play                - Done
+    6. Trnslation show in fixed after one by one aya                - Done
+    7. Quran Learning Section (Basic with Audio)                    - 
+    8. Quran Memorising with reference with Dr. Zakir Nayek         - 
+    9. Addeing Tafsir IBN KASIR Bangla Translation                  - 
+
+*/
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+ 
 
 
 "bakara": {

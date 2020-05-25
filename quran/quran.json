@@ -64,7 +64,7 @@
     "bn": "সূরা আল বাক্বারাহ",
     "en": "Surah Al-Baqara",
     "audio": "http://www.quraanshareef.org/audio/2-Surah-Al-Baqara.mp3",
-    "len": 101,
+    "len": 119,
     "index": 2
 },
 "aya": {
@@ -673,7 +673,132 @@
         "bn": "যখন তাদের কাছে আল্লাহর পক্ষ থেকে একজন রসূল আগমন করলেন-যিনি ঐ কিতাবের সত্যায়ন করেন, যা তাদের কাছে রয়েছে, তখন আহলে কেতাবদের একদল আল্লাহর গ্রন্থকে পশ্চাতে নিক্ষেপ করল-যেন তারা জানেই না।",
         "en": "And when there came to them an apostle from Allah, confirming what was with them, a party of the people of the Book threw away the Book of Allah behind their backs, as if (it had been something) they did not know!",
         "no": "﴿١٠١﴾"
+    },
+    "102": {
+        "ar": "وَاتَّبَعُواْ مَا تَتْلُواْ الشَّيَاطِينُ عَلَى مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَـكِنَّ الشَّيْاطِينَ كَفَرُواْ يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّى يَقُولاَ إِنَّمَا نَحْنُ فِتْنَةٌ فَلاَ تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُم بِضَآرِّينَ بِهِ مِنْ أَحَدٍ إِلاَّ بِإِذْنِ اللّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلاَ يَنفَعُهُمْ وَلَقَدْ عَلِمُواْ لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الآخِرَةِ مِنْ خَلاَقٍ وَلَبِئْسَ مَا شَرَوْاْ بِهِ أَنفُسَهُمْ لَوْ كَانُواْ يَعْلَمُونَ",
+        "bn": "তারা ঐ শাস্ত্রের অনুসরণ করল, যা সুলায়মানের রাজত্ব কালে শয়তানরা আবৃত্তি করত। সুলায়মান কুফর করেনি; শয়তানরাই কুফর করেছিল। তারা মানুষকে জাদুবিদ্যা এবং বাবেল শহরে হারুত ও মারুত দুই ফেরেশতার প্রতি যা অবতীর্ণ হয়েছিল, তা শিক্ষা দিত। তারা উভয়ই একথা না বলে কাউকে শিক্ষা দিত না যে, আমরা পরীক্ষার জন্য; কাজেই তুমি কাফের হয়ো না। অতঃপর তারা তাদের কাছ থেকে এমন জাদু শিখত, যদ্দ্বারা স্বামী ও স্ত্রীর মধ্যে বিচ্ছেদ ঘটে। তারা আল্লাহর আদেশ ছাড়া তদ্দ্বারা কারও অনিষ্ট করতে পারত না। যা তাদের ক্ষতি করে এবং উপকার না করে, তারা তাই শিখে। তারা ভালরূপে জানে যে, যে কেউ জাদু অবলম্বন করে, তার জন্য পরকালে কোন অংশ নেই। যার বিনিময়ে তারা আত্নবিক্রয় করেছে, তা খুবই মন্দ যদি তারা জানত।",
+        "en": "They followed what the evil ones gave out (falsely) against the power of Solomon: the blasphemers Were, not Solomon, but the evil ones, teaching men Magic, and such things as came down at babylon to the angels Harut and Marut. But neither of these taught anyone (Such things) without saying: 'We are only for trial; so do not blaspheme.' They learned from them the means to sow discord between man and wife. But they could not thus harm anyone except by Allah.s permission. And they learned what harmed them, not what profited them. And they knew that the buyers of (magic) would have no share in the happiness of the Hereafter. And vile was the price for which they did sell their souls, if they but knew!",
+        "no": "﴿١٠٢﴾"
+    },
+    "103": {
+        "ar": "وَلَوْ أَنَّهُمْ آمَنُواْ واتَّقَوْا لَمَثُوبَةٌ مِّنْ عِندِ اللَّه خَيْرٌ لَّوْ كَانُواْ يَعْلَمُونَ",
+        "bn": "যদি তারা ঈমান আনত এবং খোদাভীরু হত, তবে আল্লাহর কাছ থেকে উত্তম প্রতিদান পেত। যদি তারা জানত।",
+        "en": "If they had kept their Faith and guarded themselves from evil, far better had been the reward from their Lord, if they but knew!",
+        "no": "﴿١٠٣﴾"
+    },
+    "104": {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُواْ لاَ تَقُولُواْ رَاعِنَا وَقُولُواْ انظُرْنَا وَاسْمَعُوا ْوَلِلكَافِرِينَ عَذَابٌ أَلِيمٌ",
+        "bn": "হে মুমিন গণ, তোমরা ‘রায়িনা’ বলো না-‘উনযুরনা’ বল এবং শুনতে থাক। আর কাফেরদের জন্যে রয়েছে বেদনাদায়ক শাস্তি।",
+        "en": "O ye of Faith! Say not (to the Messenger. words of ambiguous import, but words of respect; and hearken (to him): To those without Faith is a grievous punishment.",
+        "no": "﴿١٠٤﴾"
+    },
+    "105": {
+        "ar": "مَّا يَوَدُّ الَّذِينَ كَفَرُواْ مِنْ أَهْلِ الْكِتَابِ وَلاَ الْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ وَاللّهُ يَخْتَصُّ بِرَحْمَتِهِ مَن يَشَاء وَاللّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+        "bn": "আহলে-কিতাব ও মুশরিকদের মধ্যে যারা কাফের, তাদের মনঃপুত নয় যে, তোমাদের পালনকর্তার পক্ষ থেকে তোমাদের প্রতি কোন কল্যাণ অবতীর্ণ হোক। আল্লাহ যাকে ইচ্ছা বিশেষ ভাবে স্বীয় অনুগ্রহ দান করেন। আল্লাহ মহান অনুগ্রহদাতা।",
+        "en": "It is never the wish of those without Faith among the People of the Book, nor of the Pagans, that anything good should come down to you from your Lord. But Allah will choose for His special Mercy whom He will - for Allah is Lord of grace abounding.",
+        "no": "﴿١٠٥﴾"
+    },
+    "106": {
+        "ar": "مَا نَنسَخْ مِنْ آيَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍ مِّنْهَا أَوْ مِثْلِهَا أَلَمْ تَعْلَمْ أَنَّ اللّهَ عَلَىَ كُلِّ شَيْءٍ قَدِيرٌ",
+        "bn": "আমি কোন আয়াত রহিত করলে অথবা বিস্মৃত করিয়ে দিলে তদপেক্ষা উত্তম অথবা তার সমপর্যায়ের আয়াত আনয়ন করি। তুমি কি জান না যে, আল্লাহ সব কিছুর উপর শক্তিমান?",
+        "en": "None of Our revelations do We abrogate or cause to be forgotten, but We substitute something better or similar: Knowest thou not that Allah Hath power over all things?",
+        "no": "﴿١٠٦﴾"
+    },
+    "107": {
+        "ar": "أَلَمْ تَعْلَمْ أَنَّ اللّهَ لَهُ مُلْكُ السَّمَاوَاتِ وَالأَرْضِ وَمَا لَكُم مِّن دُونِ اللّهِ مِن وَلِيٍّ وَلاَ نَصِيرٍ",
+        "bn": "তুমি কি জান না যে, আল্লাহর জন্যই নভোমন্ডল ও ভূমন্ডলের আধিপত্য? আল্লাহ ব্যতীত তোমাদের কোন বন্ধু ও সাহায্যকারী নেই।",
+        "en": "Knowest thou not that to Allah belongeth the dominion of the heavens and the earth? And besides Him ye have neither patron nor helper.",
+        "no": "﴿١٠٧﴾"
+    },
+    "108": {
+        "ar": "أَمْ تُرِيدُونَ أَن تَسْأَلُواْ رَسُولَكُمْ كَمَا سُئِلَ مُوسَى مِن قَبْلُ وَمَن يَتَبَدَّلِ الْكُفْرَ بِالإِيمَانِ فَقَدْ ضَلَّ سَوَاء السَّبِيلِ",
+        "bn": "ইতিপূর্বে মূসা (আঃ) যেমন জিজ্ঞাসিত হয়েছিলেন, (মুসলমানগন, ) তোমরাও কি তোমাদের রসূলকে তেমনি প্রশ্ন করতে চাও? যে কেউ ঈমানের পরিবর্তে কুফর গ্রহন করে, সে সরল পথ থেকে বিচ্যুত হয়ে যায়।",
+        "en": "Would ye question your Messenger as Moses was questioned of old? but whoever changeth from Faith to Unbelief, Hath strayed without doubt from the even way.",
+        "no": "﴿١٠٨﴾"
+    },
+    "109": {
+        "ar": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُم مِّن بَعْدِ إِيمَانِكُمْ كُفَّاراً حَسَدًا مِّنْ عِندِ أَنفُسِهِم مِّن بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ فَاعْفُواْ وَاصْفَحُواْ حَتَّى يَأْتِيَ اللّهُ بِأَمْرِهِ إِنَّ اللّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+        "bn": "আহলে কিতাবদের অনেকেই প্রতিহিংসাবশতঃ চায় যে, মুসলমান হওয়ার পর তোমাদেরকে কোন রকমে কাফের বানিয়ে দেয়। তাদের কাছে সত্য প্রকাশিত হওয়ার পর (তারা এটা চায়)। যাক তোমরা আল্লাহর নির্দেশ আসা পর্যন্ত তাদের ক্ষমা কর এবং উপেক্ষা কর। নিশ্চয় আল্লাহ সব কিছুর উপর ক্ষমতাবান।",
+        "en": "Quite a number of the People of the Book wish they could Turn you (people) back to infidelity after ye have believed, from selfish envy, after the Truth hath become Manifest unto them: But forgive and overlook, Till Allah accomplish His purpose; for Allah Hath power over all things.",
+        "no": "﴿١٠٩﴾"
+    },
+    "110": {
+        "ar": "وَأَقِيمُواْ الصَّلاَةَ وَآتُواْ الزَّكَاةَ وَمَا تُقَدِّمُواْ لأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللّهِ إِنَّ اللّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+        "bn": "তোমরা নামায প্রতিষ্ঠা কর এবং যাকাত দাও। তোমরা নিজের জন্যে পূর্বে যে সৎকর্ম প্রেরণ করবে, তা আল্লাহর কাছে পাবে। তোমরা যা কিছু কর, নিশ্চয় আল্লাহ তা প্রত্যক্ষ করেন।",
+        "en": "And be steadfast in prayer and regular in charity: And whatever good ye send forth for your souls before you, ye shall find it with Allah. for Allah sees Well all that ye do.",
+        "no": "﴿١١٠﴾"
+    },
+    "111": {
+        "ar": "وَقَالُواْ لَن يَدْخُلَ الْجَنَّةَ إِلاَّ مَن كَانَ هُوداً أَوْ نَصَارَى تِلْكَ أَمَانِيُّهُمْ قُلْ هَاتُواْ بُرْهَانَكُمْ إِن كُنتُمْ صَادِقِينَ",
+        "bn": "ওরা বলে, ইহুদী অথবা খ্রীস্টান ব্যতীত কেউ জান্নাতে যাবে না। এটা ওদের মনের বাসনা। বলে দিন, তোমরা সত্যবাদী হলে, প্রমাণ উপস্থিত কর।",
+        "en": "And they say: 'None shall enter Paradise unless he be a Jew or a Christian.' Those are their (vain) desires. Say: 'Produce your proof if ye are truthful.'",
+        "no": "﴿١١١﴾"
+    },
+    "112": {
+        "ar": "بَلَى مَنْ أَسْلَمَ وَجْهَهُ لِلّهِ وَهُوَ مُحْسِنٌ فَلَهُ أَجْرُهُ عِندَ رَبِّهِ وَلاَ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ",
+        "bn": "হাঁ, যে ব্যক্তি নিজেকে আল্লাহর উদ্দেশ্যে সমর্পন করেছে এবং সে সৎকর্মশীলও বটে তার জন্য তার পালনকর্তার কাছে পুরস্কার বয়েছে। তাদের ভয় নেই এবং তারা চিন্তিতও হবে না।",
+        "en": "Nay,-whoever submits His whole self to Allah and is a doer of good,- He will get his reward with his Lord; on such shall be no fear, nor shall they grieve.",
+        "no": "﴿١١٢﴾"
+    },
+    "113": {
+        "ar": "وَقَالَتِ الْيَهُودُ لَيْسَتِ النَّصَارَى عَلَىَ شَيْءٍ وَقَالَتِ النَّصَارَى لَيْسَتِ الْيَهُودُ عَلَى شَيْءٍ وَهُمْ يَتْلُونَ الْكِتَابَ كَذَلِكَ قَالَ الَّذِينَ لاَ يَعْلَمُونَ مِثْلَ قَوْلِهِمْ فَاللّهُ يَحْكُمُ بَيْنَهُمْ يَوْمَ الْقِيَامَةِ فِيمَا كَانُواْ فِيهِ يَخْتَلِفُونَ",
+        "bn": "ইহুদীরা বলে, খ্রীস্টানরা কোন ভিত্তির উপরেই নয় এবং খ্রীস্টানরা বলে, ইহুদীরা কোন ভিত্তির উপরেই নয়। অথচ ওরা সবাই কিতাব পাঠ করে! এমনিভাবে যারা মূর্খ, তারাও ওদের মতই উক্তি করে। অতএব, আল্লাহ কেয়ামতের দিন তাদের মধ্যে ফয়সালা দেবেন, যে বিষয়ে তারা মতবিরোধ করছিল।",
+        "en": "The Jews say: 'The Christians have naught (to stand) upon; and the Christians say: 'The Jews have naught (To stand) upon.' Yet they (Profess to) study the (same) Book. Like unto their word is what those say who know not; but Allah will judge between them in their quarrel on the Day of Judgment.",
+        "no": "﴿١١٣﴾"
+    },
+    "114": {
+        "ar": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَاجِدَ اللّهِ أَن يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِي خَرَابِهَا أُوْلَـئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَا إِلاَّ خَآئِفِينَ لهُمْ فِي الدُّنْيَا خِزْيٌ وَلَهُمْ فِي الآخِرَةِ عَذَابٌ عَظِيمٌ",
+        "bn": "যে ব্যাক্তি আল্লাহর মসজিদসমূহে তাঁর নাম উচ্চারণ করতে বাধা দেয় এবং সেগুলোকে উজাড় করতে চেষ্টা করে, তার চাইতে বড় যালেম আর কে? এদের পক্ষে মসজিদসমূহে প্রবেশ করা বিধেয় নয়, অবশ্য ভীত-সন্ত্রস্ত অবস্থায়। ওদের জন্য ইহকালে লাঞ্ছনা এবং পরকালে কঠিন শাস্তি রয়েছে।",
+        "en": "And who is more unjust than he who forbids that in places for the worship of Allah, Allah.s name should be celebrated?-whose zeal is (in fact) to ruin them? It was not fitting that such should themselves enter them except in fear. For them there is nothing but disgrace in this world, and in the world to come, an exceeding torment.",
+        "no": "﴿١١٤﴾"
+    },
+    "115": {
+        "ar": "وَلِلّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّواْ فَثَمَّ وَجْهُ اللّهِ إِنَّ اللّهَ وَاسِعٌ عَلِيمٌ",
+        "bn": "পূর্ব ও পশ্চিম আল্লারই। অতএব, তোমরা যেদিকেই মুখ ফেরাও, সেদিকেই আল্লাহ বিরাজমান। নিশ্চয় আল্লাহ সর্বব্যাপী, সর্বজ্ঞ।",
+        "en": "To Allah belong the east and the West: Whithersoever ye turn, there is the presence of Allah. For Allah is all-Pervading, all-Knowing.",
+        "no": "﴿١١٥﴾"
+    },
+    "116": {
+        "ar": "وَقَالُواْ اتَّخَذَ اللّهُ وَلَدًا سُبْحَانَهُ بَل لَّهُ مَا فِي السَّمَاوَاتِ وَالأَرْضِ كُلٌّ لَّهُ قَانِتُونَ",
+        "bn": "তারা বলে, আল্লাহ সন্তান গ্রহণ করেছেন। তিনি তো এসব কিছু থেকে পবিত্র, বরং নভোমন্ডল ও ভূমন্ডলে যা কিছু রয়েছে সবই তার আজ্ঞাধীন।",
+        "en": "They say: '(Allah) hath begotten a son' :Glory be to Him.-Nay, to Him belongs all that is in the heavens and on earth: everything renders worship to Him.",
+        "no": "﴿١١٦﴾"
+    },
+    "117": {
+        "ar": "بَدِيعُ السَّمَاوَاتِ وَالأَرْضِ وَإِذَا قَضَى أَمْراً فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ",
+        "bn": "তিনি নভোমন্ডল ও ভূমন্ডলের উদ্ভাবক। যখন তিনি কোন কার্য সম্পাদনের সিন্ধান্ত নেন, তখন সেটিকে একথাই বলেন, ‘হয়ে যাও’ তৎক্ষণাৎ তা হয়ে যায়।",
+        "en": "To Him is due the primal origin of the heavens and the earth: When He decreeth a matter, He saith to it: 'Be,' and it is.",
+        "no": "﴿١١٧﴾"
+    },
+    "118": {
+        "ar": "وَقَالَ الَّذِينَ لاَ يَعْلَمُونَ لَوْلاَ يُكَلِّمُنَا اللّهُ أَوْ تَأْتِينَا آيَةٌ كَذَلِكَ قَالَ الَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ تَشَابَهَتْ قُلُوبُهُمْ قَدْ بَيَّنَّا الآيَاتِ لِقَوْمٍ يُوقِنُونَ",
+        "bn": "যারা কিছু জানে না, তারা বলে, আল্লাহ আমাদের সঙ্গে কেন কথা বলেন না? অথবা আমাদের কাছে কোন নিদর্শন কেন আসে না? এমনি ভাবে তাদের পূর্বে যারা ছিল তারাও তাদেরই অনুরূপ কথা বলেছে। তাদের অন্তর একই রকম। নিশ্চয় আমি উজ্জ্বল নিদর্শনসমূহ বর্ণনা করেছি তাদের জন্যে যারা প্রত্যয়শীল।",
+        "en": "Say those without knowledge: 'Why speaketh not Allah unto us? or why cometh not unto us a Sign?' So said the people before them words of similar import. Their hearts are alike. We have indeed made clear the Signs unto any people who hold firmly to Faith (in their hearts).",
+        "no": "﴿١١٨﴾"
+    },
+    "119": {
+        "ar": "إِنَّا أَرْسَلْنَاكَ بِالْحَقِّ بَشِيرًا وَنَذِيرًا وَلاَ تُسْأَلُ عَنْ أَصْحَابِ الْجَحِيمِ",
+        "bn": "নিশ্চয় আমি আপনাকে সত্যধর্মসহ সুসংবাদদাতা ও ভীতি প্রদর্শনকারীরূপে পাঠিয়েছি। আপনি দোযখবাসীদের সম্পর্কে জিজ্ঞাসিত হবেন না।",
+        "en": "Verily We have sent thee in truth as a bearer of glad tidings and a warner: But of thee no question shall be asked of the Companions of the Blazing Fire.",
+        "no": "﴿١١٩﴾"
     }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
