@@ -12,6 +12,7 @@ let quranContainer = document.querySelector(".quranContainer");
 let dFlexToggle = document.getElementById("menu-toggle");
 let showSideBar = document.getElementById("showSideBar");
 let pauseAudioBtn = document.getElementById("pauseAudioBtn");
+// let playPuaseMsg = document.getElementById(" playPuaseMsg ");
 
 let langSelection = document.getElementById("langSelection");
 
@@ -354,8 +355,11 @@ function translationEventListner(element, checkdOrNot, cbfn) {
  * PlayAudio Function startn
  */
 function playAudio(aya = 1, doubleClicked = "") {
-  pauseAudioBtn.style.display = "block";
+  pauseAudioBtn.style.display = "none";
   playAudioBtn.style.display = "none";
+  let msg = document.createElement('span');
+      msg.innerHTML = "Click On Current Running Aya To Pause Audio";
+      playPauseHolder.appendChild(msg);
 
   let audio = document.createElement("audio");
   console.log(" I am playing", aya);
