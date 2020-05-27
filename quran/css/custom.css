@@ -29,6 +29,32 @@
     url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
 }
 
+.playPauseMsg{
+  font-size:2.3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  animation:blinkingText 1.2s infinite;
+  color:#fff;
+  font-weight: bold;
+  }
+  
+   
+  @keyframes blinkingText{
+    0%{     color: rgb(255, 255, 255);    }
+    50%{    color: rgb(163, 163, 163);;  }
+    100%{   color: rgb(255, 255, 255);    }
+  }
+  
+  
+  #playAudioBtn{
+    /* transform: translate(3%, 0px); */
+  }
+
+  /* .suraContainer .ar .aya >span:has('transFixed') {
+    font-size: 3.15vw;
+    line-height: 6.1vw;
+  } */
+  
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.border-bottom {
   position: fixed;
   width: 100%;
@@ -394,8 +420,6 @@ direction: ltr !important;
 }
 @media screen and (min-width: 461px) and (max-width: 768px) {
 
-  
- 
   .transFixed {
     display: block !important;
     position: relative !important;
@@ -477,6 +501,8 @@ direction: ltr !important;
   }
  
 
+  
+ 
 
 }
 
@@ -612,3 +638,4 @@ direction: ltr !important;
     margin-left: -312px;
 }
 } */
+

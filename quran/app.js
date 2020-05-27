@@ -354,13 +354,22 @@ function translationEventListner(element, checkdOrNot, cbfn) {
 /**
  * PlayAudio Function startn
  */
+// let msg = document.createElement('span');
+//     msg.innerHTML = "Click On Current Running Aya To Pause Audio";
+//     playPauseHolder.appendChild(msg);
+playAudioBtn.addEventListener('click', function(){
+  console.log(' i m clicked');
+let msg = document.createElement('span');
+    msg.innerHTML = "To Play/Pause Recitation Click On Running/Current Aya";
+    msg.classList.add('playPauseMsg');
+    playPauseHolder.appendChild(msg);
+
+});
+
 function playAudio(aya = 1, doubleClicked = "") {
   pauseAudioBtn.style.display = "none";
   playAudioBtn.style.display = "none";
-  let msg = document.createElement('span');
-      msg.innerHTML = "Click On Current Running Aya To Pause Audio";
-      playPauseHolder.appendChild(msg);
-
+ 
   let audio = document.createElement("audio");
   console.log(" I am playing", aya);
 
@@ -429,7 +438,7 @@ function playAudio(aya = 1, doubleClicked = "") {
     .getElementById("pauseAudioBtn")
     .addEventListener("click", function () {
       // audio.pause();
-      playAudioBtn.style.display = "block";
+      playAudioBtn.style.display = "none";
       pauseAudioBtn.style.display = "none";
       togglePlay(audio);
     });
@@ -442,11 +451,11 @@ function playAudio(aya = 1, doubleClicked = "") {
       togglePlay(audio);
       isPlayingClickOnAya = true;
       playAudioBtn.style.display = "none";
-      pauseAudioBtn.style.display = "block";
+      pauseAudioBtn.style.display = "none";
     } else {
       togglePlay(audio);
       isPlayingClickOnAya = false;
-      playAudioBtn.style.display = "block";
+      playAudioBtn.style.display = "none";
       pauseAudioBtn.style.display = "none";
     }
   });
@@ -470,7 +479,7 @@ function playAudio(aya = 1, doubleClicked = "") {
     if (totalAya.length == aya) {
       audio.pause();
       pauseAudioBtn.style.display = "none";
-      playAudioBtn.style.display = "block";
+      playAudioBtn.style.display = "none";
       playAudioBtn.innerHTML = "Play";
 
     }
@@ -774,17 +783,18 @@ function showOnlyTranslationHideArabic(data, i) {
       bntrans.innerHTML = ''; 
   let entrans = document.querySelector('.en');
       entrans.innerHTML = '';
- 
+
 
   $(langSelection).show();
  
 
   showOnlyTranslationEL.addEventListener('change', function () {
+  
     showTranslationOnly = true;
    
     if (this.checked && showTranslationOnly) {
       $('#customtransBnEn').show();
-      console.log('i am checked', this);
+      // console.log('i am checked', this);
   
       // $(customtransBnEnCheckBox).show();
       customtransBnEnCheckBox.addEventListener('change', function () {
