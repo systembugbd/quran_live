@@ -1,3 +1,10 @@
+let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
+// let BASE_URL = `https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/`;
+// let BASE_URL = `https://everyayah.com/data/Abdullah_Basfar_64kbps/`;
+// let BASE_URL = `https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps/`;
+// let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
+
+
 let playAudioBtn = document.getElementById("playAudioBtn");
 let selectedSura = document.getElementById("suraMenu");
 let suraContainer = document.getElementById("suraContainer");
@@ -51,7 +58,7 @@ let searchState = async (input) => {
 function showData(data, input) {
 
   $(translationSection).show();
-
+  showOnlyTranslationEL.removeAttribute('checked');
 
   if (isPlayingClickOnAya) {
     alert("Please Pause Audio First to Change Sura");
@@ -407,8 +414,9 @@ function playAudio(aya = 1, doubleClicked = "") {
   } else {
     modifiedAyatNum = ayatNum;
   }
-  console.log(modifiedAyatNum);
-  src = `<source src="https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/${modifiedSuraNumber}${modifiedAyatNum}.mp3" type="audio/mpeg"> Your browser does not support the audio element.`;
+  // console.log(modifiedAyatNum);
+  let url = `${BASE_URL}${modifiedSuraNumber}${modifiedAyatNum}.mp3`;
+  src = `<source src="${url}" type="audio/mpeg"> Your browser does not support the audio element.`;
 
   audio.innerHTML = src;
   togglePlay(audio);
@@ -650,8 +658,9 @@ function showTranslation() {
       } else {
         modifiedAyatNum = ayatNum;
       }
-
-      src = `<source src="https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/${modifiedSuraNumber}${modifiedAyatNum}.mp3" type="audio/mpeg"> Your browser does not support the audio element.`;
+     
+      let url = `${BASE_URL}/${modifiedSuraNumber}${modifiedAyatNum}.mp3`;
+      src = `<source src="${url}" type="audio/mpeg"> Your browser does not support the audio element.`;
 
       console.log(this + ayatNum + "I am after doucble click");
 
@@ -810,16 +819,12 @@ function showOnlyTranslationHideArabic(data, i) {
               $(this).removeClass('transHover');
           });
         }
+        $('.ar').hide();
+        $('.aya').hide();
       });
       
-      $('.ar').hide();
-      $('.aya').hide();
-     
-
       //mouseover and leave on Translation
      
-
-      // $('.transFrame').show();
  
     } else {
       $('#customtransBnEn').hide();

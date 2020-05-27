@@ -53,10 +53,8 @@
          "en": "The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.",
          "no": "﴿٧﴾"
      }
- 
- 
-    
-}
+   
+    }
 },
 "bakara": {
 "attr": {
@@ -64,7 +62,7 @@
     "bn": "সূরা আল বাক্বারাহ",
     "en": "Surah Al-Baqara",
     "audio": "http://www.quraanshareef.org/audio/2-Surah-Al-Baqara.mp3",
-    "len": 119,
+    "len": 205,
     "index": 2
 },
 "aya": {
@@ -781,6 +779,522 @@
         "bn": "নিশ্চয় আমি আপনাকে সত্যধর্মসহ সুসংবাদদাতা ও ভীতি প্রদর্শনকারীরূপে পাঠিয়েছি। আপনি দোযখবাসীদের সম্পর্কে জিজ্ঞাসিত হবেন না।",
         "en": "Verily We have sent thee in truth as a bearer of glad tidings and a warner: But of thee no question shall be asked of the Companions of the Blazing Fire.",
         "no": "﴿١١٩﴾"
+    },
+    "120": {
+        "ar": "وَلَن تَرْضَى عَنكَ الْيَهُودُ وَلاَ النَّصَارَى حَتَّى تَتَّبِعَ مِلَّتَهُمْ قُلْ إِنَّ هُدَى اللّهِ هُوَ الْهُدَى وَلَئِنِ اتَّبَعْتَ أَهْوَاءهُم بَعْدَ الَّذِي جَاءكَ مِنَ الْعِلْمِ مَا لَكَ مِنَ اللّهِ مِن وَلِيٍّ وَلاَ نَصِيرٍ",
+        "bn": "ইহুদী ও খ্রীষ্টানরা কখনই আপনার প্রতি সন্তুষ্ট হবে না, যে পর্যন্ত না আপনি তাদের ধর্মের অনুসরণ করেন। বলে দিন, যে পথ আল্লাহ প্রদর্শন করেন, তাই হল সরল পথ। যদি আপনি তাদের আকাঙ্খাসমূহের অনুসরণ করেন, ঐ জ্ঞান লাভের পর, যা আপনার কাছে পৌঁছেছে, তবে কেউ আল্লাহর কবল থেকে আপনার উদ্ধারকারী ও সাহায্যকারী নেই।",
+        "en": "Never will the Jews or the Christians be satisfied with thee unless thou follow their form of religion. Say: 'The Guidance of Allah,-that is the (only) Guidance.' Wert thou to follow their desires after the knowledge which hath reached thee, then wouldst thou find neither Protector nor helper against Allah.",
+        "no": "﴿١٢٠﴾"
+    },
+    "121": {
+        "ar": "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَتْلُونَهُ حَقَّ تِلاَوَتِهِ أُوْلَـئِكَ يُؤْمِنُونَ بِهِ وَمن يَكْفُرْ بِهِ فَأُوْلَـئِكَ هُمُ الْخَاسِرُونَ",
+        "bn": "আমি যাদেরকে গ্রন্থ দান করেছি, তারা তা যথাযথভাবে পাঠ করে। তারাই তৎপ্রতি বিশ্বাস করে। আর যারা তা অবিশ্বাস করে, তারাই হবে ক্ষতিগ্রস্ত।",
+        "en": "Those to whom We have sent the Book study it as it should be studied: They are the ones that believe therein: Those who reject faith therein,- the loss is their own.",
+        "no": "﴿١٢١﴾"
+    },
+    "122": {
+        "ar": "يَا بَنِي إِسْرَائِيلَ اذْكُرُواْ نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ",
+        "bn": "হে বনী-ইসরাঈল! আমার অনুগ্রহের কথা স্মরণ কর, যা আমি তোমাদের দিয়েছি। আমি তোমাদেরকে বিশ্বাবাসীর উপর শ্রেষ্ঠত্ব দান করেছি।",
+        "en": "O Children of Israel! call to mind the special favour which I bestowed upon you, and that I preferred you to all others (for My Message).",
+        "no": "﴿١٢٢﴾"
+    },
+    "123": {
+        "ar": "وَاتَّقُواْ يَوْماً لاَّ تَجْزِي نَفْسٌ عَن نَّفْسٍ شَيْئاً وَلاَ يُقْبَلُ مِنْهَا عَدْلٌ وَلاَ تَنفَعُهَا شَفَاعَةٌ وَلاَ هُمْ يُنصَرُونَ",
+        "bn": "তোমরা ভয় কর সেদিনকে, যে দিন এক ব্যক্তি থেকে অন্য ব্যক্তি বিন্দুমাত্র উপকৃত হবে না, কারও কাছ থেকে বিনিময় গৃহীত হবে না, কার ও সুপারিশ ফলপ্রদ হবে না এবং তারা সাহায্য প্রাপ্ত ও হবে না।",
+        "en": "Then guard yourselves against a-Day when one soul shall not avail another, nor shall compensation be accepted from her nor shall intercession profit her nor shall anyone be helped (from outside).",
+        "no": "﴿١٢٣﴾"
+    },
+    "124": {
+        "ar": "وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِن ذُرِّيَّتِي قَالَ لاَ يَنَالُ عَهْدِي الظَّالِمِينَ",
+        "bn": "যখন ইব্রাহীমকে তাঁর পালনকর্তা কয়েকটি বিষয়ে পরীক্ষা করলেন, অতঃপর তিনি তা পূর্ণ করে দিলেন, তখন পালনকর্তা বললেন, আমি তোমাকে মানবজাতির নেতা করব। তিনি বললেন, আমার বংশধর থেকেও! তিনি বললেন আমার অঙ্গীকার অত্যাচারীদের পর্যন্ত পৌঁছাবে না।",
+        "en": "And remember that Abraham was tried by his Lord with certain commands, which he fulfilled: He said: 'I will make thee an Imam to the Nations.' He pleaded: 'And also (Imams) from my offspring!' He answered: 'But My Promise is not within the reach of evil-doers.'",
+        "no": "﴿١٢٤﴾"
+    },
+    "125": {
+        "ar": "وَإِذْ جَعَلْنَا الْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْناً وَاتَّخِذُواْ مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى وَعَهِدْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ أَن طَهِّرَا بَيْتِيَ لِلطَّائِفِينَ وَالْعَاكِفِينَ وَالرُّكَّعِ السُّجُودِ",
+        "bn": "যখন আমি কা’বা গৃহকে মানুষের জন্যে সম্মিলন স্থল ও শান্তির আলয় করলাম, আর তোমরা ইব্রাহীমের দাঁড়ানোর জায়গাকে নামাযের জায়গা বানাও এবং আমি ইব্রাহীম ও ইসমাঈলকে আদেশ করলাম, তোমরা আমার গৃহকে তওয়াফকারী, অবস্থানকারী ও রুকু-সেজদাকারীদের জন্য পবিত্র রাখ।",
+        "en": "Remember We made the House a place of assembly for men and a place of safety; and take ye the station of Abraham as a place of prayer; and We covenanted with Abraham and Isma'il, that they should sanctify My House for those who compass it round, or use it as a retreat, or bow, or prostrate themselves (therein in prayer).",
+        "no": "﴿١٢٥﴾"
+    },
+    "126": {
+        "ar": "وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ اجْعَلْ هَـَذَا بَلَدًا آمِنًا وَارْزُقْ أَهْلَهُ مِنَ الثَّمَرَاتِ مَنْ آمَنَ مِنْهُم بِاللّهِ وَالْيَوْمِ الآخِرِ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُ قَلِيلاً ثُمَّ أَضْطَرُّهُ إِلَى عَذَابِ النَّارِ وَبِئْسَ الْمَصِيرُ",
+        "bn": "যখন ইব্রাহীম বললেন, পরওয়ারদেগার! এ স্থানকে তুমি শান্তিধান কর এবং এর অধিবাসীদের মধ্যে যারা অল্লাহ ও কিয়ামতে বিশ্বাস করে, তাদেরকে ফলের দ্বারা রিযিক দান কর। বললেনঃ যারা অবিশ্বাস করে, আমি তাদেরও কিছুদিন ফায়দা ভোগ করার সুযোগ দেব, অতঃপর তাদেরকে বলপ্রয়োগে দোযখের আযাবে ঠেলে দেবো; সেটা নিকৃষ্ট বাসস্থান।",
+        "en": "And remember Abraham said: 'My Lord, make this a City of Peace, and feed its people with fruits,-such of them as believe in Allah and the Last Day.' He said: '(Yea), and such as reject Faith,-for a while will I grant them their pleasure, but will soon drive them to the torment of Fire,- an evil destination (indeed)!'",
+        "no": "﴿١٢٦﴾"
+    },
+    "127": {
+        "ar": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+        "bn": "স্মরণ কর, যখন ইব্রাহীম ও ইসমাঈল কা’বাগৃহের ভিত্তি স্থাপন করছিল। তারা দোয়া করেছিলঃ পরওয়ারদেগার! আমাদের থেকে কবুল কর। নিশ্চয়ই তুমি শ্রবণকারী, সর্বজ্ঞ।",
+        "en": "And remember Abraham and Isma'il raised the foundations of the House (With this prayer): 'Our Lord! Accept (this service) from us: For Thou art the All-Hearing, the All-knowing.'",
+        "no": "﴿١٢٧﴾"
+    },
+    "128": {
+        "ar": "رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَا أُمَّةً مُّسْلِمَةً لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ إِنَّكَ أَنتَ التَّوَّابُ الرَّحِيمُ",
+        "bn": "পরওয়ারদেগার! আমাদের উভয়কে তোমার আজ্ঞাবহ কর এবং আমাদের বংশধর থেকেও একটি অনুগত দল সৃষ্টি কর, আমাদের হজ্বের রীতিনীতি বলে দাও এবং আমাদের ক্ষমা কর। নিশ্চয় তুমি তওবা কবুলকারী। দয়ালু।",
+        "en": "Our Lord! make of us Muslims, bowing to Thy (Will), and of our progeny a people Muslim, bowing to Thy (will); and show us our place for the celebration of (due) rites; and turn unto us (in Mercy); for Thou art the Oft-Returning, Most Merciful.",
+        "no": "﴿١٢٨﴾"
+    },
+    "129": {
+        "ar": "رَبَّنَا وَابْعَثْ فِيهِمْ رَسُولاً مِّنْهُمْ يَتْلُو عَلَيْهِمْ آيَاتِكَ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُزَكِّيهِمْ إِنَّكَ أَنتَ العَزِيزُ الحَكِيمُ",
+        "bn": "হে পরওয়ারদেগার! তাদের মধ্যে থেকেই তাদের নিকট একজন পয়গম্বর প্রেরণ করুণ যিনি তাদের কাছে তোমার আয়াতসমূহ তেলাওয়াত করবেন, তাদেরকে কিতাব ও হেকমত শিক্ষা দিবেন। এবং তাদের পবিত্র করবেন। নিশ্চয় তুমিই পরাক্রমশালী হেকমতওয়ালা।",
+        "en": "Our Lord! send amongst them an Messenger of their own, who shall rehearse Thy Signs to them and instruct them in scripture and wisdom, and sanctify them: For Thou art the Exalted in Might, the Wise.",
+        "no": "﴿١٢٩﴾"
+    },
+    "130": {
+        "ar": "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَاهِيمَ إِلاَّ مَن سَفِهَ نَفْسَهُ وَلَقَدِ اصْطَفَيْنَاهُ فِي الدُّنْيَا وَإِنَّهُ فِي الآخِرَةِ لَمِنَ الصَّالِحِينَ",
+        "bn": "ইব্রাহীমের ধর্ম থেকে কে মুখ ফেরায়? কিন্তু সে ব্যক্তি, যে নিজেকে বোকা প্রতিপন্ন করে। নিশ্চয়ই আমি তাকে পৃথিবীতে মনোনীত করেছি এবং সে পরকালে সৎকর্মশীলদের অন্তর্ভুক্ত।",
+        "en": "And who turns away from the religion of Abraham but such as debase their souls with folly? Him We chose and rendered pure in this world: And he will be in the Hereafter in the ranks of the Righteous.",
+        "no": "﴿١٣٠﴾"
+    },
+    "131": {
+        "ar": "إِذْ قَالَ لَهُ رَبُّهُ أَسْلِمْ قَالَ أَسْلَمْتُ لِرَبِّ الْعَالَمِينَ",
+        "bn": "স্মরণ কর, যখন তাকে তার পালনকর্তা বললেনঃ অনুগত হও। সে বললঃ আমি বিশ্বপালকের অনুগত হলাম।",
+        "en": "Behold! his Lord said to him: 'Bow (thy will to Me):' He said: 'I bow (my will) to the Lord and Cherisher of the Universe.'",
+        "no": "﴿١٣١﴾"
+    },
+    "132": {
+        "ar": "وَوَصَّى بِهَا إِبْرَاهِيمُ بَنِيهِ وَيَعْقُوبُ يَا بَنِيَّ إِنَّ اللّهَ اصْطَفَى لَكُمُ الدِّينَ فَلاَ تَمُوتُنَّ إَلاَّ وَأَنتُم مُّسْلِمُونَ",
+        "bn": "এরই ওছিয়ত করেছে ইব্রাহীম তার সন্তানদের এবং ইয়াকুবও যে, হে আমার সন্তানগণ, নিশ্চয় আল্লাহ তোমাদের জন্য এ ধর্মকে মনোনীত করেছেন। কাজেই তোমরা মুসলমান না হয়ে কখনও মৃত্যুবরণ করো না।",
+        "en": "And this was the legacy that Abraham left to his sons, and so did Jacob; 'Oh my sons! Allah hath chosen the Faith for you; then die not except in the Faith of Islam.'",
+        "no": "﴿١٣٢﴾"
+    },
+    "133": {
+        "ar": "أَمْ كُنتُمْ شُهَدَاء إِذْ حَضَرَ يَعْقُوبَ الْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِن بَعْدِي قَالُواْ نَعْبُدُ إِلَـهَكَ وَإِلَـهَ آبَائِكَ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَقَ إِلَـهًا وَاحِدًا وَنَحْنُ لَهُ مُسْلِمُونَ",
+        "bn": "তোমরা কি উপস্থিত ছিলে, যখন ইয়াকুবের মৃত্যু নিকটবর্তী হয়? যখন সে সন্তানদের বললঃ আমার পর তোমরা কার এবাদত করবে? তারা বললো, আমরা তোমার পিতৃ-পুরুষ ইব্রাহীম, ইসমাঈল ও ইসহাকের উপাস্যের এবাদত করব। তিনি একক উপাস্য।",
+        "en": "Were ye witnesses when death appeared before Jacob? Behold, he said to his sons: 'What will ye worship after me?' They said: 'We shall worship Thy Allah and the Allah of thy fathers, of Abraham, Isma'il and Isaac,- the one (True) Allah. To Him we bow (in Islam).'",
+        "no": "﴿١٣٣﴾"
+    },
+    "134": {
+        "ar": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ وَلاَ تُسْأَلُونَ عَمَّا كَانُوا يَعْمَلُونَ",
+        "bn": "আমরা সবাই তাঁর আজ্ঞাবহ। তারা ছিল এক সম্প্রদায়-যারা গত হয়ে গেছে। তারা যা করেছে, তা তাদেরই জন্যে। তারা কি করত, সে সম্পর্কে তোমরা জিজ্ঞাসিত হবে না।",
+        "en": "That was a people that hath passed away. They shall reap the fruit of what they did, and ye of what ye do! Of their merits there is no question in your case!",
+        "no": "﴿١٣٤﴾"
+    },
+    "135": {
+        "ar": "وَقَالُواْ كُونُواْ هُودًا أَوْ نَصَارَى تَهْتَدُواْ قُلْ بَلْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
+        "bn": "তারা বলে, তোমরা ইহুদী অথবা খ্রীষ্টান হয়ে যাও, তবেই সুপথ পাবে। আপনি বলুন, কখনই নয়; বরং আমরা ইব্রাহীমের ধর্মে আছি যাতে বক্রতা নেই। সে মুশরিকদের অন্তর্ভুক্ত ছিল না।",
+        "en": "They say: 'Become Jews or Christians if ye would be guided (To salvation).' Say thou: 'Nay! (I would rather) the Religion of Abraham the True, and he joined not gods with Allah.'",
+        "no": "﴿١٣٥﴾"
+    },
+    "136": {
+        "ar": "قُولُواْ آمَنَّا بِاللّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَا أُنزِلَ إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَقَ وَيَعْقُوبَ وَالأسْبَاطِ وَمَا أُوتِيَ مُوسَى وَعِيسَى وَمَا أُوتِيَ النَّبِيُّونَ مِن رَّبِّهِمْ لاَ نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُ مُسْلِمُونَ",
+        "bn": "তোমরা বল, আমরা ঈমান এনেছি আল্লাহর উপর এবং যা অবতীর্ণ হয়েছে আমাদের প্রতি এবং যা অবতীর্ণ হয়েছে ইব্রাহীম, ইসমাঈল, ইসহাক, ইয়াকুব এবং তদীয় বংশধরের প্রতি এবং মূসা, ঈসা, অন্যান্য নবীকে পালনকর্তার পক্ষ থেকে যা দান করা হয়েছে, তৎসমুদয়ের উপর। আমরা তাদের মধ্যে পার্থক্য করি না। আমরা তাঁরই আনুগত্যকারী।",
+        "en": "Say ye: 'We believe in Allah, and the revelation given to us, and to Abraham, Isma'il, Isaac, Jacob, and the Tribes, and that given to Moses and Jesus, and that given to (all) prophets from their Lord: We make no difference between one and another of them: And we bow to Allah (in Islam).'",
+        "no": "﴿١٣٦﴾"
+    },
+    "137": {
+        "ar": "فَإِنْ آمَنُواْ بِمِثْلِ مَا آمَنتُم بِهِ فَقَدِ اهْتَدَواْ وَّإِن تَوَلَّوْاْ فَإِنَّمَا هُمْ فِي شِقَاقٍ فَسَيَكْفِيكَهُمُ اللّهُ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+        "bn": "অতএব তারা যদি ঈমান আনে, তোমাদের ঈমান আনার মত, তবে তারা সুপথ পাবে। আর যদি মুখ ফিরিয়ে নেয়, তবে তারাই হঠকারিতায় রয়েছে। সুতরাং এখন তাদের জন্যে আপনার পক্ষ থেকে আল্লাহই যথেষ্ট। তিনিই শ্রবণকারী, মহাজ্ঞানী।",
+        "en": "So if they believe as ye believe, they are indeed on the right path; but if they turn back, it is they who are in schism; but Allah will suffice thee as against them, and He is the All-Hearing, the All-Knowing.",
+        "no": "﴿١٣٧﴾"
+    },
+    "138": {
+        "ar": "صِبْغَةَ اللّهِ وَمَنْ أَحْسَنُ مِنَ اللّهِ صِبْغَةً وَنَحْنُ لَهُ عَابِدونَ",
+        "bn": "আমরা আল্লাহর রং গ্রহণ করেছি। আল্লাহর রং এর চাইতে উত্তম রং আর কার হতে পারে?আমরা তাঁরই এবাদত করি।",
+        "en": "(Our religion is) the Baptism of Allah. And who can baptize better than Allah. And it is He Whom we worship.",
+        "no": "﴿١٣٨﴾"
+    },
+    "139": {
+        "ar": "قُلْ أَتُحَآجُّونَنَا فِي اللّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ وَنَحْنُ لَهُ مُخْلِصُونَ",
+        "bn": "আপনি বলে দিন, তোমরা কি আমাদের সাথে আল্লাহ সম্পর্কে তর্ক করছ? অথচ তিনিই আমাদের পালনকর্তা এবং তোমাদের ও পালনকর্তা। আমাদের জন্যে আমাদের কর্ম তোমাদের জন্যে তোমাদের কর্ম। এবং আমরা তাঁরই প্রতি একনিষ্ঠ।",
+        "en": "Say: Will ye dispute with us about Allah, seeing that He is our Lord and your Lord; that we are responsible for our doings and ye for yours; and that We are sincere (in our faith) in Him?",
+        "no": "﴿١٣٩﴾"
+    },
+    "140": {
+        "ar": "أَمْ تَقُولُونَ إِنَّ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَـقَ وَيَعْقُوبَ وَالأسْبَاطَ كَانُواْ هُودًا أَوْ نَصَارَى قُلْ أَأَنتُمْ أَعْلَمُ أَمِ اللّهُ وَمَنْ أَظْلَمُ مِمَّن كَتَمَ شَهَادَةً عِندَهُ مِنَ اللّهِ وَمَا اللّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
+        "bn": "অথবা তোমরা কি বলছ যে, নিশ্চয়ই ইব্রাহীম, ইসমাঈল, ইসহাক, ইয়াকুব (আঃ) ও তাদের সন্তানগন ইহুদী অথবা খ্রীষ্টান ছিলেন? আপনি বলে দিন, তোমরা বেশী জান, না আল্লাহ বেশী জানেন?",
+        "en": "Or do ye say that Abraham, Isma'il Isaac, Jacob and the Tribes were Jews or Christians? Say: Do ye know better than Allah. Ah! who is more unjust than those who conceal the testimony they have from Allah. but Allah is not unmindful of what ye do!",
+        "no": "﴿١٤٠﴾"
+    },
+    "141": {
+        "ar": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ وَلاَ تُسْأَلُونَ عَمَّا كَانُواْ يَعْمَلُونَ",
+        "bn": "তার চাইতে অত্যাচারী কে, যে আল্লাহর পক্ষ থেকে তার কাছে প্রমাণিত সাক্ষ্যকে গোপন করে? আল্লাহ তোমাদের কর্ম সম্পর্কে বেখবর নন। সে সম্প্রদায় অতীত হয়ে গেছে। তারা যা করেছে, তা তাদের জন্যে এবং তোমরা যা করছ, তা তোমাদের জন্যে। তাদের কর্ম সম্পর্কে তোমাদের জিজ্ঞেস করা হবে না।",
+        "en": "That was a people that hath passed away. They shall reap the fruit of what they did, and ye of what ye do! Of their merits there is no question in your case:",
+        "no": "﴿١٤١﴾"
+    },
+    "142": {
+        "ar": "سَيَقُولُ السُّفَهَاء مِنَ النَّاسِ مَا وَلاَّهُمْ عَن قِبْلَتِهِمُ الَّتِي كَانُواْ عَلَيْهَا قُل لِّلّهِ الْمَشْرِقُ وَالْمَغْرِبُ يَهْدِي مَن يَشَاء إِلَى صِرَاطٍ مُّسْتَقِيمٍ",
+        "bn": "এখন নির্বোধেরা বলবে, কিসে মুসলমানদের ফিরিয়ে দিল তাদের ঐ কেবলা থেকে, যার উপর তারা ছিল? আপনি বলুনঃ পূর্ব ও পশ্চিম আল্লাহরই। তিনি যাকে ইচ্ছা সরল পথে চালান।",
+        "en": "The fools among the people will say: 'What hath turned them from the Qibla to which they were used?' Say: To Allah belong both east and West: He guideth whom He will to a Way that is straight.",
+        "no": "﴿١٤٢﴾"
+    },
+    "143": {
+        "ar": "وَكَذَلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِّتَكُونُواْ شُهَدَاء عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا وَمَا جَعَلْنَا الْقِبْلَةَ الَّتِي كُنتَ عَلَيْهَا إِلاَّ لِنَعْلَمَ مَن يَتَّبِعُ الرَّسُولَ مِمَّن يَنقَلِبُ عَلَى عَقِبَيْهِ وَإِن كَانَتْ لَكَبِيرَةً إِلاَّ عَلَى الَّذِينَ هَدَى اللّهُ وَمَا كَانَ اللّهُ لِيُضِيعَ إِيمَانَكُمْ إِنَّ اللّهَ بِالنَّاسِ لَرَؤُوفٌ رَّحِيمٌ",
+        "bn": "এমনিভাবে আমি তোমাদেরকে মধ্যপন্থী সম্প্রদায় করেছি যাতে করে তোমরা সাক্ষ্যদাতা হও মানবমন্ডলীর জন্যে এবং যাতে রসূল সাক্ষ্যদাতা হন তোমাদের জন্য। আপনি যে কেবলার উপর ছিলেন, তাকে আমি এজন্যই কেবলা করেছিলাম, যাতে একথা প্রতীয়মান হয় যে, কে রসূলের অনুসারী থাকে আর কে পিঠটান দেয়। নিশ্চিতই এটা কঠোরতর বিষয়, কিন্তু তাদের জন্যে নয়, যাদেরকে আল্লাহ পথপ্রদর্শন করেছেন। আল্লাহ এমন নন যে, তোমাদের ঈমান নষ্ট করে দেবেন। নিশ্চয়ই আল্লাহ, মানুষের প্রতি অত্যন্ত স্নেহশীল, করুনাময়।",
+        "en": "Thus, have We made of you an Ummat justly balanced, that ye might be witnesses over the nations, and the Messenger a witness over yourselves; and We appointed the Qibla to which thou wast used, only to test those who followed the Messenger from those who would turn on their heels (From the Faith). Indeed it was (A change) momentous, except to those guided by Allah. And never would Allah Make your faith of no effect. For Allah is to all people Most surely full of kindness, Most Merciful.",
+        "no": "﴿١٤٣﴾"
+    },
+    "144": {
+        "ar": "قَدْ نَرَى تَقَلُّبَ وَجْهِكَ فِي السَّمَاء فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنتُمْ فَوَلُّواْ وُجُوِهَكُمْ شَطْرَهُ وَإِنَّ الَّذِينَ أُوْتُواْ الْكِتَابَ لَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِن رَّبِّهِمْ وَمَا اللّهُ بِغَافِلٍ عَمَّا يَعْمَلُونَ",
+        "bn": "নিশ্চয়ই আমি আপনাকে বার বার আকাশের দিকে তাকাতে দেখি। অতএব, অবশ্যই আমি আপনাকে সে কেবলার দিকেই ঘুরিয়ে দেব যাকে আপনি পছন্দ করেন। এখন আপনি মসজিদুল-হারামের দিকে মুখ করুন এবং তোমরা যেখানেই থাক, সেদিকে মুখ কর। যারা আহলে-কিতাব, তারা অবশ্যই জানে যে, এটাই ঠিক পালনকর্তার পক্ষ থেকে। আল্লাহ বেখবর নন, সে সমস্ত কর্ম সম্পর্কে যা তারা করে।",
+        "en": "We see the turning of thy face (for guidance to the heavens: now Shall We turn thee to a Qibla that shall please thee. Turn then Thy face in the direction of the sacred Mosque: Wherever ye are, turn your faces in that direction. The people of the Book know well that that is the truth from their Lord. Nor is Allah unmindful of what they do.",
+        "no": "﴿١٤٤﴾"
+    },
+    "145": {
+        "ar": "وَلَئِنْ أَتَيْتَ الَّذِينَ أُوْتُواْ الْكِتَابَ بِكُلِّ آيَةٍ مَّا تَبِعُواْ قِبْلَتَكَ وَمَا أَنتَ بِتَابِعٍ قِبْلَتَهُمْ وَمَا بَعْضُهُم بِتَابِعٍ قِبْلَةَ بَعْضٍ وَلَئِنِ اتَّبَعْتَ أَهْوَاءهُم مِّن بَعْدِ مَا جَاءكَ مِنَ الْعِلْمِ إِنَّكَ إِذَاً لَّمِنَ الظَّالِمِينَ",
+        "bn": "যদি আপনি আহলে কিতাবদের কাছে সমুদয় নিদর্শন উপস্থাপন করেন, তবুও তারা আপনার কেবলা মেনে নেবে না এবং আপনিও তাদের কেবলা মানেন না। তারাও একে অন্যের কেবলা মানে না। যদি আপনি তাদের বাসনার অনুসরণ করেন, সে জ্ঞানলাভের পর, যা আপনার কাছে পৌঁছেছে, তবে নিশ্চয় আপনি অবিচারকারীদের অন্তর্ভুক্ত হবেন।",
+        "en": "Even if thou wert to bring to the people of the Book all the Signs (together), they would not follow Thy Qibla; nor art thou going to follow their Qibla; nor indeed will they follow each other's Qibla. If thou after the knowledge hath reached thee, Wert to follow their (vain) desires,-then wert thou Indeed (clearly) in the wrong.",
+        "no": "﴿١٤٥﴾"
+    },
+    "146": {
+        "ar": "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْرِفُونَهُ كَمَا يَعْرِفُونَ أَبْنَاءهُمْ وَإِنَّ فَرِيقاً مِّنْهُمْ لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ",
+        "bn": "আমি যাদেরকে কিতাব দান করেছি, তারা তাকে চেনে, যেমন করে চেনে নিজেদের পুত্রদেরকে। আর নিশ্চয়ই তাদের একটি সম্প্রদায় জেনে শুনে সত্যকে গোপন করে।",
+        "en": "The people of the Book know this as they know their own sons; but some of them conceal the truth which they themselves know.",
+        "no": "﴿١٤٦﴾"
+    },
+    "147": {
+        "ar": "الْحَقُّ مِن رَّبِّكَ فَلاَ تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
+        "bn": "বাস্তব সত্য সেটাই যা তোমার পালনকর্তা বলেন। কাজেই তুমি সন্দিহান হয়ো না।",
+        "en": "The Truth is from thy Lord; so be not at all in doubt.",
+        "no": "﴿١٤٧﴾"
+    },
+    "148": {
+        "ar": "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا فَاسْتَبِقُواْ الْخَيْرَاتِ أَيْنَ مَا تَكُونُواْ يَأْتِ بِكُمُ اللّهُ جَمِيعًا إِنَّ اللّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+        "bn": "আর সবার জন্যই রয়েছে কেবলা একেক দিকে, যে দিকে সে মুখ করে (এবাদত করবে)। কাজেই সৎকাজে প্রতিযোগিতামূলকভাবে এগিয়ে যাও। যেখানেই তোমরা থাকবে, আল্লাহ অবশ্যই তোমাদেরকে সমবেত করবেন। নিশ্চয়ই আল্লাহ সর্ব বিষয়ে ক্ষমতাশীল।",
+        "en": "To each is a goal to which Allah turns him; then strive together (as in a race) Towards all that is good. Wheresoever ye are, Allah will bring you Together. For Allah Hath power over all things.",
+        "no": "﴿١٤٨﴾"
+    },
+    "149": {
+        "ar": "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَإِنَّهُ لَلْحَقُّ مِن رَّبِّكَ وَمَا اللّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
+        "bn": "আর যে স্থান থেকে তুমি বের হও, নিজের মুখ মসজিদে হারামের দিকে ফেরাও-নিঃসন্দেহে এটাই হলো তোমার পালনকর্তার পক্ষ থেকে নির্ধারিত বাস্তব সত্য। বস্তুতঃ তোমার পালনকর্তা তোমাদের কার্যকলাপ সম্পর্কে অনবহিত নন।",
+        "en": "From whencesoever Thou startest forth, turn Thy face in the direction of the sacred Mosque; that is indeed the truth from the Lord. And Allah is not unmindful of what ye do.",
+        "no": "﴿١٤٩﴾"
+    },
+    "150": {
+        "ar": "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنتُمْ فَوَلُّواْ وُجُوهَكُمْ شَطْرَهُ لِئَلاَّ يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلاَّ الَّذِينَ ظَلَمُواْ مِنْهُمْ فَلاَ تَخْشَوْهُمْ وَاخْشَوْنِي وَلأُتِمَّ نِعْمَتِي عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ",
+        "bn": "আর তোমরা যেখান থেকেই বেরিয়ে আস এবং যেখানেই অবস্থান কর, সেদিকেই মুখ ফেরাও, যাতে করে মানুষের জন্য তোমাদের সাথে ঝগড়া করার অবকাশ না থাকে। অবশ্য যারা অবিবেচক, তাদের কথা আলাদা। কাজেই তাদের আপত্তিতে ভীত হয়ো না। আমাকেই ভয় কর। যাতে আমি তোমাদের জন্যে আমার অনুগ্রহ সমূহ পূর্ণ করে দেই এবং তাতে যেন তোমরা সরলপথ প্রাপ্ত হও।",
+        "en": "So from whencesoever Thou startest forth, turn Thy face in the direction of the sacred Mosque; and wheresoever ye are, Turn your face thither: that there be no ground of dispute against you among the people, except those of them that are bent on wickedness; so fear them not, but fear Me; and that I may complete My favours on you, and ye May (consent to) be guided;",
+        "no": "﴿١٥٠﴾"
+    },
+    "151": {
+        "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولاً مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُعَلِّمُكُم مَّا لَمْ تَكُونُواْ تَعْلَمُونَ",
+        "bn": "যেমন, আমি পাঠিয়েছি তোমাদেরই মধ্য থেকে তোমাদের জন্যে একজন রসূল, যিনি তোমাদের নিকট আমার বাণীসমুহ পাঠ করবেন এবং তোমাদের পবিত্র করবেন; আর তোমাদের শিক্ষা দেবেন কিতাব ও তাঁর তত্ত্বজ্ঞান এবং শিক্ষা দেবেন এমন বিষয় যা কখনো তোমরা জানতে না।",
+        "en": "A similar (favour have ye already received) in that We have sent among you an Messenger of your own, rehearsing to you Our Signs, and sanctifying you, and instructing you in Scripture and Wisdom, and in new knowledge.",
+        "no": "﴿١٥١﴾"
+    },
+    "152": {
+        "ar": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُواْ لِي وَلاَ تَكْفُرُونِ",
+        "bn": "সুতরাং তোমরা আমাকে স্মরণ কর, আমিও তোমাদের স্মরণ রাখবো এবং আমার কৃতজ্ঞতা প্রকাশ কর; অকৃতজ্ঞ হয়ো না।",
+        "en": "Then do ye remember Me; I will remember you. Be grateful to Me, and reject not Faith.",
+        "no": "﴿١٥٢﴾"
+    },
+    "153": {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُواْ اسْتَعِينُواْ بِالصَّبْرِ وَالصَّلاَةِ إِنَّ اللّهَ مَعَ الصَّابِرِينَ",
+        "bn": "হে মুমিন গন! তোমরা ধৈর্য্য ও নামাযের মাধ্যমে সাহায্য প্রার্থনা কর। নিশ্চিতই আল্লাহ ধৈর্য্যশীলদের সাথে রয়েছেন।",
+        "en": "O ye who believe! seek help with patient perseverance and prayer; for Allah is with those who patiently persevere.",
+        "no": "﴿١٥٣﴾"
+    },
+    "154": {
+        "ar": "وَلاَ تَقُولُواْ لِمَنْ يُقْتَلُ فِي سَبيلِ اللّهِ أَمْوَاتٌ بَلْ أَحْيَاء وَلَكِن لاَّ تَشْعُرُونَ",
+        "bn": "আর যারা আল্লাহর রাস্তায় নিহত হয়, তাদের মৃত বলো না। বরং তারা জীবিত, কিন্তু তোমরা তা বুঝ না।",
+        "en": "And say not of those who are slain in the way of Allah. 'They are dead.' Nay, they are living, though ye perceive (it) not.",
+        "no": "﴿١٥٤﴾"
+    },
+    "155": {
+        "ar": "وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِّنَ الْخَوفْ وَالْجُوعِ وَنَقْصٍ مِّنَ الأَمَوَالِ وَالأنفُسِ وَالثَّمَرَاتِ وَبَشِّرِ الصَّابِرِينَ",
+        "bn": "এবং অবশ্যই আমি তোমাদিগকে পরীক্ষা করব কিছুটা ভয়, ক্ষুধা, মাল ও জানের ক্ষতি ও ফল-ফসল বিনষ্টের মাধ্যমে। তবে সুসংবাদ দাও সবরকারীদের।",
+        "en": "Be sure we shall test you with something of fear and hunger, some loss in goods or lives or the fruits (of your toil), but give glad tidings to those who patiently persevere,",
+        "no": "﴿١٥٥﴾"
+    },
+    "156": {
+        "ar": "الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُواْ إِنَّا لِلّهِ وَإِنَّـا إِلَيْهِ رَاجِعونَ",
+        "bn": "যখন তারা বিপদে পতিত হয়, তখন বলে, নিশ্চয় আমরা সবাই আল্লাহর জন্য এবং আমরা সবাই তাঁরই সান্নিধ্যে ফিরে যাবো।",
+        "en": "Who say, when afflicted with calamity: 'To Allah We belong, and to Him is our return'",
+        "no": "﴿١٥٦﴾"
+    },
+    "157": {
+        "ar": "أُولَـئِكَ عَلَيْهِمْ صَلَوَاتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ وَأُولَـئِكَ هُمُ الْمُهْتَدُونَ",
+        "bn": "তারা সে সমস্ত লোক, যাদের প্রতি আল্লাহর অফুরন্ত অনুগ্রহ ও রহমত রয়েছে এবং এসব লোকই হেদায়েত প্রাপ্ত।",
+        "en": "They are those on whom (Descend) blessings from Allah, and Mercy, and they are the ones that receive guidance.",
+        "no": "﴿١٥٧﴾"
+    },
+    "158": {
+        "ar": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَآئِرِ اللّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلاَ جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ اللّهَ شَاكِرٌ عَلِيمٌ",
+        "bn": "নিঃসন্দেহে সাফা ও মারওয়া আল্লাহ তা’আলার নিদর্শন গুলোর অন্যতম। সুতরাং যারা কা’বা ঘরে হজ্ব বা ওমরাহ পালন করে, তাদের পক্ষে এ দুটিতে প্রদক্ষিণ করাতে কোন দোষ নেই। বরং কেউ যদি স্বেচ্ছায় কিছু নেকীর কাজ করে, তবে আল্লাহ তা’আলার অবশ্যই তা অবগত হবেন এবং তার সে আমলের সঠিক মুল্য দেবেন।",
+        "en": "Behold! Safa and Marwa are among the Symbols of Allah. So if those who visit the House in the Season or at other times, should compass them round, it is no sin in them. And if any one obeyeth his own impulse to good,- be sure that Allah is He Who recogniseth and knoweth.",
+        "no": "﴿١٥٨﴾"
+    },
+    "159": {
+        "ar": "إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنزَلْنَا مِنَ الْبَيِّنَاتِ وَالْهُدَى مِن بَعْدِ مَا بَيَّنَّاهُ لِلنَّاسِ فِي الْكِتَابِ أُولَـئِكَ يَلعَنُهُمُ اللّهُ وَيَلْعَنُهُمُ اللَّاعِنُونَ",
+        "bn": "নিশ্চয় যারা গোপন করে, আমি যেসব বিস্তারিত তথ্য এবং হেদায়েতের কথা নাযিল করেছি মানুষের জন্য কিতাবের মধ্যে বিস্তারিত বর্ণনা করার পরও; সে সমস্ত লোকের প্রতিই আল্লাহর অভিসম্পাত এবং অন্যান্য অভিসম্পাতকারীগণের ও।",
+        "en": "Those who conceal the clear (Signs) We have sent down, and the Guidance, after We have made it clear for the people in the Book,-on them shall be Allah.s curse, and the curse of those entitled to curse,-",
+        "no": "﴿١٥٩﴾"
+    },
+    "160": {
+        "ar": "إِلاَّ الَّذِينَ تَابُواْ وَأَصْلَحُواْ وَبَيَّنُواْ فَأُوْلَـئِكَ أَتُوبُ عَلَيْهِمْ وَأَنَا التَّوَّابُ الرَّحِيمُ",
+        "bn": "তবে যারা তওবা করে এবং বর্ণিত তথ্যাদির সংশোধন করে মানুষের কাছে তা বর্ণনা করে দেয়, সে সমস্ত লোকের তওবা আমি কবুল করি এবং আমি তওবা কবুলকারী পরম দয়ালু।",
+        "en": "Except those who repent and make amends and openly declare (the Truth): To them I turn; for I am Oft-returning, Most Merciful.",
+        "no": "﴿١٦٠﴾"
+    },
+    "161": {
+        "ar": "إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ أُولَئِكَ عَلَيْهِمْ لَعْنَةُ اللّهِ وَالْمَلآئِكَةِ وَالنَّاسِ أَجْمَعِينَ",
+        "bn": "নিশ্চয় যারা কুফরী করে এবং কাফের অবস্থায়ই মৃত্যুবরণ করে, সে সমস্ত লোকের প্রতি আল্লাহর ফেরেশতাগনের এবং সমগ্র মানুষের লা’নত।",
+        "en": "Those who reject Faith, and die rejecting,- on them is Allah.s curse, and the curse of angels, and of all mankind;",
+        "no": "﴿١٦١﴾"
+    },
+    "162": {
+        "ar": "خَالِدِينَ فِيهَا لاَ يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلاَ هُمْ يُنظَرُونَ",
+        "bn": "এরা চিরকাল এ লা’নতের মাঝেই থাকবে। তাদের উপর থেকে আযাব কখনও হালকা করা হবে না বরং এরা বিরাম ও পাবে না।",
+        "en": "They will abide therein: Their penalty will not be lightened, nor will respite be their (lot).",
+        "no": "﴿١٦٢﴾"
+    },
+    "163": {
+        "ar": "وَإِلَـهُكُمْ إِلَهٌ وَاحِدٌ لاَّ إِلَهَ إِلاَّ هُوَ الرَّحْمَنُ الرَّحِيمُ",
+        "bn": "আর তোমাদের উপাস্য একইমাত্র উপাস্য। তিনি ছাড়া মহা করুণাময় দয়ালু কেউ নেই।",
+        "en": "And your Allah is One Allah. There is no god but He, Most Gracious, Most Merciful.",
+        "no": "﴿١٦٣﴾"
+    },
+    "164": {
+        "ar": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالأَرْضِ وَاخْتِلاَفِ اللَّيْلِ وَالنَّهَارِ وَالْفُلْكِ الَّتِي تَجْرِي فِي الْبَحْرِ بِمَا يَنفَعُ النَّاسَ وَمَا أَنزَلَ اللّهُ مِنَ السَّمَاء مِن مَّاء فَأَحْيَا بِهِ الأرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ وَتَصْرِيفِ الرِّيَاحِ وَالسَّحَابِ الْمُسَخِّرِ بَيْنَ السَّمَاء وَالأَرْضِ لآيَاتٍ لِّقَوْمٍ يَعْقِلُونَ",
+        "bn": "নিশ্চয়ই আসমান ও যমীনের সৃষ্টিতে, রাত ও দিনের বিবর্তনে এবং নদীতে নৌকাসমূহের চলাচলে মানুষের জন্য কল্যাণ রয়েছে। আর আল্লাহ তা’ আলা আকাশ থেকে যে পানি নাযিল করেছেন, তদ্দ্বারা মৃত যমীনকে সজীব করে তুলেছেন এবং তাতে ছড়িয়ে দিয়েছেন সবরকম জীব-জন্তু। আর আবহাওয়া পরিবর্তনে এবং মেঘমালার যা তাঁরই হুকুমের অধীনে আসমান ও যমীনের মাঝে বিচরণ করে, নিশ্চয়ই সে সমস্ত বিষয়ের মাঝে নিদর্শন রয়েছে বুদ্ধিমান সম্প্রদায়ের জন্যে।",
+        "en": "Behold! in the creation of the heavens and the earth; in the alternation of the night and the day; in the sailing of the ships through the ocean for the profit of mankind; in the rain which Allah Sends down from the skies, and the life which He gives therewith to an earth that is dead; in the beasts of all kinds that He scatters through the earth; in the change of the winds, and the clouds which they Trail like their slaves between the sky and the earth;- (Here) indeed are Signs for a people that are wise.",
+        "no": "﴿١٦٤﴾"
+    },
+    "165": {
+        "ar": "وَمِنَ النَّاسِ مَن يَتَّخِذُ مِن دُونِ اللّهِ أَندَاداً يُحِبُّونَهُمْ كَحُبِّ اللّهِ وَالَّذِينَ آمَنُواْ أَشَدُّ حُبًّا لِّلّهِ وَلَوْ يَرَى الَّذِينَ ظَلَمُواْ إِذْ يَرَوْنَ الْعَذَابَ أَنَّ الْقُوَّةَ لِلّهِ جَمِيعاً وَأَنَّ اللّهَ شَدِيدُ الْعَذَابِ",
+        "bn": "আর কোন লোক এমনও রয়েছে যারা অন্যান্যকে আল্লাহর সমকক্ষ সাব্যস্ত করে এবং তাদের প্রতি তেমনি ভালবাসা পোষণ করে, যেমন আল্লাহর প্রতি ভালবাসা হয়ে থাকে। কিন্তু যারা আল্লাহর প্রতি ঈমানদার তাদের ভালবাসা ওদের তুলনায় বহুগুণ বেশী। আর কতইনা উত্তম হ’ত যদি এ জালেমরা পার্থিব কোন কোন আযাব প্রত্যক্ষ করেই উপলব্ধি করে নিত যে, যাবতীয় ক্ষমতা শুধুমাত্র আল্লাহরই জন্য এবং আল্লাহর আযাবই সবচেয়ে কঠিনতর।",
+        "en": "Yet there are men who take (for worship) others besides Allah, as equal (with Allah.: They love them as they should love Allah. But those of Faith are overflowing in their love for Allah. If only the unrighteous could see, behold, they would see the penalty: that to Allah belongs all power, and Allah will strongly enforce the penalty.",
+        "no": "﴿١٦٥﴾"
+    },
+    "166": {
+        "ar": "إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُواْ مِنَ الَّذِينَ اتَّبَعُواْ وَرَأَوُاْ الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الأَسْبَابُ",
+        "bn": "অনুসৃতরা যখন অনুসরণকারীদের প্রতি অসন্তুষ্ট হয়ে যাবে এবং যখন আযাব প্রত্যক্ষ করবে আর বিচ্ছিন্ন হয়ে যাবে তাদের পারস্পরিক সমস্ত সম্পর্ক।",
+        "en": "Then would those who are followed clear themselves of those who follow (them) : They would see the penalty, and all relations between them would be cut off.",
+        "no": "﴿١٦٦﴾"
+    },
+    "167": {
+        "ar": "وَقَالَ الَّذِينَ اتَّبَعُواْ لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّؤُواْ مِنَّا كَذَلِكَ يُرِيهِمُ اللّهُ أَعْمَالَهُمْ حَسَرَاتٍ عَلَيْهِمْ وَمَا هُم بِخَارِجِينَ مِنَ النَّارِ",
+        "bn": "এবং অনুসারীরা বলবে, কতইনা ভাল হত, যদি আমাদিগকে পৃথিবীতে ফিরে যাবার সুযোগ দেয়া হত। তাহলে আমরাও তাদের প্রতি তেমনি অসন্তুষ্ট হয়ে যেতাম, যেমন তারা অসন্তুষ্ট হয়েছে আমাদের প্রতি। এভাবেই আল্লাহ তা’আলা তাদেরকে দেখাবেন তাদের কৃতকর্ম তাদেরকে অনুতপ্ত করার জন্যে। অথচ, তারা কস্মিনকালেও আগুন থেকে বের হতে পারবে না।",
+        "en": "And those who followed would say: 'If only We had one more chance, We would clear ourselves of them, as they have cleared themselves of us.' Thus will Allah show them (The fruits of) their deeds as (nothing but) regrets. Nor will there be a way for them out of the Fire.",
+        "no": "﴿١٦٧﴾"
+    },
+    "168": {
+        "ar": "يَا أَيُّهَا النَّاسُ كُلُواْ مِمَّا فِي الأَرْضِ حَلاَلاً طَيِّباً وَلاَ تَتَّبِعُواْ خُطُوَاتِ الشَّيْطَانِ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ",
+        "bn": "হে মানব মন্ডলী, পৃথিবীর হালাল ও পবিত্র বস্তু-সামগ্রী ভক্ষন কর। আর শয়তানের পদাঙ্ক অনুসরণ করো না। সে নিঃসন্দেহে তোমাদের প্রকাশ্য শত্রু।",
+        "en": "O ye people! Eat of what is on earth, Lawful and good; and do not follow the footsteps of the evil one, for he is to you an avowed enemy.",
+        "no": "﴿١٦٨﴾"
+    },
+    "169": {
+        "ar": "إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاء وَأَن تَقُولُواْ عَلَى اللّهِ مَا لاَ تَعْلَمُونَ",
+        "bn": "সে তো এ নির্দেশই তোমাদিগকে দেবে যে, তোমরা অন্যায় ও অশ্লীল কাজ করতে থাক এবং আল্লাহর প্রতি এমন সব বিষয়ে মিথ্যারোপ কর যা তোমরা জান না।",
+        "en": "For he commands you what is evil and shameful, and that ye should say of Allah that of which ye have no knowledge.",
+        "no": "﴿١٦٩﴾"
+    },
+    "170": {
+        "ar": "وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنزَلَ اللّهُ قَالُواْ بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءنَا أَوَلَوْ كَانَ آبَاؤُهُمْ لاَ يَعْقِلُونَ شَيْئاً وَلاَ يَهْتَدُونَ",
+        "bn": "আর যখন তাদেরকে কেউ বলে যে, সে হুকুমেরই আনুগত্য কর যা আল্লাহ তা’আলা নাযিল করেছেন, তখন তারা বলে কখনো না, আমরা তো সে বিষয়েরই অনুসরণ করব। যাতে আমরা আমাদের বাপ-দাদাদেরকে দেখেছি। যদি ও তাদের বাপ দাদারা কিছুই জানতো না, জানতো না সরল পথও।",
+        "en": "When it is said to them: 'Follow what Allah hath revealed:' They say: 'Nay! we shall follow the ways of our fathers.' What! even though their fathers Were void of wisdom and guidance?",
+        "no": "﴿١٧٠﴾"
+    },
+    "171": {
+        "ar": "وَمَثَلُ الَّذِينَ كَفَرُواْ كَمَثَلِ الَّذِي يَنْعِقُ بِمَا لاَ يَسْمَعُ إِلاَّ دُعَاء وَنِدَاء صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لاَ يَعْقِلُونَ",
+        "bn": "বস্তুতঃ এহেন কাফেরদের উদাহরণ এমন, যেন কেউ এমন কোন জীবকে আহবান করছে যা কোন কিছুই শোনে না, হাঁক-ডাক আর চিৎকার ছাড়া বধির মুক, এবং অন্ধ। সুতরাং তারা কিছুই বোঝে না।",
+        "en": "The parable of those who reject Faith is as if one were to shout Like a goat-herd, to things that listen to nothing but calls and cries: Deaf, dumb, and blind, they are void of wisdom.",
+        "no": "﴿١٧١﴾"
+    },
+    "172": {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُواْ كُلُواْ مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُواْ لِلّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+        "bn": "হে ঈমানদারগণ, তোমরা পবিত্র বস্তু সামগ্রী আহার কর, যেগুলো আমি তোমাদেরকে রুযী হিসাবে দান করেছি এবং শুকরিয়া আদায় কর আল্লাহর, যদি তোমরা তাঁরই বন্দেগী কর।",
+        "en": "O ye who believe! Eat of the good things that We have provided for you, and be grateful to Allah, if it is Him ye worship.",
+        "no": "﴿١٧٢﴾"
+    },
+    "173": {
+        "ar": "إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنزِيرِ وَمَا أُهِلَّ بِهِ لِغَيْرِ اللّهِ فَمَنِ اضْطُرَّ غَيْرَ بَاغٍ وَلاَ عَادٍ فَلا إِثْمَ عَلَيْهِ إِنَّ اللّهَ غَفُورٌ رَّحِيمٌ",
+        "bn": "তিনি তোমাদের উপর হারাম করেছেন, মৃত জীব, রক্ত, শুকর মাংস এবং সেসব জীব-জন্তু যা আল্লাহ ব্যাতীত অপর কারো নামে উৎসর্গ করা হয়। অবশ্য যে লোক অনন্যোপায় হয়ে পড়ে এবং নাফরমানী ও সীমালঙ্ঘনকারী না হয়, তার জন্য কোন পাপ নেই। নিঃসন্দেহে আল্লাহ মহান ক্ষমাশীল, অত্যন্ত দয়ালু।",
+        "en": "He hath only forbidden you dead meat, and blood, and the flesh of swine, and that on which any other name hath been invoked besides that of Allah. But if one is forced by necessity, without wilful disobedience, nor transgressing due limits,- then is he guiltless. For Allah is Oft-forgiving Most Merciful.",
+        "no": "﴿١٧٣﴾"
+    },
+    "174": {
+        "ar": "إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنزَلَ اللّهُ مِنَ الْكِتَابِ وَيَشْتَرُونَ بِهِ ثَمَنًا قَلِيلاً أُولَـئِكَ مَا يَأْكُلُونَ فِي بُطُونِهِمْ إِلاَّ النَّارَ وَلاَ يُكَلِّمُهُمُ اللّهُ يَوْمَ الْقِيَامَةِ وَلاَ يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+        "bn": "নিশ্চয় যারা সেসব বিষয় গোপন করে, যা আল্লাহ কিতাবে নাযিল করেছেন এবং সেজন্য অল্প মূল্য গ্রহণ করে, তারা আগুন ছাড়া নিজের পেটে আর কিছুই ঢুকায় না। আর আল্লাহ কেয়ামতের দিন তাদের সাথে না কথা বলবেন, না তাদের পবিত্র করা হবে, বস্তুতঃ তাদের জন্যে রয়েছে বেদনাদায়ক আযাব।",
+        "en": "Those who conceal Allah.s revelations in the Book, and purchase for them a miserable profit,- they swallow into themselves naught but Fire; Allah will not address them on the Day of Resurrection. Nor purify them: Grievous will be their penalty.",
+        "no": "﴿١٧٤﴾"
+    },
+    "175": {
+        "ar": "أُولَـئِكَ الَّذِينَ اشْتَرَوُاْ الضَّلاَلَةَ بِالْهُدَى وَالْعَذَابَ بِالْمَغْفِرَةِ فَمَآ أَصْبَرَهُمْ عَلَى النَّارِ",
+        "bn": "এরাই হল সে সমস্ত লোক, যারা হেদায়েতের বিনিময়ে গোমরাহী খরিদ করেছে এবং (খরিদ করেছে) ক্ষমা ও অনুগ্রহের বিনিময়ে আযাব। অতএব, তারা দোযখের উপর কেমন ধৈর্য্য ধারণকারী।",
+        "en": "They are the ones who buy Error in place of Guidance and Torment in place of Forgiveness. Ah! what boldness (They show) for the Fire!",
+        "no": "﴿١٧٥﴾"
+    },
+    "176": {
+        "ar": "ذَلِكَ بِأَنَّ اللّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ وَإِنَّ الَّذِينَ اخْتَلَفُواْ فِي الْكِتَابِ لَفِي شِقَاقٍ بَعِيدٍ",
+        "bn": "আর এটা এজন্যে যে, আল্লাহ নাযিল করেছেন সত্যপূর্ণ কিতাব। আর যারা কেতাবের মাঝে মতবিরোধ সৃষ্টি করেছে নিশ্চয়ই তারা জেদের বশবর্তী হয়ে অনেক দূরে চলে গেছে।",
+        "en": "(Their doom is) because Allah sent down the Book in truth but those who seek causes of dispute in the Book are in a schism Far (from the purpose).",
+        "no": "﴿١٧٦﴾"
+    },
+    "177": {
+        "ar": "لَّيْسَ الْبِرَّ أَن تُوَلُّواْ وُجُوهَكُمْ قِبَلَ الْمَشْرِقِ وَالْمَغْرِبِ وَلَـكِنَّ الْبِرَّ مَنْ آمَنَ بِاللّهِ وَالْيَوْمِ الآخِرِ وَالْمَلآئِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ وَآتَى الْمَالَ عَلَى حُبِّهِ ذَوِي الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينَ وَابْنَ السَّبِيلِ وَالسَّآئِلِينَ وَفِي الرِّقَابِ وَأَقَامَ الصَّلاةَ وَآتَى الزَّكَاةَ وَالْمُوفُونَ بِعَهْدِهِمْ إِذَا عَاهَدُواْ وَالصَّابِرِينَ فِي الْبَأْسَاء والضَّرَّاء وَحِينَ الْبَأْسِ أُولَـئِكَ الَّذِينَ صَدَقُوا وَأُولَـئِكَ هُمُ الْمُتَّقُونَ",
+        "bn": "সৎকর্ম শুধু এই নয় যে, পূর্ব কিংবা পশ্চিমদিকে মুখ করবে, বরং বড় সৎকাজ হল এই যে, ঈমান আনবে আল্লাহর উপর কিয়ামত দিবসের উপর, ফেরেশতাদের উপর এবং সমস্ত নবী-রসূলগণের উপর, আর সম্পদ ব্যয় করবে তাঁরই মহব্বতে আত্নীয়-স্বজন, এতীম-মিসকীন, মুসাফির-ভিক্ষুক ও মুক্তিকামী ক্রীতদাসদের জন্যে। আর যারা নামায প্রতিষ্ঠা করে, যাকাত দান করে এবং যারা কৃত প্রতিজ্ঞা সম্পাদনকারী এবং অভাবে, রোগে-শোকে ও যুদ্ধের সময় ধৈর্য্য ধারণকারী তারাই হল সত্যাশ্রয়ী, আর তারাই পরহেযগার।",
+        "en": "It is not righteousness that ye turn your faces Towards east or West; but it is righteousness- to believe in Allah and the Last Day, and the Angels, and the Book, and the Messengers; to spend of your substance, out of love for Him, for your kin, for orphans, for the needy, for the wayfarer, for those who ask, and for the ransom of slaves; to be steadfast in prayer, and practice regular charity; to fulfil the contracts which ye have made; and to be firm and patient, in pain (or suffering) and adversity, and throughout all periods of panic. Such are the people of truth, the Allah.fearing.",
+        "no": "﴿١٧٧﴾"
+    },
+    "178": {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُواْ كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَى الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ وَالأُنثَى بِالأُنثَى فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاء إِلَيْهِ بِإِحْسَانٍ ذَلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ فَمَنِ اعْتَدَى بَعْدَ ذَلِكَ فَلَهُ عَذَابٌ أَلِيمٌ",
+        "bn": "হে ঈমানদারগন! তোমাদের প্রতি নিহতদের ব্যাপারে কেসাস গ্রহণ করা বিধিবদ্ধ করা হয়েছে। স্বাধীন ব্যক্তি স্বাধীন ব্যক্তির বদলায়, দাস দাসের বদলায় এবং নারী নারীর বদলায়। অতঃপর তার ভাইয়ের তরফ থেকে যদি কাউকে কিছুটা মাফ করে দেয়া হয়, তবে প্রচলিত নিয়মের অনুসরণ করবে এবং ভালভাবে তাকে তা প্রদান করতে হবে। এটা তোমাদের পালনকর্তার তরফ থেকে সহজ এবং বিশেষ অনুগ্রহ। এরপরও যে ব্যাক্তি বাড়াবাড়ি করে, তার জন্য রয়েছে বেদনাদায়ক আযাব।",
+        "en": "O ye who believe! the law of equality is prescribed to you in cases of murder: the free for the free, the slave for the slave, the woman for the woman. But if any remission is made by the brother of the slain, then grant any reasonable demand, and compensate him with handsome gratitude, this is a concession and a Mercy from your Lord. After this whoever exceeds the limits shall be in grave penalty.",
+        "no": "﴿١٧٨﴾"
+    },
+    "179": {
+        "ar": "وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ يَاْ أُولِيْ الأَلْبَابِ لَعَلَّكُمْ تَتَّقُونَ",
+        "bn": "হে বুদ্ধিমানগণ! কেসাসের মধ্যে তোমাদের জন্যে জীবন রয়েছে, যাতে তোমরা সাবধান হতে পার।",
+        "en": "In the Law of Equality there is (saving of) Life to you, o ye men of understanding; that ye may restrain yourselves.",
+        "no": "﴿١٧٩﴾"
+    },
+    "180": {
+        "ar": "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ الْمَوْتُ إِن تَرَكَ خَيْرًا الْوَصِيَّةُ لِلْوَالِدَيْنِ وَالأقْرَبِينَ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ",
+        "bn": "তোমাদের কারো যখন মৃত্যুর সময় উপস্থিত হয়, সে যদি কিছু ধন-সম্পদ ত্যাগ করে যায়, তবে তার জন্য ওসীয়ত করা বিধিবদ্ধ করা হলো, পিতা-মাতা ও নিকটাত্নীয়দের জন্য ইনসাফের সাথে পরহেযগারদের জন্য এ নির্দেশ জরুরী। নিশ্চয় আল্লাহ তা’আলা সবকিছু শোনেন ও জানেন।",
+        "en": "It is prescribed, when death approaches any of you, if he leave any goods that he make a bequest to parents and next of kin, according to reasonable usage; this is due from the Allah.fearing.",
+        "no": "﴿١٨٠﴾"
+    },
+    "181": {
+        "ar": "فَمَن بَدَّلَهُ بَعْدَمَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ إِنَّ اللّهَ سَمِيعٌ عَلِيمٌ",
+        "bn": "যদি কেউ ওসীয়ত শোনার পর তাতে কোন রকম পরিবর্তন সাধন করে, তবে যারা পরিবর্তন করে তাদের উপর এর পাপ পতিত হবে।",
+        "en": "If anyone changes the bequest after hearing it, the guilt shall be on those who make the change. For Allah hears and knows (All things).",
+        "no": "﴿١٨١﴾"
+    },
+    "182": {
+        "ar": "فَمَنْ خَافَ مِن مُّوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلاَ إِثْمَ عَلَيْهِ إِنَّ اللّهَ غَفُورٌ رَّحِيمٌ",
+        "bn": "যদি কেউ ওসীয়তকারীর পক্ষ থেকে আশংকা করে পক্ষপাতিত্বের অথবা কোন অপরাধমূলক সিদ্ধান্তের এবং তাদের মধ্যে মীমাংসা করে দেয়, তবে তার কোন গোনাহ হবে না। নিশ্চয় আল্লাহ তা’আলা ক্ষমাশীল, অতি দয়ালু।",
+        "en": "But if anyone fears partiality or wrong-doing on the part of the testator, and makes peace between (The parties concerned), there is no wrong in him: For Allah is Oft-forgiving, Most Merciful.",
+        "no": "﴿١٨٢﴾"
+    },
+    "183": {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُواْ كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+        "bn": "হে ঈমানদারগণ! তোমাদের উপর রোজা ফরয করা হয়েছে, যেরূপ ফরজ করা হয়েছিল তোমাদের পূর্ববর্তী লোকদের উপর, যেন তোমরা পরহেযগারী অর্জন করতে পার।",
+        "en": "O ye who believe! Fasting is prescribed to you as it was prescribed to those before you, that ye may (learn) self-restraint,-",
+        "no": "﴿١٨٣﴾"
+    },
+    "184": {
+        "ar": "أَيَّامًا مَّعْدُودَاتٍ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُ وَأَن تَصُومُواْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+        "bn": "গণনার কয়েকটি দিনের জন্য অতঃপর তোমাদের মধ্যে যে, অসুখ থাকবে অথবা সফরে থাকবে, তার পক্ষে অন্য সময়ে সে রোজা পূরণ করে নিতে হবে। আর এটি যাদের জন্য অত্যন্ত কষ্ট দায়ক হয়, তারা এর পরিবর্তে একজন মিসকীনকে খাদ্যদান করবে। যে ব্যক্তি খুশীর সাথে সৎকর্ম করে, তা তার জন্য কল্যাণ কর হয়। আর যদি রোজা রাখ, তবে তোমাদের জন্যে বিশেষ কল্যাণকর, যদি তোমরা তা বুঝতে পার।",
+        "en": "(Fasting) for a fixed number of days; but if any of you is ill, or on a journey, the prescribed number (Should be made up) from days later. For those who can do it (With hardship), is a ransom, the feeding of one that is indigent. But he that will give more, of his own free will,- it is better for him. And it is better for you that ye fast, if ye only knew.",
+        "no": "﴿١٨٤﴾"
+    },
+    "185": {
+        "ar": "شَهْرُ رَمَضَانَ الَّذِيَ أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ الْهُدَى وَالْفُرْقَانِ فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ وَمَن كَانَ مَرِيضًا أَوْ عَلَى سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ يُرِيدُ اللّهُ بِكُمُ الْيُسْرَ وَلاَ يُرِيدُ بِكُمُ الْعُسْرَ وَلِتُكْمِلُواْ الْعِدَّةَ وَلِتُكَبِّرُواْ اللّهَ عَلَى مَا هَدَاكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+        "bn": "রমযান মাসই হল সে মাস, যাতে নাযিল করা হয়েছে কোরআন, যা মানুষের জন্য হেদায়েত এবং সত্যপথ যাত্রীদের জন্য সুষ্পষ্ট পথ নির্দেশ আর ন্যায় ও অন্যায়ের মাঝে পার্থক্য বিধানকারী। কাজেই তোমাদের মধ্যে যে লোক এ মাসটি পাবে, সে এ মাসের রোযা রাখবে। আর যে লোক অসুস্থ কিংবা মুসাফির অবস্থায় থাকবে সে অন্য দিনে গণনা পূরণ করবে। আল্লাহ তোমাদের জন্য সহজ করতে চান; তোমাদের জন্য জটিলতা কামনা করেন না যাতে তোমরা গণনা পূরণ কর এবং তোমাদের হেদায়েত দান করার দরুন আল্লাহ তা’আলার মহত্ত্ব বর্ণনা কর, যাতে তোমরা কৃতজ্ঞতা স্বীকার কর।",
+        "en": "Ramadhan is the (month) in which was sent down the Qur'an, as a guide to mankind, also clear (Signs) for guidance and judgment (Between right and wrong). So every one of you who is present (at his home) during that month should spend it in fasting, but if any one is ill, or on a journey, the prescribed period (Should be made up) by days later. Allah intends every facility for you; He does not want to put to difficulties. (He wants you) to complete the prescribed period, and to glorify Him in that He has guided you; and perchance ye shall be grateful.",
+        "no": "﴿١٨٥﴾"
+    },
+    "186": {
+        "ar": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ فَلْيَسْتَجِيبُواْ لِي وَلْيُؤْمِنُواْ بِي لَعَلَّهُمْ يَرْشُدُونَ",
+        "bn": "আর আমার বান্দারা যখন তোমার কাছে জিজ্ঞেস করে আমার ব্যাপারে বস্তুতঃ আমি রয়েছি সন্নিকটে। যারা প্রার্থনা করে, তাদের প্রার্থনা কবুল করে নেই, যখন আমার কাছে প্রার্থনা করে। কাজেই আমার হুকুম মান্য করা এবং আমার প্রতি নিঃসংশয়ে বিশ্বাস করা তাদের একান্ত কর্তব্য। যাতে তারা সৎপথে আসতে পারে।",
+        "en": "When My servants ask thee concerning Me, I am indeed close (to them): I listen to the prayer of every suppliant when he calleth on Me: Let them also, with a will, Listen to My call, and believe in Me: That they may walk in the right way.",
+        "no": "﴿١٨٦﴾"
+    },
+    "187": {
+        "ar": "أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَآئِكُمْ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ عَلِمَ اللّهُ أَنَّكُمْ كُنتُمْ تَخْتانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ فَالآنَ بَاشِرُوهُنَّ وَابْتَغُواْ مَا كَتَبَ اللّهُ لَكُمْ وَكُلُواْ وَاشْرَبُواْ حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّواْ الصِّيَامَ إِلَى الَّليْلِ وَلاَ تُبَاشِرُوهُنَّ وَأَنتُمْ عَاكِفُونَ فِي الْمَسَاجِدِ تِلْكَ حُدُودُ اللّهِ فَلاَ تَقْرَبُوهَا كَذَلِكَ يُبَيِّنُ اللّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+        "bn": "রোযার রাতে তোমাদের স্ত্রীদের সাথে সহবাস করা তোমাদের জন্য হালাল করা হয়েছে। তারা তোমাদের পরিচ্ছদ এবং তোমরা তাদের পরিচ্ছদ। আল্লাহ অবগত রয়েছেন যে, তোমরা আত্নপ্রতারণা করছিলে, সুতরাং তিনি তোমাদেরকে ক্ষমা করেছেন এবং তোমাদের অব্যাহতি দিয়েছেন। অতঃপর তোমরা নিজেদের স্ত্রীদের সাথে সহবাস কর এবং যা কিছু তোমাদের জন্য আল্লাহ দান করেছেন, তা আহরন কর। আর পানাহার কর যতক্ষণ না কাল রেখা থেকে ভোরের শুভ্র রেখা পরিষ্কার দেখা যায়। অতঃপর রোযা পূর্ণ কর রাত পর্যন্ত। আর যতক্ষণ তোমরা এতেকাফ অবস্থায় মসজিদে অবস্থান কর, ততক্ষণ পর্যন্ত স্ত্রীদের সাথে মিশো না। এই হলো আল্লাহ কর্তৃক বেঁধে দেয়া সীমানা। অতএব, এর কাছেও যেও না। এমনিভাবে বর্ণনা করেন আল্লাহ নিজের আয়াত সমূহ মানুষের জন্য, যাতে তারা বাঁচতে পারে।",
+        "en": "Permitted to you, on the night of the fasts, is the approach to your wives. They are your garments and ye are their garments. Allah knoweth what ye used to do secretly among yourselves; but He turned to you and forgave you; so now associate with them, and seek what Allah Hath ordained for you, and eat and drink, until the white thread of dawn appear to you distinct from its black thread; then complete your fast Till the night appears; but do not associate with your wives while ye are in retreat in the mosques. Those are Limits (set by) Allah. Approach not nigh thereto. Thus doth Allah make clear His Signs to men: that they may learn self-restraint.",
+        "no": "﴿١٨٧﴾"
+    },
+    "188": {
+        "ar": "وَلاَ تَأْكُلُواْ أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ وَتُدْلُواْ بِهَا إِلَى الْحُكَّامِ لِتَأْكُلُواْ فَرِيقًا مِّنْ أَمْوَالِ النَّاسِ بِالإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
+        "bn": "তোমরা অন্যায়ভাবে একে অপরের সম্পদ ভোগ করো না। এবং জনগণের সম্পদের কিয়দংশ জেনে-শুনে পাপ পন্থায় আত্নসাৎ করার উদ্দেশে শাসন কতৃপক্ষের হাতেও তুলে দিও না।",
+        "en": "And do not eat up your property among yourselves for vanities, nor use it as bait for the judges, with intent that ye may eat up wrongfully and knowingly a little of (other) people's property.",
+        "no": "﴿١٨٨﴾"
+    },
+    "189": {
+        "ar": "يَسْأَلُونَكَ عَنِ الأهِلَّةِ قُلْ هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ وَلَيْسَ الْبِرُّ بِأَنْ تَأْتُوْاْ الْبُيُوتَ مِن ظُهُورِهَا وَلَـكِنَّ الْبِرَّ مَنِ اتَّقَى وَأْتُواْ الْبُيُوتَ مِنْ أَبْوَابِهَا وَاتَّقُواْ اللّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+        "bn": "তোমার নিকট তারা জিজ্ঞেস করে নতুন চাঁদের বিষয়ে। বলে দাও যে এটি মানুষের জন্য সময় নির্ধারণ এবং হজ্বের সময় ঠিক করার মাধ্যম। আর পেছনের দিক দিয়ে ঘরে প্রবেশ করার মধ্যে কোন নেকী বা কল্যাণ নেই। অবশ্য নেকী হল আল্লাহকে ভয় করার মধ্যে। আর তোমরা ঘরে প্রবেশ কর দরজা দিয়ে এবং আল্লাহকে ভয় করতে থাক যাতে তোমরা নিজেদের বাসনায় কৃতকার্য হতে পার।",
+        "en": "They ask thee concerning the New Moons. Say: They are but signs to mark fixed periods of time in (the affairs of) men, and for Pilgrimage. It is no virtue if ye enter your houses from the back: It is virtue if ye fear Allah. Enter houses through the proper doors: And fear Allah. That ye may prosper.",
+        "no": "﴿١٨٩﴾"
+    },
+    "190": {
+        "ar": "وَقَاتِلُواْ فِي سَبِيلِ اللّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلاَ تَعْتَدُواْ إِنَّ اللّهَ لاَ يُحِبِّ الْمُعْتَدِينَ",
+        "bn": "আর লড়াই কর আল্লাহর ওয়াস্তে তাদের সাথে, যারা লড়াই করে তোমাদের সাথে। অবশ্য কারো প্রতি বাড়াবাড়ি করো না। নিশ্চয়ই আল্লাহ সীমালঙ্ঘনকারীদেরকে পছন্দ করেন না।",
+        "en": "Fight in the cause of Allah those who fight you, but do not transgress limits; for Allah loveth not transgressors.",
+        "no": "﴿١٩٠﴾"
+    },
+    "191": {
+        "ar": "وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ وَلاَ تُقَاتِلُوهُمْ عِندَ الْمَسْجِدِ الْحَرَامِ حَتَّى يُقَاتِلُوكُمْ فِيهِ فَإِن قَاتَلُوكُمْ فَاقْتُلُوهُمْ كَذَلِكَ جَزَاء الْكَافِرِينَ",
+        "bn": "আর তাদেরকে হত্যাকর যেখানে পাও সেখানেই এবং তাদেরকে বের করে দাও সেখান থেকে যেখান থেকে তারা বের করেছে তোমাদেরকে। বস্তুতঃ ফেতনা ফ্যাসাদ বা দাঙ্গা-হাঙ্গামা সৃষ্টি করা হত্যার চেয়েও কঠিন অপরাধ। আর তাদের সাথে লড়াই করো না মসজিদুল হারামের নিকটে যতক্ষণ না তারা তোমাদের সাথে সেখানে লড়াই করে। অবশ্য যদি তারা নিজেরাই তোমাদের সাথে লড়াই করে। তাহলে তাদেরকে হত্যা কর। এই হল কাফেরদের শাস্তি।",
+        "en": "And slay them wherever ye catch them, and turn them out from where they have Turned you out; for tumult and oppression are worse than slaughter; but fight them not at the Sacred Mosque, unless they (first) fight you there; but if they fight you, slay them. Such is the reward of those who suppress faith.",
+        "no": "﴿١٩١﴾"
+    },
+    "192": {
+        "ar": "فَإِنِ انتَهَوْاْ فَإِنَّ اللّهَ غَفُورٌ رَّحِيمٌ",
+        "bn": "আর তারা যদি বিরত থাকে, তাহলে আল্লাহ অত্যন্ত দয়ালু।",
+        "en": "But if they cease, Allah is Oft-forgiving, Most Merciful.",
+        "no": "﴿١٩٢﴾"
+    },
+    "193": {
+        "ar": "وَقَاتِلُوهُمْ حَتَّى لاَ تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ لِلّهِ فَإِنِ انتَهَواْ فَلاَ عُدْوَانَ إِلاَّ عَلَى الظَّالِمِينَ",
+        "bn": "আর তোমরা তাদের সাথে লড়াই কর, যে পর্যন্ত না ফেতনার অবসান হয় এবং আল্লাহর দ্বীন প্রতিষ্ঠিত হয়। অতঃপর যদি তারা নিবৃত হয়ে যায় তাহলে কারো প্রতি কোন জবরদস্তি নেই, কিন্তু যারা যালেম (তাদের ব্যাপারে আলাদা)।",
+        "en": "And fight them on until there is no more Tumult or oppression, and there prevail justice and faith in Allah. but if they cease, Let there be no hostility except to those who practise oppression.",
+        "no": "﴿١٩٣﴾"
+    },
+    "194": {
+        "ar": "الشَّهْرُ الْحَرَامُ بِالشَّهْرِ الْحَرَامِ وَالْحُرُمَاتُ قِصَاصٌ فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُواْ عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ وَاتَّقُواْ اللّهَ وَاعْلَمُواْ أَنَّ اللّهَ مَعَ الْمُتَّقِينَ",
+        "bn": "সম্মানিত মাসই সম্মানিত মাসের বদলা। আর সম্মান রক্ষা করারও বদলা রয়েছে। বস্তুতঃ যারা তোমাদের উপর জবর দস্তি করেছে, তোমরা তাদের উপর জবরদস্তি কর, যেমন জবরদস্তি তারা করেছে তোমাদের উপর। আর তোমরা আল্লাহকে ভয় কর এবং জেনে রাখ, যারা পরহেযগার, আল্লাহ তাদের সাথে রয়েছেন।",
+        "en": "The prohibited month for the prohibited month,- and so for all things prohibited,- there is the law of equality. If then any one transgresses the prohibition against you, Transgress ye likewise against him. But fear Allah, and know that Allah is with those who restrain themselves.",
+        "no": "﴿١٩٤﴾"
+    },
+    "195": {
+        "ar": "وَأَنفِقُواْ فِي سَبِيلِ اللّهِ وَلاَ تُلْقُواْ بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ وَأَحْسِنُوَاْ إِنَّ اللّهَ يُحِبُّ الْمُحْسِنِينَ",
+        "bn": "আর ব্যয় কর আল্লাহর পথে, তবে নিজের জীবনকে ধ্বংসের সম্মুখীন করো না। আর মানুষের প্রতি অনুগ্রহ কর। আল্লাহ অনুগ্রহকারীদেরকে ভালবাসেন।",
+        "en": "And spend of your substance in the cause of Allah, and make not your own hands contribute to (your) destruction; but do good; for Allah loveth those who do good.",
+        "no": "﴿١٩٥﴾"
+    },
+    "196": {
+        "ar": "وَأَتِمُّواْ الْحَجَّ وَالْعُمْرَةَ لِلّهِ فَإِنْ أُحْصِرْتُمْ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ وَلاَ تَحْلِقُواْ رُؤُوسَكُمْ حَتَّى يَبْلُغَ الْهَدْيُ مَحِلَّهُ فَمَن كَانَ مِنكُم مَّرِيضاً أَوْ بِهِ أَذًى مِّن رَّأْسِهِ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ فَإِذَا أَمِنتُمْ فَمَن تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلاثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ تِلْكَ عَشَرَةٌ كَامِلَةٌ ذَلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُ حَاضِرِي الْمَسْجِدِ الْحَرَامِ وَاتَّقُواْ اللّهَ وَاعْلَمُواْ أَنَّ اللّهَ شَدِيدُ الْعِقَابِ",
+        "bn": "আর তোমরা আল্লাহর উদ্দেশ্যে হজ্জ্ব ওমরাহ পরিপূর্ণ ভাবে পালন কর। যদি তোমরা বাধা প্রাপ্ত হও, তাহলে কোরবানীর জন্য যাকিছু সহজলভ্য, তাই তোমাদের উপর ধার্য। আর তোমরা ততক্ষণ পর্যন্ত মাথা মুন্ডন করবে না, যতক্ষণ না কোরবাণী যথাস্থানে পৌছে যাবে। যারা তোমাদের মধ্যে অসুস্থ হয়ে পড়বে কিংবা মাথায় যদি কোন কষ্ট থাকে, তাহলে তার পরিবর্তে রোজা করবে কিংবা খয়রাত দেবে অথবা কুরবানী করবে। আর তোমাদের মধ্যে যারা হজ্জ্ব ওমরাহ একত্রে একই সাথে পালন করতে চাও, তবে যাকিছু সহজলভ্য, তা দিয়ে কুরবানী করাই তার উপর কর্তব্য। বস্তুতঃ যারা কোরবানীর পশু পাবে না, তারা হজ্জ্বের দিনগুলোর মধ্যে রোজা রাখবে তিনটি আর সাতটি রোযা রাখবে ফিরে যাবার পর। এভাবে দশটি রোযা পূর্ণ হয়ে যাবে। এ নির্দেশটি তাদের জন্য, যাদের পরিবার পরিজন মসজিদুল হারামের আশে-পাশে বসবাস করে না। আর আল্লাহকে ভয় করতে থাক। সন্দেহাতীতভাবে জেনো যে, আল্লাহর আযাব বড়ই কঠিন।",
+        "en": "And complete the Hajj or 'umra in the service of Allah. But if ye are prevented (From completing it), send an offering for sacrifice, such as ye may find, and do not shave your heads until the offering reaches the place of sacrifice. And if any of you is ill, or has an ailment in his scalp, (Necessitating shaving), (He should) in compensation either fast, or feed the poor, or offer sacrifice; and when ye are in peaceful conditions (again), if any one wishes to continue the 'umra on to the hajj, He must make an offering, such as he can afford, but if he cannot afford it, He should fast three days during the hajj and seven days on his return, Making ten days in all. This is for those whose household is not in (the precincts of) the Sacred Mosque. And fear Allah, and know that Allah Is strict in punishment.",
+        "no": "﴿١٩٦﴾"
+    },
+    "197": {
+        "ar": "الْحَجُّ أَشْهُرٌ مَّعْلُومَاتٌ فَمَن فَرَضَ فِيهِنَّ الْحَجَّ فَلاَ رَفَثَ وَلاَ فُسُوقَ وَلاَ جِدَالَ فِي الْحَجِّ وَمَا تَفْعَلُواْ مِنْ خَيْرٍ يَعْلَمْهُ اللّهُ وَتَزَوَّدُواْ فَإِنَّ خَيْرَ الزَّادِ التَّقْوَى وَاتَّقُونِ يَا أُوْلِي الأَلْبَابِ",
+        "bn": "হজ্জ্বে কয়েকটি মাস আছে সুবিদিত। এসব মাসে যে লোক হজ্জ্বের পরিপূর্ণ নিয়ত করবে, তার পক্ষে স্ত্রীও সাথে নিরাভরণ হওয়া জায়েজ নয়। না অশোভন কোন কাজ করা, না ঝাগড়া-বিবাদ করা হজ্জ্বের সেই সময় জায়েজ নয়। আর তোমরা যাকিছু সৎকাজ কর, আল্লাহ তো জানেন। আর তোমরা পাথেয় সাথে নিয়ে নাও। নিঃসন্দেহে সর্বোত্তম পাথেয় হচ্ছে আল্লাহর ভয়। আর আমাকে ভয় করতে থাক, হে বুদ্ধিমানগন! তোমাদের উপর তোমাদের পালনকর্তার অনুগ্রহ অন্বেষণ করায় কোন পাপ নেই।",
+        "en": "For Hajj are the months well known. If any one undertakes that duty therein, Let there be no obscenity, nor wickedness, nor wrangling in the Hajj. And whatever good ye do, (be sure) Allah knoweth it. And take a provision (With you) for the journey, but the best of provisions is right conduct. So fear Me, o ye that are wise.",
+        "no": "﴿١٩٧﴾"
+    },
+    "198": {
+        "ar": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُواْ فَضْلاً مِّن رَّبِّكُمْ فَإِذَا أَفَضْتُم مِّنْ عَرَفَاتٍ فَاذْكُرُواْ اللّهَ عِندَ الْمَشْعَرِ الْحَرَامِ وَاذْكُرُوهُ كَمَا هَدَاكُمْ وَإِن كُنتُم مِّن قَبْلِهِ لَمِنَ الضَّآلِّينَ",
+        "bn": "তোমাদের উপর তোমাদের পালনকর্তার অনুগ্রহ অন্বেষন করায় কোন পাপ নেই। অতঃপর যখন তওয়াফের জন্য ফিরে আসবে আরাফাত থেকে, তখন মাশ‘ আরে-হারামের নিকটে আল্লাহকে স্মরণ কর। আর তাঁকে স্মরণ কর তেমনি করে, যেমন তোমাদিগকে হেদায়েত করা হয়েছে। আর নিশ্চয়ই ইতিপূর্বে তোমরা ছিলে অজ্ঞ।",
+        "en": "It is no crime in you if ye seek of the bounty of your Lord (during pilgrimage). Then when ye pour down from (Mount) Arafat, celebrate the praises of Allah at the Sacred Monument, and celebrate His praises as He has directed you, even though, before this, ye went astray.",
+        "no": "﴿١٩٨﴾"
+    },
+    "199": {
+        "ar": "ثُمَّ أَفِيضُواْ مِنْ حَيْثُ أَفَاضَ النَّاسُ وَاسْتَغْفِرُواْ اللّهَ إِنَّ اللّهَ غَفُورٌ رَّحِيمٌ",
+        "bn": "অতঃপর তওয়াফের জন্যে দ্রুতগতিতে সেখান থেকে ফিরে আস, যেখান থেকে সবাই ফিরে। আর আল্লাহর কাছেই মাগফেরাত কামনা কর। নিশ্চয়ই আল্লাহ ক্ষমাকারী, করুনাময়।",
+        "en": "Then pass on at a quick pace from the place whence it is usual for the multitude so to do, and ask for Allah.s forgiveness. For Allah is Oft-forgiving, Most Merciful.",
+        "no": "﴿١٩٩﴾"
+    },
+    "200": {
+        "ar": "فَإِذَا قَضَيْتُم مَّنَاسِكَكُمْ فَاذْكُرُواْ اللّهَ كَذِكْرِكُمْ آبَاءكُمْ أَوْ أَشَدَّ ذِكْرًا فَمِنَ النَّاسِ مَن يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا وَمَا لَهُ فِي الآخِرَةِ مِنْ خَلاَقٍ",
+        "bn": "আর অতঃপর যখন হজ্জ্বের যাবতীয় অনুষ্ঠানক্রিয়াদি সমাপ্ত করে সারবে, তখন স্মরণ করবে আল্লাহকে, যেমন করে তোমরা স্মরণ করতে নিজেদের বাপ-দাদাদেরকে; বরং তার চেয়েও বেশী স্মরণ করবে। তারপর অনেকে তো বলে যে পরওয়াদেগার! আমাদিগকে দুনিয়াতে দান কর। অথচ তার জন্যে পরকালে কোন অংশ নেই।",
+        "en": "So when ye have accomplished your holy rites, celebrate the praises of Allah, as ye used to celebrate the praises of your fathers,- yea, with far more Heart and soul. There are men who say: 'Our Lord! Give us (Thy bounties) in this world!' but they will have no portion in the Hereafter.",
+        "no": "﴿٢٠٠﴾"
+    },
+    "201": {
+        "ar": "وِمِنْهُم مَّن يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+        "bn": "আর তাদের মধ্যে কেউ কেউ বলে-হে পরওয়ারদেগার! আমাদিগকে দুনয়াতেও কল্যাণ দান কর এবং আখেরাতেও কল্যাণ দান কর এবং আমাদিগকে দোযখের আযাব থেকে রক্ষা কর।",
+        "en": "And there are men who say: 'Our Lord! Give us good in this world and good in the Hereafter, and defend us from the torment of the Fire!'",
+        "no": "﴿٢٠١﴾"
+    },
+    "202": {
+        "ar": "أُولَـئِكَ لَهُمْ نَصِيبٌ مِّمَّا كَسَبُواْ وَاللّهُ سَرِيعُ الْحِسَابِ",
+        "bn": "এদেরই জন্য অংশ রয়েছে নিজেদের উপার্জিত সম্পদের। আর আল্লাহ দ্রুত হিসাব গ্রহণকারী।",
+        "en": "To these will be allotted what they have earned; and Allah is quick in account.",
+        "no": "﴿٢٠٢﴾"
+    },
+    "203": {
+        "ar": "وَاذْكُرُواْ اللّهَ فِي أَيَّامٍ مَّعْدُودَاتٍ فَمَن تَعَجَّلَ فِي يَوْمَيْنِ فَلاَ إِثْمَ عَلَيْهِ وَمَن تَأَخَّرَ فَلا إِثْمَ عَلَيْهِ لِمَنِ اتَّقَى وَاتَّقُواْ اللّهَ وَاعْلَمُوا أَنَّكُمْ إِلَيْهِ تُحْشَرُونَ",
+        "bn": "আর স্মরণ কর আল্লাহকে নির্দিষ্ট সংখ্যক কয়েকটি দিনে। অতঃপর যে লোক তাড়াহুড়া করে চলে যাবে শুধু দু, দিনের মধ্যে, তার জন্যে কোন পাপ নেই। আর যে লোক থেকে যাবে তাঁর উপর কোন পাপ নেই, অবশ্য যারা ভয় করে। আর তোমরা আল্লাহকে ভয় করতে থাক এবং নিশ্চিত জেনে রাখ, তোমরা সবাই তার সামনে সমবেত হবে।",
+        "en": "Celebrate the praises of Allah during the Appointed Days. But if any one hastens to leave in two days, there is no blame on him, and if any one stays on, there is no blame on him, if his aim is to do right. Then fear Allah, and know that ye will surely be gathered unto Him.",
+        "no": "﴿٢٠٣﴾"
+    },
+    "204": {
+        "ar": "وَمِنَ النَّاسِ مَن يُعْجِبُكَ قَوْلُهُ فِي الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللّهَ عَلَى مَا فِي قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ",
+        "bn": "আর এমন কিছু লোক রযেছে যাদের পার্থিব জীবনের কথাবার্তা তোমাকে চমৎকৃত করবে। আর তারা সাক্ষ্য স্থাপন করে আল্লাহকে নিজের মনের কথার ব্যাপারে। প্রকৃতপক্ষে তারা কঠিন ঝগড়াটে লোক।",
+        "en": "There is the type of man whose speech about this world's life May dazzle thee, and he calls Allah to witness about what is in his heart; yet is he the most contentious of enemies.",
+        "no": "﴿٢٠٤﴾"
+    },
+    "205": {
+        "ar": "وَإِذَا تَوَلَّى سَعَى فِي الأَرْضِ لِيُفْسِدَ فِيِهَا وَيُهْلِكَ الْحَرْثَ وَالنَّسْلَ وَاللّهُ لاَ يُحِبُّ الفَسَادَ",
+        "bn": "যখন ফিরে যায় তখন চেষ্টা করে যাতে সেখানে অকল্যাণ সৃষ্টি করতে পারে এবং শস্যক্ষেত্র ও প্রাণনাশ করতে পারে। আল্লাহ ফাসাদ ও দাঙ্গা-হাঙ্গামা পছন্দ করেন না।",
+        "en": "When he turns his back, His aim everywhere is to spread mischief through the earth and destroy crops and cattle. But Allah loveth not mischief.",
+        "no": "﴿٢٠٥﴾"
     }
  
  
@@ -805,6 +1319,83 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
@@ -888,7 +1479,221 @@
 
 
 
-}}
+}},
+"mulk": {
+    "attr": {
+        "ar": "الملك",
+        "bn": "সূরা আল মুলক",
+        "en": "Surah Al-Mulk",
+        "audio": "http://www.quraanshareef.org/audio/1-Surah-Al-Fatihah.mp3",
+        "len": 30,
+        "index": 67
+    },
+    "aya": {
+        "1": {
+            "ar": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+            "bn": "পূণ্যময় তিনি, যাঁর হাতে রাজত্ব। তিনি সবকিছুর উপর সর্বশক্তিমান।",
+            "en": "Blessed be He in Whose hands is Dominion; and He over all things hath Power;-",
+            "no": "﴿١﴾"
+        },
+        "2": {
+            "ar": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ",
+            "bn": "যিনি সৃষ্টি করেছেন মরণ ও জীবন, যাতে তোমাদেরকে পরীক্ষা করেন-কে তোমাদের মধ্যে কর্মে শ্রেষ্ঠ? তিনি পরাক্রমশালী, ক্ষমাময়।",
+            "en": "He Who created Death and Life, that He may try which of you is best in deed: and He is the Exalted in Might, Oft-Forgiving;-",
+            "no": "﴿٢﴾"
+        },
+        "3": {
+            "ar": "الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا مَّا تَرَى فِي خَلْقِ الرَّحْمَنِ مِن تَفَاوُتٍ فَارْجِعِ الْبَصَرَ هَلْ تَرَى مِن فُطُورٍ",
+            "bn": "তিনি সপ্ত আকাশ স্তরে স্তরে সৃষ্টি করেছেন। তুমি করুণাময় আল্লাহ তা’আলার সৃষ্টিতে কোন তফাত দেখতে পাবে না। আবার দৃষ্টিফেরাও; কোন ফাটল দেখতে পাও কি?",
+            "en": "He Who created the seven heavens one above another: No want of proportion wilt thou see in the Creation of ((Allah)) Most Gracious. So turn thy vision again: seest thou any flaw?",
+            "no": "﴿٣﴾"
+        },
+        "4": {
+            "ar": "ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِأً وَهُوَ حَسِيرٌ",
+            "bn": "অতঃপর তুমি বার বার তাকিয়ে দেখ-তোমার দৃষ্টি ব্যর্থ ও পরিশ্রান্ত হয়ে তোমার দিকে ফিরে আসবে।",
+            "en": "Again turn thy vision a second time: (thy) vision will come back to thee dull and discomfited, in a state worn out.",
+            "no": "﴿٤﴾"
+        },
+        "5": {
+            "ar": "وَلَقَدْ زَيَّنَّا السَّمَاء الدُّنْيَا بِمَصَابِيحَ وَجَعَلْنَاهَا رُجُومًا لِّلشَّيَاطِينِ وَأَعْتَدْنَا لَهُمْ عَذَابَ السَّعِيرِ",
+            "bn": "আমি সর্বনিম্ন আকাশকে প্রদীপমালা দ্বারা সুসজ্জত করেছি; সেগুলোকে শয়তানদের জন্যে ক্ষেপণাস্ত্রবৎ করেছি এবং প্রস্তুত করে রেখেছি তাদের জন্যে জলন্ত অগ্নির শাস্তি।",
+            "en": "And we have, (from of old), adorned the lowest heaven with Lamps, and We have made such (Lamps) (as) missiles to drive away the Evil Ones, and have prepared for them the Penalty of the Blazing Fire.",
+            "no": "﴿٥﴾"
+        },
+        "6": {
+            "ar": "وَلِلَّذِينَ كَفَرُوا بِرَبِّهِمْ عَذَابُ جَهَنَّمَ وَبِئْسَ الْمَصِيرُ",
+            "bn": "যারা তাদের পালনকর্তাকে অস্বীকার করেছে তাদের জন্যে রয়েছে জাহান্নামের শাস্তি। সেটা কতই না নিকৃষ্ট স্থান।",
+            "en": "For those who reject their Lord (and Cherisher) is the Penalty of Hell: and evil is (such), Destination.",
+            "no": "﴿٦﴾"
+        },
+        "7": {
+            "ar": "إِذَا أُلْقُوا فِيهَا سَمِعُوا لَهَا شَهِيقًا وَهِيَ تَفُورُ",
+            "bn": "যখন তারা তথায় নিক্ষিপ্ত হবে, তখন তার উৎক্ষিপ্ত গর্জন শুনতে পাবে।",
+            "en": "When they are cast therein, they will hear the (terrible) drawing in of its breath even as it blazes forth,",
+            "no": "﴿٧﴾"
+        },
+        "8": {
+            "ar": "تَكَادُ تَمَيَّزُ مِنَ الْغَيْظِ كُلَّمَا أُلْقِيَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَا أَلَمْ يَأْتِكُمْ نَذِيرٌ",
+            "bn": "ক্রোধে জাহান্নাম যেন ফেটে পড়বে। যখনই তাতে কোন সম্প্রদায় নিক্ষিপ্ত হবে তখন তাদেরকে তার সিপাহীরা জিজ্ঞাসা করবে। তোমাদের কাছে কি কোন সতর্ককারী আগমন করেনি?",
+            "en": "Almost bursting with fury: Every time a Group is cast therein, its Keepers will ask, 'Did no Warner come to you?'",
+            "no": "﴿٨﴾"
+        },
+        "9": {
+            "ar": "قَالُوا بَلَى قَدْ جَاءنَا نَذِيرٌ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ اللَّهُ مِن شَيْءٍ إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ كَبِيرٍ",
+            "bn": "তারা বলবেঃ হ্যাঁ আমাদের কাছে সতর্ককারী আগমন করেছিল, অতঃপর আমরা মিথ্যারোপ করেছিলাম এবং বলেছিলামঃ আল্লাহ তা’আলা কোন কিছু নাজিল করেননি। তোমরা মহাবিভ্রান্তিতে পড়ে রয়েছ।",
+            "en": "They will say: 'Yes indeed; a Warner did come to us, but we rejected him and said, '(Allah) never sent down any (Message): ye are nothing but an egregious delusion!'",
+            "no": "﴿٩﴾"
+        },
+        "10": {
+            "ar": "وَقَالُوا لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِي أَصْحَابِ السَّعِيرِ",
+            "bn": "তারা আরও বলবেঃ যদি আমরা শুনতাম অথবা বুদ্ধি খাটাতাম, তবে আমরা জাহান্নামবাসীদের মধ্যে থাকতাম না।",
+            "en": "They will further say: 'Had we but listened or used our intelligence, we should not (now) be among the Companions of the Blazing Fire!'",
+            "no": "﴿١٠﴾"
+        },
+        "11": {
+            "ar": "فَاعْتَرَفُوا بِذَنبِهِمْ فَسُحْقًا لِّأَصْحَابِ السَّعِيرِ",
+            "bn": "অতঃপর তারা তাদের অপরাধ স্বীকার করবে। জাহান্নামীরা দূর হোক।",
+            "en": "They will then confess their sins: but far will be (Forgiveness) from the Companions of the Blazing Fire!",
+            "no": "﴿١١﴾"
+        },
+        "12": {
+            "ar": "إِنَّ الَّذِينَ يَخْشَوْنَ رَبَّهُم بِالْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+            "bn": "নিশ্চয় যারা তাদের পালনকর্তাকে না দেখে ভয় করে, তাদের জন্যে রয়েছে ক্ষমা ও মহাপুরস্কার।",
+            "en": "As for those who fear their Lord unseen, for them is Forgiveness and a great Reward.",
+            "no": "﴿١٢﴾"
+        },
+        "13": {
+            "ar": "وَأَسِرُّوا قَوْلَكُمْ أَوِ اجْهَرُوا بِهِ إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
+            "bn": "তোমরা তোমাদের কথা গোপনে বল অথবা প্রকাশ্যে বল, তিনি তো অন্তরের বিষয়াদি সম্পর্কে সম্যক অবগত।",
+            "en": "And whether ye hide your word or publish it, He certainly has (full) knowledge, of the secrets of (all) hearts.",
+            "no": "﴿١٣﴾"
+        },
+        "14": {
+            "ar": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
+            "bn": "যিনি সৃষ্টি করেছেন, তিনি কি করে জানবেন না? তিনি সূক্ষ্নজ্ঞানী, সম্যক জ্ঞাত।",
+            "en": "Should He not know,- He that created? and He is the One that understands the finest mysteries (and) is well-acquainted (with them).",
+            "no": "﴿١٥﴾"
+        },
+        "15": {
+            "ar": "هُوَ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ ذَلُولًا فَامْشُوا فِي مَنَاكِبِهَا وَكُلُوا مِن رِّزْقِهِ وَإِلَيْهِ النُّشُورُ",
+            "bn": "তিনি তোমাদের জন্যে পৃথিবীকে সুগম করেছেন, অতএব, তোমরা তার কাঁধে বিচরণ কর এবং তাঁর দেয়া রিযিক আহার কর। তাঁরই কাছে পুনরুজ্জীবন হবে।",
+            "en": "It is He Who has made the earth manageable for you, so traverse ye through its tracts and enjoy of the Sustenance which He furnishes: but unto Him is the Resurrection.",
+            "no": "﴿١٥﴾"
+        },
+        "16": {
+            "ar": "أَأَمِنتُم مَّن فِي السَّمَاء أَن يَخْسِفَ بِكُمُ الأَرْضَ فَإِذَا هِيَ تَمُورُ",
+            "bn": "তোমরা কি ভাবনামুক্ত হয়ে গেছ যে, আকাশে যিনি আছেন তিনি তোমাদেরকে ভূগর্ভে বিলীন করে দেবেন, অতঃপর তা কাঁপতে থাকবে।",
+            "en": "Do ye feel secure that He Who is in heaven will not cause you to be swallowed up by the earth when it shakes (as in an earthquake)?",
+            "no": "﴿١٦﴾"
+        },
+        "17": {
+            "ar": "أَمْ أَمِنتُم مَّن فِي السَّمَاء أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ",
+            "bn": "না তোমরা নিশ্চিন্ত হয়ে গেছ যে, আকাশে যিনি আছেন, তিনি তোমাদের উপর প্রস্তর বৃষ্টি বর্ষণ করবেন, অতঃপর তোমরা জানতে পারবে কেমন ছিল আমার সতর্কবাণী।",
+            "en": "Or do ye feel secure that He Who is in Heaven will not send against you a violent tornado (with showers of stones), so that ye shall know how (terrible) was My warning?",
+            "no": "﴿١٧﴾"
+        },
+        "18": {
+            "ar": "وَلَقَدْ كَذَّبَ الَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ",
+            "bn": "তাদের পূর্ববর্তীরা মিথ্যারোপ করেছিল, অতঃপর কত কঠোর হয়েছিল আমার অস্বীকৃতি।",
+            "en": "But indeed men before them rejected (My warning): then how (terrible) was My rejection (of them)?",
+            "no": "﴿١٨﴾"
+        },
+        "19": {
+            "ar": "أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمَنُ إِنَّهُ بِكُلِّ شَيْءٍ بَصِيرٌ",
+            "bn": "তারা কি লক্ষ্য করে না, তাদের মাথার উপর উড়ন্ত পক্ষীকুলের প্রতি পাখা বিস্তারকারী ও পাখা সংকোচনকারী? রহমান আল্লাহ-ই তাদেরকে স্থির রাখেন। তিনি সর্ব-বিষয় দেখেন।",
+            "en": "Do they not observe the birds above them, spreading their wings and folding them in? None can uphold them except ((Allah)) Most Gracious: Truly ((Allah)) Most Gracious: Truly it is He that watches over all things.",
+            "no": "﴿١٩﴾"
+        },
+        "20": {
+            "ar": "أَمَّنْ هَذَا الَّذِي هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ الرَّحْمَنِ إِنِ الْكَافِرُونَ إِلَّا فِي غُرُورٍ",
+            "bn": "রহমান আল্লাহ তা’আলা ব্যতীত তোমাদের কোন সৈন্য আছে কি, যে তোমাদেরকে সাহায্য করবে? কাফেররা বিভ্রান্তিতেই পতিত আছে।",
+            "en": "Nay, who is there that can help you, (even as) an army, besides ((Allah)) Most Merciful? In nothing but delusion are the Unbelievers.",
+            "no": "﴿٢٠﴾"
+        },
+        "21": {
+            "ar": "أَمَّنْ هَذَا الَّذِي يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُ بَل لَّجُّوا فِي عُتُوٍّ وَنُفُورٍ",
+            "bn": "তিনি যদি রিযিক বন্ধ করে দেন, তবে কে আছে, যে তোমাদেরকে রিযিক দিবে বরং তারা অবাধ্যতা ও বিমুখতায় ডুবে রয়েছে।",
+            "en": "Or who is there that can provide you with Sustenance if He were to withhold His provision? Nay, they obstinately persist in insolent impiety and flight (from the Truth).",
+            "no": "﴿٢١﴾"
+        },
+        "22": {
+            "ar": "أَفَمَن يَمْشِي مُكِبًّا عَلَى وَجْهِهِ أَهْدَى أَمَّن يَمْشِي سَوِيًّا عَلَى صِرَاطٍ مُّسْتَقِيمٍ",
+            "bn": "যে ব্যক্তি উপুড় হয়ে মুখে ভর দিয়ে চলে, সে-ই কি সৎ পথে চলে, না সে ব্যক্তি যে সোজা হয়ে সরলপথে চলে?",
+            "en": "Is then one who walks headlong, with his face grovelling, better guided,- or one who walks evenly on a Straight Way?",
+            "no": "﴿٢٢﴾"
+        },
+        "23": {
+            "ar": "قُلْ هُوَ الَّذِي أَنشَأَكُمْ وَجَعَلَ لَكُمُ السَّمْعَ وَالْأَبْصَارَ وَالْأَفْئِدَةَ قَلِيلًا مَّا تَشْكُرُونَ",
+            "bn": "বলুন, তিনিই তোমাদেরকে সৃষ্টি করেছেন এবং দিয়েছেন কর্ণ, চক্ষু ও অন্তর। তোমরা অল্পই কৃতজ্ঞতা প্রকাশ কর।",
+            "en": "Say: 'It is He Who has created you (and made you grow), and made for you the faculties of hearing, seeing, feeling and understanding: little thanks it is ye give.'",
+            "no": "﴿٢٣﴾"
+        },
+        "24": {
+            "ar": "قُلْ هُوَ الَّذِي ذَرَأَكُمْ فِي الْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+            "bn": "বলুন, তিনিই তোমাদেরকে পৃথিবীতে বিস্তৃত করেছেন এবং তাঁরই কাছে তোমরা সমবেত হবে।",
+            "en": "Say: 'It is He Who has multiplied you through the earth, and to Him shall ye be gathered together.'",
+            "no": "﴿٢٤﴾"
+        },
+        "25": {
+            "ar": "وَيَقُولُونَ مَتَى هَذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ",
+            "bn": "কাফেররা বলেঃ এই প্রতিশ্রুতি কবে হবে, যদি তোমরা সত্যবাদী হও?",
+            "en": "They ask: When will this promise be (fulfilled)? - If ye are telling the truth.",
+            "no": "﴿٢٥﴾"
+        },
+        "26": {
+            "ar": "قُلْ إِنَّمَا الْعِلْمُ عِندَ اللَّهِ وَإِنَّمَا أَنَا نَذِيرٌ مُّبِينٌ",
+            "bn": "বলুন, এর জ্ঞান আল্লাহ তা’আলার কাছেই আছে। আমি তো কেবল প্রকাশ্য সতর্ককারী।",
+            "en": "Say: 'As to the knowledge of the time, it is with Allah alone: I am (sent) only to warn plainly in public.'",
+            "no": "﴿٢٦﴾"
+        },
+        "27": {
+            "ar": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيئَتْ وُجُوهُ الَّذِينَ كَفَرُوا وَقِيلَ هَذَا الَّذِي كُنتُم بِهِ تَدَّعُونَ",
+            "bn": "যখন তারা সেই প্রতিশ্রুতিকে আসন্ন দেখবে তখন কাফেরদের মুখমন্ডল মলিন হয়ে পড়বে এবং বলা হবেঃ এটাই তো তোমরা চাইতে।",
+            "en": "At length, when they see it close at hand, grieved will be the faces of the Unbelievers, and it will be said (to them): 'This is (the promise fulfilled), which ye were calling for!'",
+            "no": "﴿٢٧﴾"
+        },
+        "28": {
+            "ar": "قُلْ أَرَأَيْتُمْ إِنْ أَهْلَكَنِيَ اللَّهُ وَمَن مَّعِيَ أَوْ رَحِمَنَا فَمَن يُجِيرُ الْكَافِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+            "bn": "বলুন, তোমরা কি ভেবে দেখেছ-যদি আল্লাহ তা’আলা আমাকে ও আমার সংগীদেরকে ধ্বংস করেন অথবা আমাদের প্রতি দয়া করেন, তবে কাফেরদেরকে কে যন্ত্রণাদায়ক শাস্তি থেকে রক্ষা করবে?",
+            "en": "Say: 'See ye?- If Allah were to destroy me, and those with me, or if He bestows His Mercy on us,- yet who can deliver the Unbelievers from a grievous Penalty?'",
+            "no": "﴿٢٨﴾"
+        },
+        "29": {
+            "ar": "قُلْ هُوَ الرَّحْمَنُ آمَنَّا بِهِ وَعَلَيْهِ تَوَكَّلْنَا فَسَتَعْلَمُونَ مَنْ هُوَ فِي ضَلَالٍ مُّبِينٍ",
+            "bn": "বলুন, তিনি পরম করুণাময়, আমরা তাতে বিশ্বাস রাখি এবং তাঁরই উপর ভরসা করি। সত্ত্বরই তোমরা জানতে পারবে, কে প্রকাশ্য পথ-ভ্রষ্টতায় আছে।",
+            "en": "Say: 'He is ((Allah)) Most Gracious: We have believed in Him, and on Him have we put our trust: So, soon will ye know which (of us) it is that is in manifest error.'",
+            "no": "﴿٢٩﴾"
+        },
+        "30": {
+            "ar": "قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَاء مَّعِينٍ",
+            "bn": "বলুন, তোমরা ভেবে দেখেছ কি, যদি তোমাদের পানি ভূগর্ভের গভীরে চলে যায়, তবে কে তোমাদেরকে সরবরাহ করবে পানির স্রোতধারা?",
+            "en": "Say: 'See ye?- If your stream be some morning lost (in the underground earth), who then can supply you with clear-flowing water?'",
+            "no": "﴿٣٠﴾"
+        }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+
+
+
+        }       
+    }
 
 
 

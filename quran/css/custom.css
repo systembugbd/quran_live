@@ -481,7 +481,7 @@ direction: ltr !important;
 }
 
 
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1440px) {
 
   div#sidebar-wrapper {
     width: 370px;
@@ -507,7 +507,7 @@ direction: ltr !important;
 }
 }
 
-@media (max-width: 1024px) and (min-width: 768px){
+@media (max-width: 1440px) and (min-width: 768px){
   #wrapper.toggled #sidebar-wrapper {
       margin-left: -368px;
   }
@@ -607,8 +607,8 @@ direction: ltr !important;
   }
 }
 
-@media (min-width: 1400px){
+/* @media (min-width: 1400px){
 #wrapper.toggled #sidebar-wrapper {
     margin-left: -312px;
 }
-}
+} */
