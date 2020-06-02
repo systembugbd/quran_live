@@ -12,7 +12,7 @@ let quranContainer = document.querySelector(".quranContainer");
 let dFlexToggle = document.getElementById("menu-toggle");
 let showSideBar = document.getElementById("showSideBar");
 let pauseAudioBtn = document.getElementById("pauseAudioBtn");
-// let playPuaseMsg = document.getElementById(" playPuaseMsg ");
+// let translationContainer = document.getElementById(" translationContainer");
 
 let langSelection = document.getElementById("langSelection");
 
@@ -45,6 +45,8 @@ let translation = false;
 let translationFixed = false;
 let translationMouseOver = false;
 
+let msg = document.createElement('span');
+
 let searchState = async (input) => {
   let res = await fetch("./quran.json");
   let states = await res.json();
@@ -58,8 +60,11 @@ let searchState = async (input) => {
 
 function showData(data, input) {
 
+  $("#customtransBnEn").hide();
+  msg.innerHTML= '';
   $(translationSection).show();
   showOnlyTranslationEL.removeAttribute('checked');
+  
 
   if (isPlayingClickOnAya) {
     alert("Please Pause Audio First to Change Sura");
@@ -138,12 +143,18 @@ function showData(data, input) {
             }</p></span></span></span>`;
           /*transFixed class to show translation in fixed way*/
 
-          bn.innerHTML += data[v].aya[i + 1].bn;
-          en.innerHTML += data[v].aya[i + 1].en;
+          
+              bn.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].bn }</span >`;           
+            
+           
+              en.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].en }</span >`;  
+         
+         
 
           suraContainer.appendChild(ar);
           suraContainer.appendChild(bn);
           suraContainer.appendChild(en);
+
           showOnlyTranslationHideArabic(data[v], i);
         }
       }
@@ -180,10 +191,14 @@ function showData(data, input) {
   translationWithVideoOnOff.addEventListener("change", function (e) {
     this.setAttribute("checked", "checked");
     if (this.checked) {
+      
+
       this.setAttribute("checked", "checked");
       console.log(this.getAttribute("checked"), "true Block");
       translation = true;
     } else {
+
+      
       translation = false;
       this.removeAttribute("checked");
       console.log(this.getAttribute("checked"), "false Block");
@@ -237,6 +252,7 @@ selectedSura.addEventListener("change", () => searchState(selectedSura.value));
 function showTranslationFixed(checkdOrNot) {
   
   if (checkdOrNot) {
+    
     translationOffMouseOver.removeAttribute('checked', "");
     translationWithVideoOnOff.removeAttribute('checked', "");
     $(".aya").children("span.card").addClass("transFixed");
@@ -248,10 +264,10 @@ function showTranslationFixed(checkdOrNot) {
 
     $(translationOffMouseOver).parent().hide();
     $(translationWithVideoOnOff).parent().hide();
-    console.log('I am fixed on', showOnlyTranslationEL.setAttribute('checked',''));
+    // console.log('I am fixed on', showOnlyTranslationEL.setAttribute('checked',''));
     
     //hiding translation only wrapper showOnlyTranslationHideArabic()
-    $(langSelection).hide();
+    // $(langSelection).hide();
     showOnlyTranslationEL.removeAttribute('checked', '');
     // customtransBnEnCheckBox.removeAttribute('checked');
     // $(customtransBnEnCheckBox).hide();
@@ -263,6 +279,7 @@ function showTranslationFixed(checkdOrNot) {
     translationOffMouseOver.removeAttribute('checked', '');
 
   } else {
+   
     //showing translation only wrapper showOnlyTranslationHideArabic()
     $(langSelection).show();
     // showOnlyTranslationEL.removeAttribute('checked', '');
@@ -307,12 +324,15 @@ function showTranslationFixed(checkdOrNot) {
 function showHideTranslationMouseOver(checkdOrNot) {
   if (checkdOrNot || translationFixed) {
 
+     
     $("span.card").addClass("trans");
     $("span.card").removeClass('transAyaByAya');
-    $("span.card").removeClass('transFixed');
+    // $("span.card").removeClass('transFixed');
 
 
   } else {
+     
+
     translationFixed = false;
     $("span.card").removeClass('trans');
     $("span.card").addClass('overTransHide');
@@ -329,6 +349,8 @@ function translationEventListner(element, checkdOrNot, cbfn) {
     console.log("i am here 1");
     element.setAttribute("checked", "checked");
     if (element.checked) {
+      
+
       element.setAttribute("checked", "checked");
       console.log(element.getAttribute("checked"), "true Block");
 
@@ -337,6 +359,7 @@ function translationEventListner(element, checkdOrNot, cbfn) {
       cbfn(checkdOrNot);
       console.log(element);
     } else {
+       
       checkdOrNot = false;
       element.removeAttribute("checked");
       console.log(
@@ -349,6 +372,7 @@ function translationEventListner(element, checkdOrNot, cbfn) {
       console.log(element, "Hello flase");
     }
   });
+ 
 }
 
 /**
@@ -359,10 +383,12 @@ function translationEventListner(element, checkdOrNot, cbfn) {
 //     playPauseHolder.appendChild(msg);
 playAudioBtn.addEventListener('click', function(){
   console.log(' i m clicked');
-let msg = document.createElement('span');
+
+if(msg.innerHTML == ''){
     msg.innerHTML = "To Play/Pause Recitation Click On Running/Current Aya";
     msg.classList.add('playPauseMsg');
     playPauseHolder.appendChild(msg);
+  }
 
 });
 
@@ -447,16 +473,28 @@ function playAudio(aya = 1, doubleClicked = "") {
    * Play/Pause Start its working perfectly
    */
   totalAya[aya - 1].addEventListener("click", function () {
+
     if (audio.paused) {
       togglePlay(audio);
       isPlayingClickOnAya = true;
       playAudioBtn.style.display = "none";
       pauseAudioBtn.style.display = "none";
+     
+      // $(this).siblings('span').removedClass('paused');
+      $(this).removeClass('paused');
+      $(this).siblings('.aya').removeClass('paused');
+      
     } else {
+     
       togglePlay(audio);
       isPlayingClickOnAya = false;
       playAudioBtn.style.display = "none";
       pauseAudioBtn.style.display = "none";
+      $(this).addClass('paused');
+      $(this).siblings('.aya').removeClass('paused');
+      
+      
+     
     }
   });
 
@@ -778,88 +816,104 @@ function togglePlay(audio) {
  * ShowTranslationOnly
  * Show Translation Only
  */
+ 
+
 function showOnlyTranslationHideArabic(data, i) {
   let bntrans = document.querySelector('.bn');
-      bntrans.innerHTML = ''; 
   let entrans = document.querySelector('.en');
-      entrans.innerHTML = '';
 
-
-  $(langSelection).show();
  
+  $(langSelection).show();
 
   showOnlyTranslationEL.addEventListener('change', function () {
-  
-    showTranslationOnly = true;
+    $(bntrans).show();
+    $('.ar').hide();
+
+    $(bntrans).addClass('transFrame');
+    $(entrans).removeClass('transFrame');
+    $('.langTrans').hover(function () {
+      // console.log('i am hover', this);
+        $(this).addClass('transHover');
+        $(this).css({
+          padding: '10px'
+        });
+    }, function () {
+        $(this).removeClass('transHover');
+    });
+
+
+
+        showTranslationOnly = true;
    
-    if (this.checked && showTranslationOnly) {
-      $('#customtransBnEn').show();
-      // console.log('i am checked', this);
-  
-      // $(customtransBnEnCheckBox).show();
-      customtransBnEnCheckBox.addEventListener('change', function () {
-       
-        if (this.checked ) {
-          bntrans.innerHTML+=`<span class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data.aya[i + 1].bn }</span >`;
-          $(bntrans).addClass('transFrame');
-          $(entrans).removeClass('transFrame');
-          entrans.innerHTML= "";
-          $(bntrans).show();
-          $(entrans).hide();
-          $('.langTrans').hover(function () {
-            console.log('i am hover', this);
-              $(this).addClass('transHover');
-              $(this).css({
-                padding: '10px'
-              });
-          }, function () {
-              $(this).removeClass('transHover');
-          });
-
-        }else{
-          entrans.innerHTML+=`<span class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data.aya[i + 1].en }</span >`;
-          $(entrans).addClass('transFrame');
-          $(bntrans).removeClass('transFrame');
-          bntrans.innerHTML= "";
-          $(bntrans).hide();
-          $(entrans).show();
-          $('.langTrans').hover(function () {
-            console.log('i am hover', this);
-              $(this).addClass('transHover');
-              $(this).css({
-                padding: '10px'
-              });
-          }, function () {
-              $(this).removeClass('transHover');
-          });
-        }
-        $('.ar').hide();
-        $('.aya').hide();
-      });
+        if (this.checked && showTranslationOnly) {
+          $('#customtransBnEn').show();
+          // console.log('i am checked', this);
       
-      //mouseover and leave on Translation
-     
- 
-    } else {
-      $('#customtransBnEn').hide();
-      showTranslationOnly = false;
-      customtransBnEnCheckBox.removeAttribute('checked');
-      // console.log('i am not checked', this);
-  
- 
-      $('.ar').show();
-      $('.aya').show();
-      $('.transFrame').hide();
- 
-      entrans.innerHTML= "";
-      bntrans.innerHTML= "";
+          // $(customtransBnEnCheckBox).show();
+          customtransBnEnCheckBox.addEventListener('change', function () {
+              this.setAttribute('checked', 'checked');
+              if (this.checked) {
+                
+                $(bntrans).hide();
+                $(entrans).show();
 
+                $(entrans).addClass('transFrame');
+                $(bntrans).removeClass('transFrame');
+                $('.langTrans').hover(function () {
+                  console.log('i am hover', this);
+                    $(this).addClass('transHover');
+                    $(this).css({
+                      padding: '10px'
+                    });
+                }, function () {
+                    $(this).removeClass('transHover');
+                });
+              
+              }else{
+                $(bntrans).show();
+                $(entrans).hide();
+
+                $(bntrans).addClass('transFrame');
+                $(entrans).removeClass('transFrame');
+                $('.langTrans').hover(function () {
+                  console.log('i am hover', this);
+                    $(this).addClass('transHover');
+                    $(this).css({
+                      padding: '10px'
+                    });
+                }, function () {
+                    $(this).removeClass('transHover');
+                });
+               
+              }
  
-    }
 
-    entrans.innerHTML= "";
-    bntrans.innerHTML= "";
+            $('.ar').hide();
+   
 
+          });
+          
+          //mouseover and leave on Translation
+      
+        } else {
+          $(bntrans).hide();
+          $(entrans).hide();
+
+
+          $('#customtransBnEn').hide();
+          showTranslationOnly = false;
+          customtransBnEnCheckBox.removeAttribute('checked');
+          // console.log('i am not checked', this);
+       
+          $('.ar').show();
+      
+          $('.transFrame').hide();
+      
+        }
+    
+      
+      
+   
   }); //showOnlyTranslationEL
 
 }

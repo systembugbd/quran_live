@@ -46,9 +46,19 @@
   }
   
   
-  #playAudioBtn{
-    /* transform: translate(3%, 0px); */
+.paused{
+ 
+  animation:selectedText 1.2s infinite;
+  background: #00000033;
   }
+  
+   
+  @keyframes selectedText{
+    0%{     color: rgb(255, 255, 255);    }
+    50%{    color: rgb(163, 163, 163);;  }
+    100%{   color: rgb(255, 255, 255);    }
+  }
+  
 
   /* .suraContainer .ar .aya >span:has('transFixed') {
     font-size: 3.15vw;
@@ -275,8 +285,8 @@ body {
   font-size: 1.15em;
   line-height: 28px;
   font-weight: normal;
-  color: #444;
-  background: rgb(197, 233, 228);
+  color: #e3e3e3;
+  background: rgb(45, 80, 117);
   padding: 10px 20px;
   display: none;
 
@@ -288,8 +298,8 @@ body {
   font-size: 1.15em;
   line-height: 28px;
   font-weight: normal;
-  color: #444;
-  background: rgb(210, 243, 239);
+  color: #e3e3e3;
+  background: rgb(45, 80, 117);
   padding: 10px 20px;
   direction: ltr;
   display: none;
@@ -396,9 +406,9 @@ div#sideBarFixed {
   display:none;
 }
 .transHover{
-  background: rgb(45, 80, 117);
+  background: #e3e3e3;
   padding: 10px;
-  color: #fff;
+  color: #2d5075;
 }
 .transFrame{
 padding: 30px !important;
@@ -419,7 +429,7 @@ direction: ltr !important;
 }
 }
 @media screen and (min-width: 461px) and (max-width: 768px) {
-
+  
   .transFixed {
     display: block !important;
     position: relative !important;
@@ -540,6 +550,9 @@ direction: ltr !important;
 }
 
 @media screen and (max-width: 460px){
+  .transFrame{
+    padding:10px !important;  
+  }
   div#sideBarFixed {
     position: relative;
    
