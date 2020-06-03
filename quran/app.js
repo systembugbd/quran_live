@@ -910,10 +910,18 @@ function showOnlyTranslationHideArabic(data, i) {
           $('.transFrame').hide();
       
         }
-    
-      
-      
-   
+ 
   }); //showOnlyTranslationEL
 
 }
+
+
+
+
+
+
+
+//-------------------------------------//
+// init Masonry
+
+ 
