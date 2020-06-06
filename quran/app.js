@@ -48,6 +48,9 @@ let translationMouseOver = false;
 let msg = document.createElement('span');
 
 let searchState = async (input) => {
+  
+  $('.loading').show();
+
   let res = await fetch("./quran.json");
   let states = await res.json();
 
@@ -56,6 +59,9 @@ let searchState = async (input) => {
   });
   //   console.log(matches);
   showData(matches[0].sura, input);
+  
+  $('.loading').hide();
+
 };
 
 function showData(data, input) {
@@ -144,16 +150,30 @@ function showData(data, input) {
           /*transFixed class to show translation in fixed way*/
 
           
-              bn.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].bn }</span >`;           
+              // bn.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].bn }</span >`;           
             
            
-              en.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].en }</span >`;  
+              // en.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].en }</span >`;  
          
          
 
           suraContainer.appendChild(ar);
-          suraContainer.appendChild(bn);
-          suraContainer.appendChild(en);
+          // suraContainer.appendChild(bn);
+          // suraContainer.appendChild(en);
+
+          setTimeout(function(){
+            //appending after 5 second due to loading time minimize..
+            bn.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="bn_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].bn }</span >`;           
+            
+           
+            en.innerHTML += `<span id="${data[v].attr.index}:${i + 1}" class="en_${(i + 1)} langTrans"> <a href='#${(i + 1)}'>(${(i + 1)})</a> ${data[v].aya[i + 1].en }</span >`;  
+       
+            suraContainer.appendChild(bn);
+            suraContainer.appendChild(en);
+            // console.log('i am calling from setTimeOut after 2seconond');
+
+          },3000);
+             
 
           showOnlyTranslationHideArabic(data[v], i);
         }
@@ -819,13 +839,15 @@ function togglePlay(audio) {
  
 
 function showOnlyTranslationHideArabic(data, i) {
-  let bntrans = document.querySelector('.bn');
-  let entrans = document.querySelector('.en');
-
+ 
  
   $(langSelection).show();
 
   showOnlyTranslationEL.addEventListener('change', function () {
+    let bntrans = document.querySelector('.bn');
+    let entrans = document.querySelector('.en');
+
+    
     $(bntrans).show();
     $('.ar').hide();
 
