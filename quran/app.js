@@ -188,22 +188,6 @@ function showData(data, input) {
    * EVENT will EXECUTE AFTER SELECT THE SURA
    */
 
-  /**
-   * Auto Scrolling On Off (autoScrollonOff) (autoScroll=false)
-   */
-
-  autoScrollonOff.addEventListener("change", function (e) {
-    this.setAttribute("checked", "checked");
-    if (this.checked) {
-      this.setAttribute("checked", "checked");
-      console.log(this.getAttribute("checked"), "true Block");
-      autoScroll = true;
-    } else {
-      autoScroll = false;
-      this.removeAttribute("checked");
-      console.log(this.getAttribute("checked"), "false Block");
-    }
-  });
 
   /**
    * Translation On Off (translationWithVideoOnOff) (translation=false)
@@ -432,25 +416,7 @@ function playAudio(aya = 1, doubleClicked = "") {
   $(firstElm).siblings().removeClass("selected");
 
   showTranslationWithVideo(firstElm, "", totalAya.length, ayatNum);
-
-  /**
-   * Check weather Translation is on or not and show translatin for first element (Mobile included)
-   */
-  // if(translation){
-  // /*Show First Translation with Audio in Desktop*/
-  // $(firstElm).children("span").show();
-  // $(firstElm).siblings().children("span").hide();
-
-  // // const mq = window.matchMedia("(max-width: 768px)");
-  // if (mq.matches) {
-  //   $(firstElm).children("span").addClass("transFixed").css({
-  //     transform: "translate(-0, -0) !important",
-  //   });
-
-  //   $(firstElm).siblings().children("span").removeClass("transFixed").hide();
-  //   $(firstElm).children("span").removeClass("trans");
-  // }
-  //  }
+ 
   /**
    * Ayat Selection End
    */
@@ -541,71 +507,7 @@ function playAudio(aya = 1, doubleClicked = "") {
       playAudioBtn.innerHTML = "Play";
 
     }
-
-    /**
-     * Auto Scrolling
-     *
-     */
-    
-  
-   
-    let isPaused = false;
-   
- function scrollingPlays(){
-     
-          isPaused = true;
-          if (mq.matches) {
-            console.log("i am scrolling... for mobile");
-            setInterval(function(){
-              window.scrollBy({
-                top: 1,
-                behavior: "smooth",
-              });
-            }, 200);             
-           
-    
-          } else {
-            console.log("i am scrolling... for dekstop");
-            
-            setInterval(function(){
-              window.scrollBy({
-                top: 1,
-                behavior: "smooth",
-              });
-            }, 200);
-             
-          }
-    }
-    
  
-    if (autoScroll == true && !isPaused) {
-        
-            scrollingPlays();
-        
-      }
-      
-    
-   
- 
-    // if (autoScroll == true && !isPaused) {
-    //   console.log('i am auto scrolling...', autoScroll);
-
-    //   if (!isPaused) {
-      
-    //       scrollingPlays();
-       
-      
-
-    //   }
-
-    // } else {
-    //   isPaused = true;
-    //   // console.log('i am not auto scrolling...', autoScroll);
-    //   clearInterval(() => {
-    //     scrollingPlays();
-    //   }, 300);
-
-    // }
 
     /**
      * Check weather Translation is on or not and show translatin for first element (Mobile included)
@@ -613,29 +515,55 @@ function playAudio(aya = 1, doubleClicked = "") {
 
     /*Show Translation with Audio in Desktop*/
     showTranslationWithVideo(firstElm, totalAya[aya], totalAya.length, ayatNum);
-    // if(translation){
-    //     $(totalAya[aya]).children("span").show().animate({
-    //         opacity: 1,
-    //       },"slow");
-    //     $(totalAya[aya]).siblings().children("span").hide();
-
-    //     /*Show Translation with Audio in Mobile*/
-    //     if (mq.matches) {
-    //       $(totalAya[aya]).children("span").addClass("transFixed").css({
-    //         transform: "translate(-0, -0) !important",
-    //       });
-
-    //       $(totalAya[aya])
-    //         .siblings()
-    //         .children("span")
-    //         .removeClass("transFixed")
-    //         .hide();
-    //       $(totalAya[aya]).children("span").removeClass("trans");
-    //     }
-    // }
+    
   });
   console.log(" I am recurseive");
 } //Audio Playing Function end
+
+
+  /**
+   * Auto Scrolling On Off (autoScrollonOff) (autoScroll=false)
+   */
+
+autoScrollonOff.addEventListener("change", function (e) {
+  this.setAttribute("checked", "checked");
+  if (this.checked) {
+    this.setAttribute("checked", "checked");
+    console.log(this.getAttribute("checked"), "true Block");
+    autoScroll = true;
+    
+    setInterval(function(){
+      if(autoScroll == true){
+        scrollingPlays();
+      }else{
+        clearInterval(function(){
+          scrollingPlays();
+        });
+        
+      }
+    }, 200);
+  
+  } else {
+    autoScroll = false;
+    this.removeAttribute("checked");
+    console.log(this.getAttribute("checked"), "false Block");
+    
+  }
+});
+
+
+ /**
+  * Auto Scrolling with Checked Event Handeller Above
+  */
+function scrollingPlays(){
+  
+        window.scrollBy({
+          top: 1,
+          behavior: "smooth",
+        });
+  
+ }
+
 
 function showTranslationWithVideo(firstElm, singleAya, totalaya, ayatNum) {
   /**
