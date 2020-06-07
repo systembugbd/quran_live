@@ -541,7 +541,7 @@ autoScrollonOff.addEventListener("change", function (e) {
         });
         
       }
-    }, 200);
+    }, 100);
   
   } else {
     autoScroll = false;

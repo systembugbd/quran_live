@@ -441,9 +441,9 @@ padding: 30px !important;
 border: 30px solid #9aabbd !important;
 border-style: solid double !important;
 font-size: 20px !important;
-line-height: 35px !important;
+line-height: 5vh !important;
 display:blcok!important;
-text-align:left !important;
+text-align:justify !important;
 direction: ltr !important;
 }
 /* #wrapper.toggled #sidebar-wrapper {
