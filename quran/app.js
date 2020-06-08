@@ -51,10 +51,10 @@ let msg = document.createElement('span');
 
 
  function setLocalStorage(key, val){
-  localStorage.setItem(key, val);
+  window.localStorage.setItem(key, val);
  }
  function getLocalStorage(key){
-  return localStorage.getItem(key);
+  return window.localStorage.getItem(key);
 }
 
 
@@ -83,8 +83,8 @@ $('.suraContainer').css({
 // console.log(getLocalStorage('lineHeight'));
 
 fontReset.addEventListener('click', function(){
-  localStorage.removeItem('fontSize');
-  localStorage.removeItem('lineHeight');
+  window.localStorage.removeItem('fontSize');
+  window.localStorage.removeItem('lineHeight');
   $('.suraContainer').css({
     fontSize:'16px',
     lineHeight:'16px'
