@@ -1783,6 +1783,326 @@
           }
         }
       },
+      "imran": {
+        "attr": {
+            "ar": "سورة آل عمران",
+            "bn": "সূরা আল ইমরান",
+            "en": "Surah Al-Imran",
+            "audio": "http://www.quraanshareef.org/audio/3-Surah-Al-Imran.mp3",
+            "len": 50,
+            "index": 3
+        },
+        "aya": {
+            "1": {
+                "ar": "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ الم",
+                "bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু, আলিফ লাম মীম।                ",
+                "en": "In the name of Allah, Most Gracious, Most Merciful, A. L. M.",
+                "no": "﴿١﴾"
+            },
+            "2": {
+                "ar": "اللَّـهُ لَا إِلَـٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+                "bn": "আল্লাহ ছাড়া কোন উপাস্য নেই, তিনি চিরঞ্জীব, সবকিছুর ধারক।",
+                "en": "Allah. There is no god but He,-the Living, the Self-Subsisting, Eternal.",
+                "no": "﴿٢﴾"
+            }, 
+            "3": {
+                "ar": "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ",
+                "bn": "তিনি আপনার প্রতি কিতাব নাযিল করেছেন সত্যতার সাথে; যা সত্যায়ন করে পূর্ববর্তী কিতাবসমুহের।",
+                "en": "It is He Who sent down to thee (step by step), in truth, the Book, confirming what went before it; and He sent down the Law (of Moses) and the Gospel (of Jesus) before this, as a guide to mankind, and He sent down the criterion (of judgment between right and wrong).",
+                "no": "﴿٣﴾"
+            },
+            "4": {
+                 "ar": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ الْفُرْقَانَ ۗ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّـهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَاللَّـهُ عَزِيزٌ ذُو انتِقَامٍ",
+                 "bn": "নাযিল করেছেন তাওরত ও ইঞ্জিল, এ কিতাবের পূর্বে, মানুষের হেদায়েতের জন্যে এবং অবতীর্ণ করেছেন মীমাংসা। নিঃসন্দেহে যারা আল্লাহর আয়াতসমূহ অস্বীকার করে, তাদের জন্যে রয়েছে কঠিন আযাব। আর আল্লাহ হচ্ছেন পরাক্রমশীল, প্রতিশোধ গ্রহণকারী।",
+                 "en": "Then those who reject Faith in the Signs of Allah will suffer the severest penalty, and Allah is Exalted in Might, Lord of Retribution.",
+                 "no": "﴿٤﴾"
+             },
+             "5": {
+                 "ar": "إِنَّ اللَّـهَ لَا يَخْفَىٰ عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ",
+                 "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
+                 "en": "From Allah, verily nothing is hidden on earth or in the heavens.",
+                 "no": "﴿٥﴾"
+             },
+             "6": {
+                 "ar": "هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
+                 "bn": "তিনিই সেই আল্লাহ, যিনি তোমাদের আকৃতি গঠন করেন মায়ের গর্ভে, যেমন তিনি চেয়েছেন। তিনি ছাড়া আর কোন উপাস্য নেই। তিনি প্রবল পরাক্রমশীল, প্রজ্ঞাময়।",
+                 "en": "He it is Who shapes you in the wombs as He pleases. There is no god but He, the Exalted in Might, the Wise.",
+                 "no": "﴿٦﴾"
+             },
+             "7": {
+                 "ar": "هُوَ الَّذِي أَنزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُّحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ ۖ فَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِيلِهِ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّـهُ ۗ وَالرَّاسِخُونَ فِي الْعِلْمِ يَقُولُونَ آمَنَّا بِهِ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ",
+                 "bn": "তিনিই আপনার প্রতি কিতাব নাযিল করেছেন। তাতে কিছু আয়াত রয়েছে সুস্পষ্ট, সেগুলোই কিতাবের আসল অংশ। আর অন্যগুলো রূপক। সুতরাং যাদের অন্তরে কুটিলতা রয়েছে, তারা অনুসরণ করে ফিৎনা বিস্তার এবং অপব্যাখ্যার উদ্দেশে তন্মধ্যেকার রূপকগুলোর। আর সেগুলোর ব্যাখ্যা আল্লাহ ব্যতীত কেউ জানে না। আর যারা জ্ঞানে সুগভীর, তারা বলেনঃ আমরা এর প্রতি ঈমান এনেছি। এই সবই আমাদের পালনকর্তার পক্ষ থেকে অবতীর্ণ হয়েছে। আর বোধশক্তি সম্পন্নেরা ছাড়া অপর কেউ শিক্ষা গ্রহণ করে না।",
+                 "en": "He it is Who has sent down to thee the Book: In it are verses basic or fundamental (of established meaning); they are the foundation of the Book: others are allegorical. But those in whose hearts is perversity follow the part thereof that is allegorical, seeking discord, and searching for its hidden meanings, but no one knows its hidden meanings except Allah. And those who are firmly grounded in knowledge say: 'We believe in the Book; the whole of it is from our Lord:' and none will grasp the Message except men of understanding.",
+                 "no": "﴿٧﴾"
+             },
+             "8": {
+                 "ar": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ",
+                 "bn": "হে আমাদের পালনকর্তা! সরল পথ প্রদর্শনের পর তুমি আমাদের অন্তরকে সত্যলংঘনে প্রবৃত্ত করোনা এবং তোমার নিকট থেকে আমাদিগকে অনুগ্রহ দান কর। তুমিই সব কিছুর দাতা।",
+                 "en": "'Our Lord!' (they say), 'Let not our hearts deviate now after Thou hast guided us, but grant us mercy from Thine own Presence; for Thou art the Grantor of bounties without measure.'",
+                 "no": "﴿٨﴾"
+             },
+             "9": {
+                 "ar": "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ ۚ إِنَّ اللَّـهَ لَا يُخْلِفُ الْمِيعَادَ",
+                 "bn": "হে আমাদের পালনকর্তা! তুমি মানুষকে একদিন অবশ্যই একত্রিত করবেঃ এতে কোনই সন্দেহ নেই। নিশ্চয় আল্লাহ তাঁর ওয়াদার অন্যথা করেন না।",
+                 "en": "'Our Lord! Thou art He that will gather mankind Together against a day about which there is no doubt; for Allah never fails in His promise.'",
+                 "no": "﴿٩﴾"
+             },
+             "10": {
+                 "ar": "إِنَّ الَّذِينَ كَفَرُوا لَن تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُم مِّنَ اللَّـهِ شَيْئًا ۖ وَأُولَـٰئِكَ هُمْ وَقُودُ النَّارِ",
+                 "bn": "যারা কুফুরী করে, তাদের ধন-সম্পদ ও সন্তান-সন্ততি আল্লাহর সামনে কখনও কাজে আসবে না। আর তারাই হচ্ছে দোযখের ইন্ধন।",
+                 "en": "Those who reject Faith,- neither their possessions nor their (numerous) progeny will avail them aught against Allah. They are themselves but fuel for the Fire.",
+                 "no": "﴿١٠﴾"
+             },
+             "11": {
+                 "ar": "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا بِآيَاتِنَا فَأَخَذَهُمُ اللَّـهُ بِذُنُوبِهِمْ ۗ وَاللَّـهُ شَدِيدُ الْعِقَابِ",
+                 "bn": "ফেরআউনের সম্প্রদায় এবং তাদের পূর্ববর্তীদের ধারা অনুযায়ীই তারা আমার আয়াতসমূহকে মিথ্যা প্রতিপন্ন করেছে। ফলে তাদের পাপের কারণে আল্লাহ তাদেরকে পাকড়াও করেছেন আর আল্লাহর আযাব অতি কঠিন।",
+                 "en": "(Their plight will be) no better than that of the people of Pharaoh, and their predecessors: They denied our Signs, and Allah called them to account for their sins. For Allah is strict in punishment.",
+                 "no": "﴿١١﴾"
+             },
+             "12": {
+                 "ar": "قُل لِّلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ الْمِهَادُ",
+                 "bn": "কাফেরদিগকে বলে দিন, খুব শিগগীরই তোমরা পরাভূত হয়ে দোযখের দিকে হাঁকিয়ে নীত হবে-সেটা কতই না নিকৃষ্টতম অবস্থান।",
+                 "en": "Say to those who reject Faith: 'Soon will ye be vanquished and gathered together to Hell,-an evil bed indeed (to lie on)!'",
+                 "no": "﴿١٢﴾"
+             },
+             "13": {
+                 "ar": "قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ الْتَقَتَا ۖ فِئَةٌ تُقَاتِلُ فِي سَبِيلِ اللَّـهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ الْعَيْنِ ۚ وَاللَّـهُ يُؤَيِّدُ بِنَصْرِهِ مَن يَشَاءُ ۗ إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّأُولِي الْأَبْصَارِ",
+                 "bn": "নিশ্চয়ই দুটো দলের মোকাবিলার মধ্যে তোমাদের জন্য নিদর্শন ছিল। একটি দল আল্লাহর রাহে যুদ্ধ করে। আর অপর দল ছিল কাফেরদের এরা স্বচক্ষে তাদেরকে দ্বিগুন দেখছিল। আর আল্লাহ যাকে নিজের সাহায্যের মাধ্যমে শক্তি দান করেন। এরই মধ্যে শিক্ষনীয় রয়েছে দৃষ্টি সম্পন্নদের জন্য।",
+                 "en": "'There has already been for you a Sign in the two armies that met (in combat): One was fighting in the cause of Allah, the other resisting Allah. these saw with their own eyes Twice their number. But Allah doth support with His aid whom He pleaseth. In this is a warning for such as have eyes to see.'",
+                 "no": "﴿١٣﴾"
+             },
+             "14": {
+                 "ar": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّـهُ عِندَهُ حُسْنُ الْمَآبِ",
+                 "bn": "মানবকূলকে মোহগ্রস্ত করেছে নারী, সন্তান-সন্ততি, রাশিকৃত স্বর্ণ-রৌপ্য, চিহ্নিত অশ্ব, গবাদি পশুরাজি এবং ক্ষেত-খামারের মত আকর্ষণীয় বস্তুসামগ্রী। এসবই হচ্ছে পার্থিব জীবনের ভোগ্য বস্তু। আল্লাহর নিকটই হলো উত্তম আশ্রয়।",
+                 "en": "Fair in the eyes of men is the love of things they covet: Women and sons; Heaped-up hoards of gold and silver; horses branded (for blood and excellence); and (wealth of) cattle and well-tilled land. Such are the possessions of this world's life; but in nearness to Allah is the best of the goals (To return to).",
+                 "no": "﴿١٤﴾"
+             },
+             "15": {
+                 "ar": "قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَلِكُمْ لِلَّذِينَ اتَّقَوْا عِندَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُّطَهَّرَةٌ وَرِضْوَانٌ مِّنَ اللّهِ وَاللّهُ بَصِيرٌ بِالْعِبَادِ",
+                 "bn": "বলুন, আমি কি তোমাদেরকে এসবের চাইতেও উত্তম বিষয়ের সন্ধান বলবো?-যারা পরহেযগার, আল্লাহর নিকট তাদের জন্যে রয়েছে বেহেশত, যার তলদেশে প্রস্রবণ প্রবাহিত-তারা সেখানে থাকবে অনন্তকাল। আর রয়েছে পরিচ্ছন্ন সঙ্গিনীগণ এবং আল্লাহর সন্তুষ্টি। আর আল্লাহ তাঁর বান্দাদের প্রতি সুদৃষ্টি রাখেন।",
+                 "en": "Say: Shall I give you glad tidings of things Far better than those? For the righteous are Gardens in nearness to their Lord, with rivers flowing beneath; therein is their eternal home; with companions pure (and holy); and the good pleasure of Allah. For in Allah.s sight are (all) His servants,-",
+                 "no": "﴿١٥﴾"
+             },
+             "16": {
+                 "ar": "الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
+                 "bn": "যারা বলে, হে আমাদের পালনকর্তা, আমরা ঈমান এনেছি, কাজেই আমাদের গোনাহ ক্ষমা করে দাও আর আমাদেরকে দোযখের আযাব থেকে রক্ষা কর।",
+                 "en": "(Namely), those who say: 'Our Lord! we have indeed believed: forgive us, then, our sins, and save us from the agony of the Fire;'-",
+                 "no": "﴿١٦﴾"
+             },
+             "17": {
+                 "ar": "الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ",
+                 "bn": "তারা ধৈর্য্যধারণকারী, সত্যবাদী, নির্দেশ সম্পাদনকারী, সৎপথে ব্যয়কারী এবং শেষরাতে ক্ষমা প্রার্থনাকারী।",
+                 "en": "Those who show patience, Firmness and self-control; who are true (in word and deed); who worship devoutly; who spend (in the way of Allah.; and who pray for forgiveness in the early hours of the morning.",
+                 "no": "﴿١٧﴾"
+             },
+             "18": {
+                 "ar": "شَهِدَ اللَّـهُ أَنَّهُ لَا إِلَـٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
+                 "bn": "আল্লাহ সাক্ষ্য দিয়েছেন যে, তাঁকে ছাড়া আর কোন উপাস্য নেই। ফেরেশতাগণ এবং ন্যায়নিষ্ঠ জ্ঞানীগণও সাক্ষ্য দিয়েছেন যে, তিনি ছাড়া আর কোন ইলাহ নেই। তিনি পরাক্রমশালী প্রজ্ঞাময়।",
+                 "en": "There is no god but He: That is the witness of Allah, His angels, and those endued with knowledge, standing firm on justice. There is no god but He, the Exalted in Power, the Wise.",
+                 "no": "﴿١٨﴾"
+             },
+             "19": {
+                 "ar": "إِنَّ الدِّينَ عِندَ اللَّـهِ الْإِسْلَامُ ۗ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِآيَاتِ اللَّـهِ فَإِنَّ اللَّـهَ سَرِيعُ الْحِسَابِ",
+                 "bn": "নিঃসন্দেহে আল্লাহর নিকট গ্রহণযোগ্য দ্বীন একমাত্র ইসলাম। এবং যাদের প্রতি কিতাব দেয়া হয়েছে তাদের নিকট প্রকৃত জ্ঞান আসার পরও ওরা মতবিরোধে লিপ্ত হয়েছে, শুধুমাত্র পরস্পর বিদ্বেষবশতঃ, যারা আল্লাহর নিদর্শনসমূহের প্রতি কুফরী করে তাদের জানা উচিত যে, নিশ্চিতরূপে আল্লাহ হিসাব গ্রহণে অত্যন্ত দ্রুত।",
+                 "en": "The Religion before Allah is Islam (submission to His Will): Nor did the People of the Book dissent therefrom except through envy of each other, after knowledge had come to them. But if any deny the Signs of Allah, Allah is swift in calling to account.",
+                 "no": "﴿١٩﴾"
+             },
+             "20": {
+                 "ar": "فَإِنْ حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّـهِ وَمَنِ اتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوا ۖ وَّإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ ۗ وَاللَّـهُ بَصِيرٌ بِالْعِبَادِ",
+                 "bn": "যদি তারা তোমার সাথে বিতর্কে অবতীর্ণ হয় তবে বলে দাও, 'আমি এবং আমার অনুসরণকারীগণ আল্লাহর প্রতি আত্নসমর্পণ করেছি।' আর আহলে কিতাবদের এবং নিরক্ষরদের বলে দাও যে, তোমরাও কি আত্নসমর্পণ করেছ? তখন যদি তারা আত্নসমর্পণ করে, তবে সরল পথ প্রাপ্ত হলো, আর যদি মুখ ঘুরিয়ে নেয়, তাহলে তোমার দায়িত্ব হলো শুধু পৌছে দেয়া। আর আল্লাহর দৃষ্টিতে রয়েছে সকল বান্দা।",
+                 "en": "So if they dispute with thee, say: 'I have submitted My whole self to Allah and so have those who follow me.' And say to the People of the Book and to those who are unlearned: 'Do ye (also) submit yourselves?' If they do, they are in right guidance, but if they turn back, Thy duty is to convey the Message; and in Allah.s sight are (all) His servants.",
+                 "no": "﴿٢٠﴾"
+             },
+             "21": {
+                 "ar": "إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّـهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+                 "bn": "যারা আল্লাহর নিদর্শনাবলীকে অস্বীকার করে এবং পয়গম্বরগণকে হত্যা করে অন্যায়ভাবে, আর সেসব লোককে হত্যা করে যারা ন্যায়পরায়ণতার নির্দেশ দেয় তাদেরকে বেদনাদায়ক শাস্তির সংবাদ দিন।",
+                 "en": "As to those who deny the Signs of Allah and in defiance of right, slay the prophets, and slay those who teach just dealing with mankind, announce to them a grievous penalty.",
+                 "no": "﴿٢١﴾"
+             },
+             "22": {
+                 "ar": "أُولَـٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ",
+                 "bn": "এরাই হলো সে লোক যাদের সমগ্র আমল দুনিয়া ও আখেরাত উভয়লোকেই বিনষ্ট হয়ে গেছে। পক্ষান্তরে তাদের কোন সাহায্যকারীও নেই।",
+                 "en": "They are those whose works will bear no fruit in this world and in the Hereafter nor will they have anyone to help.",
+                 "no": "﴿٢٢﴾"
+             },
+             "23": {
+                 "ar": "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِّنَ الْكِتَابِ يُدْعَوْنَ إِلَىٰ كِتَابِ اللَّـهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ",
+                 "bn": "আপনি কি তাদের দেখেননি, যারা কিতাবের কিছু অংশ পেয়েছে-আল্লাহর কিতাবের প্রতি তাদের আহবান করা হয়েছিল যাতে তাদের মধ্যে মীমাংসা করা যায়। অতঃপর তাদের মধ্যে একদল তা অমান্য করে মুখ ফিরিয়ে নেয়।",
+                 "en": "Hast thou not turned Thy vision to those who have been given a portion of the Book? They are invited to the Book of Allah, to settle their dispute, but a party of them Turn back and decline (The arbitration).",
+                 "no": "﴿٢٣﴾"
+             },
+             "24": {
+                 "ar": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَن تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَّعْدُودَاتٍ ۖ وَغَرَّهُمْ فِي دِينِهِم مَّا كَانُوا يَفْتَرُونَ",
+                 "bn": "তা এজন্য যে, তারা বলে থাকে যে, দোযখের আগুন আমাদের স্পর্শ করবে না; তবে সামান্য হাতে গোনা কয়েকদিনের জন্য স্পর্শ করতে পারে। নিজেদের উদ্ভাবিত ভিত্তিহীন কথায় তারা ধোকা খেয়েছে।",
+                 "en": "This because they say: 'The Fire shall not touch us but for a few numbered days': For their forgeries deceive them as to their own religion.",
+                 "no": "﴿٢٤﴾"
+             },
+             "25": {
+                 "ar": "فَكَيْفَ إِذَا جَمَعْنَاهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+                 "bn": "কিন্তু তখন কি অবস্থা দাঁড়াবে যখন আমি তাদেরকে একদিন সমবেত করবো যে দিনের আগমনে কোন সন্দেহ নেই আর নিজেদের কৃতকর্ম তাদের প্রত্যেকেই পাবে তাদের প্রাপ্য প্রদান মোটেই অন্যায় করা হবে না।",
+                 "en": "But how (will they fare) when we gather them together against a day about which there is no doubt, and each soul will be paid out just what it has earned, without (favour or) injustice?",
+                 "no": "﴿٢٥﴾"
+             },
+             "26": {
+                 "ar": "قُلِ اللَّـهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                 "bn": "বলুন ইয়া আল্লাহ! তুমিই সার্বভৌম শক্তির অধিকারী। তুমি যাকে ইচ্ছা রাজ্য দান কর এবং যার কাছ থেকে ইচ্ছা রাজ্য ছিনিয়ে নাও এবং যাকে ইচ্ছা সম্মান দান কর আর যাকে ইচ্ছা অপমানে পতিত কর। তোমারই হাতে রয়েছে যাবতীয় কল্যাণ। নিশ্চয়ই তুমি সর্ব বিষয়ে ক্ষমতাশীল।",
+                 "en": "Say: 'O Allah. Lord of Power (And Rule), Thou givest power to whom Thou pleasest, and Thou strippest off power from whom Thou pleasest: Thou enduest with honour whom Thou pleasest, and Thou bringest low whom Thou pleasest: In Thy hand is all good. Verily, over all things Thou hast power.",
+                 "no": "﴿٢٦﴾"
+             },
+             "27": {
+                 "ar": "تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ ۖ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ ۖ وَتَرْزُقُ مَن تَشَاءُ بِغَيْرِ حِسَابٍ",
+                 "bn": "তুমি রাতকে দিনের ভেতরে প্রবেশ করাও এবং দিনকে রাতের ভেতরে প্রবেশ করিয়ে দাও। আর তুমিই জীবিতকে মৃতের ভেতর থেকে বের করে আন এবং মৃতকে জীবিতের ভেতর থেকে বের কর। আর তুমিই যাকে ইচ্ছা বেহিসাব রিযিক দান কর।",
+                 "en": "'Thou causest the night to gain on the day, and thou causest the day to gain on the night; Thou bringest the Living out of the dead, and Thou bringest the dead out of the Living; and Thou givest sustenance to whom Thou pleasest, without measure.'",
+                 "no": "﴿٢٧﴾"
+             },
+             "28": {
+                 "ar": "لَّا يَتَّخِذِ الْمُؤْمِنُونَ الْكَافِرِينَ أَوْلِيَاءَ مِن دُونِ الْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ اللَّـهِ فِي شَيْءٍ إِلَّا أَن تَتَّقُوا مِنْهُمْ تُقَاةً ۗ وَيُحَذِّرُكُمُ اللَّـهُ نَفْسَهُ ۗ وَإِلَى اللَّـهِ الْمَصِيرُ",
+                 "bn": "মুমিনগন যেন অন্য মুমিনকে ছেড়ে কেন কাফেরকে বন্ধুরূপে গ্রহণ না করে। যারা এরূপ করবে আল্লাহর সাথে তাদের কেন সম্পর্ক থাকবে না। তবে যদি তোমরা তাদের পক্ষ থেকে কোন অনিষ্টের আশঙ্কা কর, তবে তাদের সাথে সাবধানতার সাথে থাকবে আল্লাহ তা’আলা তাঁর সম্পর্কে তোমাদের সতর্ক করেছেন। এবং সবাই কে তাঁর কাছে ফিরে যেতে হবে।",
+                 "en": "Let not the believers Take for friends or helpers Unbelievers rather than believers: if any do that, in nothing will there be help from Allah. except by way of precaution, that ye may Guard yourselves from them. But Allah cautions you (To remember) Himself; for the final goal is to Allah.",
+                 "no": "﴿٢٨﴾"
+             },
+             "29": {
+                 "ar": "قُلْ إِن تُخْفُوا مَا فِي صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ اللَّـهُ ۗ وَيَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَاللَّـهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                 "bn": "বলে দিন, তোমরা যদি মনের কথা গোপন করে রাখ অথবা প্রকাশ করে দাও, আল্লাহ সে সবই জানতে পারেন। আর আসমান ও জমিনে যা কিছু আছে, সেসব ও তিনি জানেন। আল্লাহ সর্ব বিষয়ে শক্তিমান।",
+                 "en": "Say: 'Whether ye hide what is in your hearts or reveal it, Allah knows it all: He knows what is in the heavens, and what is on earth. And Allah has power over all things.'",
+                 "no": "﴿٢٩﴾"
+             },
+             "30": {
+                 "ar": "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُ أَمَدًا بَعِيدًا ۗ وَيُحَذِّرُكُمُ اللَّـهُ نَفْسَهُ ۗ وَاللَّـهُ رَءُوفٌ بِالْعِبَادِ",
+                 "bn": "সেদিন প্রত্যেকেই যা কিছু সে ভাল কাজ করেছে; চোখের সামনে দেখতে পাবে এবং যা কিছু মন্দ কাজ করেছে তাও, ওরা তখন কামনা করবে, যদি তার এবং এসব কর্মের মধ্যে ব্যবধান দুরের হতো! আল্লাহ তাঁর নিজের সম্পর্কে তোমাদের সাবধান করছেন। আল্লাহ তাঁর বান্দাদের প্রতি অত্যন্ত দয়ালু।",
+                 "en": "'On the Day when every soul will be confronted with all the good it has done, and all the evil it has done, it will wish there were a great distance between it and its evil. But Allah cautions you (To remember) Himself. And Allah is full of kindness to those that serve Him.'",
+                 "no": "﴿٣٠﴾"
+             },
+             "31": {
+                 "ar": "قُلْ إِن كُنتُمْ تُحِبُّونَ اللَّـهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّـهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَاللَّـهُ غَفُورٌ رَّحِيمٌ",
+                 "bn": "বলুন, যদি তোমরা আল্লাহকে ভালবাস, তাহলে আমাকে অনুসরণ কর, যাতে আল্লাহ ও তোমাদিগকে ভালবাসেন এবং তোমাদিগকে তোমাদের পাপ মার্জনা করে দেন। আর আল্লাহ হলেন ক্ষমাকারী দয়ালু।",
+                 "en": "Say: 'If ye do love Allah, Follow me: Allah will love you and forgive you your sins: For Allah is Oft-Forgiving, Most Merciful.'",
+                 "no": "﴿٣١﴾"
+             },
+             "32": {
+                 "ar": "قُلْ أَطِيعُوا اللَّـهَ وَالرَّسُولَ ۖ فَإِن تَوَلَّوْا فَإِنَّ اللَّـهَ لَا يُحِبُّ الْكَافِرِينَ",
+                 "bn": "বলুন, আল্লাহ ও রসূলের আনুগত্য প্রকাশ কর। বস্তুতঃ যদি তারা বিমুখতা অবলম্বন করে, তাহলে আল্লাহ কাফেরদিগকে ভালবাসেন না।",
+                 "en": "Say: 'Obey Allah and His Messenger.: But if they turn back, Allah loveth not those who reject Faith.",
+                 "no": "﴿٣٢﴾"
+             },
+             "33": {
+                 "ar": "إِنَّ اللَّـهَ اصْطَفَىٰ آدَمَ وَنُوحًا وَآلَ إِبْرَاهِيمَ وَآلَ عِمْرَانَ عَلَى الْعَالَمِينَ",
+                 "bn": "নিঃসন্দেহে আল্লাহ আদম (আঃ) নূহ (আঃ)­ ও ইব্রাহীম (আঃ) এর বংশধর এবং এমরানের খান্দানকে নির্বাচিত করেছেন।",
+                 "en": "Allah did choose Adam and Noah, the family of Abraham, and the family of 'Imran above all people,-",
+                 "no": "﴿٣٣﴾"
+             },
+             "34": {
+                 "ar": "ذُرِّيَّةً بَعْضُهَا مِن بَعْضٍ ۗ وَاللَّـهُ سَمِيعٌ عَلِيمٌ",
+                 "bn": "যারা বংশধর ছিলেন পরস্পরের। আল্লাহ শ্রবণকারী ও মহাজ্ঞানী।",
+                 "en": "Offspring, one of the other: And Allah heareth and knoweth all things.",
+                 "no": "﴿٣٤﴾"
+             },
+             "35": {
+                 "ar": "إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+                 "bn": "এমরানের স্ত্রী যখন বললো-হে আমার পালনকর্তা! আমার গর্ভে যা রয়েছে আমি তাকে তোমার নামে উৎসর্গ করলাম সবার কাছ থেকে মুক্ত রেখে। আমার পক্ষ থেকে তুমি তাকে কবুল করে নাও, নিশ্চয়ই তুমি শ্রবণকারী, সর্বজ্ঞাত।",
+                 "en": "Behold! a woman of 'Imran said: 'O my Lord! I do dedicate unto Thee what is in my womb for Thy special service: So accept this of me: For Thou hearest and knowest all things.'",
+                 "no": "﴿٣٥﴾"
+             },
+             "36": {
+                 "ar": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ وَاللَّـهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنثَىٰ ۖ وَإِنِّي سَمَّيْتُهَا مَرْيَمَ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ",
+                 "bn": "অতঃপর যখন তাকে প্রসব করলো বলল, হে আমার পালনকর্তা! আমি একে কন্যা প্রসব করেছি। বস্তুতঃ কি সে প্রসব করেছে আল্লাহ তা ভালই জানেন। সেই কন্যার মত কোন পুত্রই যে নেই। আর আমি তার নাম রাখলাম মারইয়াম। আর আমি তাকে ও তার সন্তানদেরকে তোমার আশ্রয়ে সমর্পণ করছি। অভিশপ্ত শয়তানের কবল থেকে।",
+                 "en": "When she was delivered, she said: 'O my Lord! Behold! I am delivered of a female child!'- and Allah knew best what she brought forth- 'And no wise is the male Like the female. I have named her Mary, and I commend her and her offspring to Thy protection from the Evil One, the Rejected.'",
+                 "no": "﴿٣٦﴾"
+             },
+             "37": {
+                 "ar": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَا مَرْيَمُ أَنَّىٰ لَكِ هَـٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ اللَّـهِ ۖ إِنَّ اللَّـهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ",
+                 "bn": "অতঃপর তাঁর পালনকর্তা তাঁকে উত্তম ভাবে গ্রহণ করে নিলেন এবং তাঁকে প্রবৃদ্ধি দান করলেন-অত্যন্ত সুন্দর প্রবৃদ্ধি। আর তাঁকে যাকারিয়ার তত্ত্বাবধানে সমর্পন করলেন। যখনই যাকারিয়া মেহরাবের মধ্যে তার কছে আসতেন তখনই কিছু খাবার দেখতে পেতেন। জিজ্ঞেস করতেন 'মারইয়াম! কোথা থেকে এসব তোমার কাছে এলো?' তিনি বলতেন, 'এসব আল্লাহর নিকট থেকে আসে। আল্লাহ যাকে ইচ্ছা বেহিসাব রিযিক দান করেন।'",
+                 "en": "Right graciously did her Lord accept her: He made her grow in purity and beauty: To the care of Zakariya was she assigned. Every time that he entered (Her) chamber to see her, He found her supplied with sustenance. He said: 'O Mary! Whence (comes) this to you?' She said: 'From Allah. for Allah Provides sustenance to whom He pleases without measure.'",
+                 "no": "﴿٣٧﴾"
+             },
+             "38": {
+                 "ar": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ",
+                 "bn": "সেখানেই যাকারিয়া তাঁর পালনকর্তার নিকট প্রার্থনা করলেন। বললেন, হে, আমার পালনকর্তা! তোমার নিকট থেকে আমাকে পুত-পবিত্র সন্তান দান কর-নিশ্চয়ই তুমি প্রার্থনা শ্রবণকারী।",
+                 "en": "There did Zakariya pray to his Lord, saying: 'O my Lord! Grant unto me from Thee a progeny that is pure: for Thou art He that heareth prayer!'",
+                 "no": "﴿٣٨﴾"
+             },
+             "39": {
+                 "ar": "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّـهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّـهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ",
+                 "bn": "যখন তিনি কামরার ভেতরে নামাযে দাঁড়িয়েছিলেন, তখন ফেরেশতারা তাঁকে ডেকে বললেন যে, আল্লাহ তোমাকে সুসংবাদ দিচ্ছেন ইয়াহইয়া সম্পর্কে, যিনি সাক্ষ্য দেবেন আল্লাহর নির্দেশের সত্যতা সম্পর্কে, যিনি নেতা হবেন এবং নারীদের সংস্পর্শে যাবেন না, তিনি অত্যন্ত সৎকর্মশীল নবী হবেন।",
+                 "en": "While he was standing in prayer in the chamber, the angels called unto him: '(Allah) doth give thee glad tidings of Yahya, witnessing the truth of a Word from Allah, and (be besides) noble, chaste, and a prophet,- of the (goodly) company of the righteous.'",
+                 "no": "﴿٣٩﴾"
+             },
+             "40": {
+                 "ar": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَقَدْ بَلَغَنِيَ الْكِبَرُ وَامْرَأَتِي عَاقِرٌ ۖ قَالَ كَذَٰلِكَ اللَّـهُ يَفْعَلُ مَا يَشَاءُ",
+                 "bn": "তিনি বললেন হে পালনকর্তা! কেমন করে আমার পুত্র সন্তান হবে, আমার যে বার্ধক্য এসে গেছে, আমার স্ত্রীও যে বন্ধ্যা। বললেন, আল্লাহ এমনি ভাবেই যা ইচ্ছা করে থাকেন।",
+                 "en": "He said: 'O my lord! How shall I have a son seeing I am very old and my wife is barren?' 'Thus' was the answer 'doth Allah accomplish whatt He willeth.'",
+                 "no": "﴿٤٠﴾"
+             },
+             "41": {
+                 "ar": " قَالَ رَبِّ اجْعَل لِّي آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَاذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ",
+                 "bn": "তিনি বললেন, হে পালনকর্তা আমার জন্য কিছু নিদর্শন দাও। তিনি বললেন, তোমার জন্য নিদর্শন হলো এই যে, তুমি তিন দিন পর্যন্ত কারও সাথে কথা বলবে না। তবে ইশারা ইঙ্গতে করতে পারবে এবং তোমার পালনকর্তাকে অধিক পরিমাণে স্মরণ করবে আর সকাল-সন্ধ্যা তাঁর পবিত্রতা ও মহিমা ঘোষনা করবে।",
+                 "en": "He said: 'O my Lord! Give me a Sign!' 'Thy Sign,' was the answer, 'Shall be that thou shalt speak to no man for three days but with signals. Then celebrate the praises of thy Lord again and again, and glorify Him in the evening and in the morning.'",
+                 "no": "﴿٤١﴾"
+             },
+             "42": {
+                 "ar": "وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّـهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ",
+                 "bn": "আর যখন ফেরেশতা বলল হে মারইয়াম!, আল্লাহ তোমাকে পছন্দ করেছেন এবং তোমাকে পবিত্র পরিচ্ছন্ন করে দিয়েছেন। আর তোমাকে বিশ্ব নারী সমাজের উর্ধ্বে মনোনীত করেছেন।",
+                 "en": "Behold! the angels said: 'O Mary! Allah hath chosen thee and purified thee- chosen thee above the women of all nations.'",
+                 "no": "﴿٤٢﴾"
+             },
+             "43": {
+                 "ar": "يَا مَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ",
+                 "bn": "হে মারইয়াম! তোমার পালনকর্তার উপাসনা কর এবং রুকুকারীদের সাথে সেজদা ও রুকু কর।",
+                 "en": "'O Mary! worship Thy Lord devoutly: Prostrate thyself, and bow down (in prayer) with those who bow down.'",
+                 "no": "﴿٤٣﴾"
+             },
+             "44": {
+                 "ar": "ذَٰلِكَ مِنْ أَنبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَامَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
+                 "bn": "এ হলো গায়েবী সংবাদ, যা আমি আপনাকে পাঠিয়ে থাকি। আর আপনি তো তাদের কাছে ছিলেন না, যখন প্রতিযোগিতা করছিল যে, কে প্রতিপালন করবে মারইয়ামকে এবং আপনি তাদের কাছে ছিলেন না, যখন তারা ঝগড়া করছিলো।",
+                 "en": "This is part of the tidings of the things unseen, which We reveal unto thee (O Messenger.) by inspiration: Thou wast not with them when they cast lots with arrows, as to which of them should be charged with the care of Mary: Nor wast thou with them when they disputed (the point).",
+                 "no": "﴿٤٤﴾"
+             },
+             "45": {
+                 "ar": "إِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّـهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ وَجِيهًا فِي الدُّنْيَا وَالْآخِرَةِ وَمِنَ الْمُقَرَّبِينَ",
+                 "bn": "যখন ফেরেশতাগণ বললো, হে মারইয়াম আল্লাহ তোমাকে তাঁর এক বানীর সুসংবাদ দিচ্ছেন, যার নাম হলো মসীহ-মারইয়াম-তনয় ঈসা, দুনিয়া ও আখেরাতে তিনি মহাসম্মানের অধিকারী এবং আল্লাহর ঘনিষ্ঠদের অন্তর্ভূক্ত।",
+                 "en": "Behold! the angels said: 'O Mary! Allah giveth thee glad tidings of a Word from Him: his name will be Christ Jesus, the son of Mary, held in honour in this world and the Hereafter and of (the company of) those nearest to Allah.'",
+                 "no": "﴿٤٥﴾"
+             },
+             "46": {
+                 "ar": "وَيُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَمِنَ الصَّالِحِينَ",
+                 "bn": "যখন তিনি মায়ের কোলে থাকবেন এবং পূর্ণ বয়স্ক হবেন তখন তিনি মানুষের সাথে কথা বলবেন। আর তিনি সৎকর্মশীলদের অন্তর্ভুক্ত হবেন।",
+                 "en": "'He shall speak to the people in childhood and in maturity. And he shall be (of the company) of the righteous.'",
+                 "no": "﴿٤٦﴾"
+             },
+             "47": {
+                 "ar": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِي وَلَدٌ وَلَمْ يَمْسَسْنِي بَشَرٌ ۖ قَالَ كَذَٰلِكِ اللَّـهُ يَخْلُقُ مَا يَشَاءُ ۚ إِذَا قَضَىٰ أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ",
+                 "bn": "তিনি বললেন, পরওয়ারদেগার! কেমন করে আমার সন্তান হবে; আমাকে তো কোন মানুষ স্পর্শ করেনি। বললেন এ ভাবেই আল্লাহ যা ইচ্ছা সৃষ্টি করেন। যখন কোন কাজ করার জন্য ইচ্ছা করেন তখন বলেন যে, ‘হয়ে যাও’ অমনি তা হয়ে যায়।",
+                 "en": "She said: 'O my Lord! How shall I have a son when no man hath touched me?' He said: 'Even so: Allah createth what He willeth: When He hath decreed a plan, He but saith to it, 'Be,' and it is!",
+                 "no": "﴿٤٧﴾"
+             },
+             "48": {
+                 "ar": "وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنجِيلَ",
+                 "bn": "আর তাকে তিনি শিখিয়ে দেবেন কিতাব, হিকমত, তওরাত, ইঞ্জিল।",
+                 "en": "'And Allah will teach him the Book and Wisdom, the Law and the Gospel,'",
+                 "no": "﴿٤٨﴾"
+             },
+             "49": {
+                 "ar": "وَرَسُولًا إِلَىٰ بَنِي إِسْرَائِيلَ أَنِّي قَدْ جِئْتُكُم بِآيَةٍ مِّن رَّبِّكُمْ ۖ أَنِّي أَخْلُقُ لَكُم مِّنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّـهِ ۖ وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَىٰ بِإِذْنِ اللَّـهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ ۚ إِنَّ فِي ذَٰلِكَ لَآيَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+                 "bn": "আর বণী ইসরাঈলদের জন্যে রসূল হিসেবে তাকে মনোনীত করবেন। তিনি বললেন নিশ্চয়ই আমি তোমাদের নিকট তোমাদের পালনকর্তার পক্ষ থেকে এসেছি নিদর্শনসমূহ নিয়ে। আমি তোমাদের জন্য মাটির দ্বারা পাখীর আকৃতি তৈরী করে দেই। তারপর তাতে যখন ফুৎকার প্রদান করি, তখন তা উড়ন্ত পাখীতে পরিণত হয়ে যায় আল্লাহর হুকুমে। আর আমি সুস্থ করে তুলি জন্মান্ধকে এবং শ্বেত কুষ্ঠ রোগীকে। আর আমি জীবিত করে দেই মৃতকে আল্লাহর হুকুমে। আর আমি তোমাদেরকে বলে দেই যা তোমরা খেয়ে আস এবং যা তোমরা ঘরে রেখে আস। এতে প্রকৃষ্ট নিদর্শন রয়েছে, যদি তোমরা বিশ্বাসী হও।",
+                 "en": "'And (appoint him) an apostle to the Children of Israel, (with this message): ''I have come to you, with a Sign from your Lord, in that I make for you out of clay, as it were, the figure of a bird, and breathe into it, and it becomes a bird by Allah.s leave: And I heal those born blind, and the lepers, and I quicken the dead, by Allah.s leave; and I declare to you what ye eat, and what ye store in your houses. Surely therein is a Sign for you if ye did believe;",
+                 "no": "﴿٤٩﴾"
+             },
+             "50": {
+                 "ar": "وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَلِأُحِلَّ لَكُم بَعْضَ الَّذِي حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِآيَةٍ مِّن رَّبِّكُمْ فَاتَّقُوا اللَّـهَ وَأَطِيعُونِ",
+                 "bn": "আর এটি পূর্ববর্তী কিতাব সমুহকে সত্যায়ন করে, যেমন তওরাত। আর তা এজন্য যাতে তোমাদের জন্য হালাল করে দেই কোন কোন বস্তু যা তোমাদের জন্য হারাম ছিল। আর আমি তোমাদের নিকট এসেছি তোমাদের পালনকর্তার নিদর্শনসহ। কাজেই আল্লাহকে ভয় কর এবং আমার অনুসরণ কর।",
+                 "en": "'(I have come to you), to attest the Law which was before me. And to make lawful to you part of what was (Before) forbidden to you; I have come to you with a Sign from your Lord. So fear Allah, and obey me.",
+                 "no": "﴿٥٠﴾"
+             }
+            
+              
+              
+           
+
+           
+           
+            }
+      },
+
       "mulk": {
         "attr": {
           "ar": "الملك",
@@ -1974,159 +2294,8 @@
             "no": "﴿٣٠﴾"
           }
         }
-      },
-      "imran": {
-        "attr": {
-            "ar": "سورة آل عمران",
-            "bn": "সূরা আল ইমরান",
-            "en": "Surah Al-Imran",
-            "audio": "http://www.quraanshareef.org/audio/3-Surah-Al-Imran.mp3",
-            "len": 22,
-            "index": 3
-        },
-        "aya": {
-            "1": {
-                "ar": "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ الم",
-                "bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু, আলিফ লাম মীম।                ",
-                "en": "In the name of Allah, Most Gracious, Most Merciful, A. L. M.",
-                "no": "﴿١﴾"
-            },
-            "2": {
-                "ar": "اللَّـهُ لَا إِلَـٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-                "bn": "আল্লাহ ছাড়া কোন উপাস্য নেই, তিনি চিরঞ্জীব, সবকিছুর ধারক।",
-                "en": "Allah. There is no god but He,-the Living, the Self-Subsisting, Eternal.",
-                "no": "﴿٢﴾"
-            }, 
-            "3": {
-                "ar": "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ التَّوْرَاةَ وَالْإِنجِيلَ",
-                "bn": "তিনি আপনার প্রতি কিতাব নাযিল করেছেন সত্যতার সাথে; যা সত্যায়ন করে পূর্ববর্তী কিতাবসমুহের।",
-                "en": "It is He Who sent down to thee (step by step), in truth, the Book, confirming what went before it; and He sent down the Law (of Moses) and the Gospel (of Jesus) before this, as a guide to mankind, and He sent down the criterion (of judgment between right and wrong).",
-                "no": "﴿٣﴾"
-            },
-            "4": {
-                 "ar": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ الْفُرْقَانَ ۗ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّـهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَاللَّـهُ عَزِيزٌ ذُو انتِقَامٍ",
-                 "bn": "নাযিল করেছেন তাওরত ও ইঞ্জিল, এ কিতাবের পূর্বে, মানুষের হেদায়েতের জন্যে এবং অবতীর্ণ করেছেন মীমাংসা। নিঃসন্দেহে যারা আল্লাহর আয়াতসমূহ অস্বীকার করে, তাদের জন্যে রয়েছে কঠিন আযাব। আর আল্লাহ হচ্ছেন পরাক্রমশীল, প্রতিশোধ গ্রহণকারী।",
-                 "en": "Then those who reject Faith in the Signs of Allah will suffer the severest penalty, and Allah is Exalted in Might, Lord of Retribution.",
-                 "no": "﴿٤﴾"
-             },
-             "5": {
-                 "ar": "إِنَّ اللَّـهَ لَا يَخْفَىٰ عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ",
-                 "bn": "আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।",
-                 "en": "From Allah, verily nothing is hidden on earth or in the heavens.",
-                 "no": "﴿٥﴾"
-             },
-             "6": {
-                 "ar": "هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
-                 "bn": "তিনিই সেই আল্লাহ, যিনি তোমাদের আকৃতি গঠন করেন মায়ের গর্ভে, যেমন তিনি চেয়েছেন। তিনি ছাড়া আর কোন উপাস্য নেই। তিনি প্রবল পরাক্রমশীল, প্রজ্ঞাময়।",
-                 "en": "He it is Who shapes you in the wombs as He pleases. There is no god but He, the Exalted in Might, the Wise.",
-                 "no": "﴿٦﴾"
-             },
-             "7": {
-                 "ar": "هُوَ الَّذِي أَنزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُّحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ ۖ فَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِيلِهِ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّـهُ ۗ وَالرَّاسِخُونَ فِي الْعِلْمِ يَقُولُونَ آمَنَّا بِهِ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ",
-                 "bn": "তিনিই আপনার প্রতি কিতাব নাযিল করেছেন। তাতে কিছু আয়াত রয়েছে সুস্পষ্ট, সেগুলোই কিতাবের আসল অংশ। আর অন্যগুলো রূপক। সুতরাং যাদের অন্তরে কুটিলতা রয়েছে, তারা অনুসরণ করে ফিৎনা বিস্তার এবং অপব্যাখ্যার উদ্দেশে তন্মধ্যেকার রূপকগুলোর। আর সেগুলোর ব্যাখ্যা আল্লাহ ব্যতীত কেউ জানে না। আর যারা জ্ঞানে সুগভীর, তারা বলেনঃ আমরা এর প্রতি ঈমান এনেছি। এই সবই আমাদের পালনকর্তার পক্ষ থেকে অবতীর্ণ হয়েছে। আর বোধশক্তি সম্পন্নেরা ছাড়া অপর কেউ শিক্ষা গ্রহণ করে না।",
-                 "en": "He it is Who has sent down to thee the Book: In it are verses basic or fundamental (of established meaning); they are the foundation of the Book: others are allegorical. But those in whose hearts is perversity follow the part thereof that is allegorical, seeking discord, and searching for its hidden meanings, but no one knows its hidden meanings except Allah. And those who are firmly grounded in knowledge say: 'We believe in the Book; the whole of it is from our Lord:' and none will grasp the Message except men of understanding.",
-                 "no": "﴿٧﴾"
-             },
-             "8": {
-                 "ar": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ",
-                 "bn": "হে আমাদের পালনকর্তা! সরল পথ প্রদর্শনের পর তুমি আমাদের অন্তরকে সত্যলংঘনে প্রবৃত্ত করোনা এবং তোমার নিকট থেকে আমাদিগকে অনুগ্রহ দান কর। তুমিই সব কিছুর দাতা।",
-                 "en": "'Our Lord!' (they say), 'Let not our hearts deviate now after Thou hast guided us, but grant us mercy from Thine own Presence; for Thou art the Grantor of bounties without measure.'",
-                 "no": "﴿٨﴾"
-             },
-             "9": {
-                 "ar": "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ ۚ إِنَّ اللَّـهَ لَا يُخْلِفُ الْمِيعَادَ",
-                 "bn": "হে আমাদের পালনকর্তা! তুমি মানুষকে একদিন অবশ্যই একত্রিত করবেঃ এতে কোনই সন্দেহ নেই। নিশ্চয় আল্লাহ তাঁর ওয়াদার অন্যথা করেন না।",
-                 "en": "'Our Lord! Thou art He that will gather mankind Together against a day about which there is no doubt; for Allah never fails in His promise.'",
-                 "no": "﴿٩﴾"
-             },
-             "10": {
-                 "ar": "إِنَّ الَّذِينَ كَفَرُوا لَن تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُم مِّنَ اللَّـهِ شَيْئًا ۖ وَأُولَـٰئِكَ هُمْ وَقُودُ النَّارِ",
-                 "bn": "যারা কুফুরী করে, তাদের ধন-সম্পদ ও সন্তান-সন্ততি আল্লাহর সামনে কখনও কাজে আসবে না। আর তারাই হচ্ছে দোযখের ইন্ধন।",
-                 "en": "Those who reject Faith,- neither their possessions nor their (numerous) progeny will avail them aught against Allah. They are themselves but fuel for the Fire.",
-                 "no": "﴿١٠﴾"
-             },
-             "11": {
-                 "ar": "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا بِآيَاتِنَا فَأَخَذَهُمُ اللَّـهُ بِذُنُوبِهِمْ ۗ وَاللَّـهُ شَدِيدُ الْعِقَابِ",
-                 "bn": "ফেরআউনের সম্প্রদায় এবং তাদের পূর্ববর্তীদের ধারা অনুযায়ীই তারা আমার আয়াতসমূহকে মিথ্যা প্রতিপন্ন করেছে। ফলে তাদের পাপের কারণে আল্লাহ তাদেরকে পাকড়াও করেছেন আর আল্লাহর আযাব অতি কঠিন।",
-                 "en": "(Their plight will be) no better than that of the people of Pharaoh, and their predecessors: They denied our Signs, and Allah called them to account for their sins. For Allah is strict in punishment.",
-                 "no": "﴿١١﴾"
-             },
-             "12": {
-                 "ar": "قُل لِّلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ الْمِهَادُ",
-                 "bn": "কাফেরদিগকে বলে দিন, খুব শিগগীরই তোমরা পরাভূত হয়ে দোযখের দিকে হাঁকিয়ে নীত হবে-সেটা কতই না নিকৃষ্টতম অবস্থান।",
-                 "en": "Say to those who reject Faith: 'Soon will ye be vanquished and gathered together to Hell,-an evil bed indeed (to lie on)!'",
-                 "no": "﴿١٢﴾"
-             },
-             "13": {
-                 "ar": "قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ الْتَقَتَا ۖ فِئَةٌ تُقَاتِلُ فِي سَبِيلِ اللَّـهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ الْعَيْنِ ۚ وَاللَّـهُ يُؤَيِّدُ بِنَصْرِهِ مَن يَشَاءُ ۗ إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّأُولِي الْأَبْصَارِ",
-                 "bn": "নিশ্চয়ই দুটো দলের মোকাবিলার মধ্যে তোমাদের জন্য নিদর্শন ছিল। একটি দল আল্লাহর রাহে যুদ্ধ করে। আর অপর দল ছিল কাফেরদের এরা স্বচক্ষে তাদেরকে দ্বিগুন দেখছিল। আর আল্লাহ যাকে নিজের সাহায্যের মাধ্যমে শক্তি দান করেন। এরই মধ্যে শিক্ষনীয় রয়েছে দৃষ্টি সম্পন্নদের জন্য।",
-                 "en": "'There has already been for you a Sign in the two armies that met (in combat): One was fighting in the cause of Allah, the other resisting Allah. these saw with their own eyes Twice their number. But Allah doth support with His aid whom He pleaseth. In this is a warning for such as have eyes to see.'",
-                 "no": "﴿١٣﴾"
-             },
-             "14": {
-                 "ar": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّـهُ عِندَهُ حُسْنُ الْمَآبِ",
-                 "bn": "মানবকূলকে মোহগ্রস্ত করেছে নারী, সন্তান-সন্ততি, রাশিকৃত স্বর্ণ-রৌপ্য, চিহ্নিত অশ্ব, গবাদি পশুরাজি এবং ক্ষেত-খামারের মত আকর্ষণীয় বস্তুসামগ্রী। এসবই হচ্ছে পার্থিব জীবনের ভোগ্য বস্তু। আল্লাহর নিকটই হলো উত্তম আশ্রয়।",
-                 "en": "Fair in the eyes of men is the love of things they covet: Women and sons; Heaped-up hoards of gold and silver; horses branded (for blood and excellence); and (wealth of) cattle and well-tilled land. Such are the possessions of this world's life; but in nearness to Allah is the best of the goals (To return to).",
-                 "no": "﴿١٤﴾"
-             },
-             "15": {
-                 "ar": "قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَلِكُمْ لِلَّذِينَ اتَّقَوْا عِندَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُّطَهَّرَةٌ وَرِضْوَانٌ مِّنَ اللّهِ وَاللّهُ بَصِيرٌ بِالْعِبَادِ",
-                 "bn": "বলুন, আমি কি তোমাদেরকে এসবের চাইতেও উত্তম বিষয়ের সন্ধান বলবো?-যারা পরহেযগার, আল্লাহর নিকট তাদের জন্যে রয়েছে বেহেশত, যার তলদেশে প্রস্রবণ প্রবাহিত-তারা সেখানে থাকবে অনন্তকাল। আর রয়েছে পরিচ্ছন্ন সঙ্গিনীগণ এবং আল্লাহর সন্তুষ্টি। আর আল্লাহ তাঁর বান্দাদের প্রতি সুদৃষ্টি রাখেন।",
-                 "en": "Say: Shall I give you glad tidings of things Far better than those? For the righteous are Gardens in nearness to their Lord, with rivers flowing beneath; therein is their eternal home; with companions pure (and holy); and the good pleasure of Allah. For in Allah.s sight are (all) His servants,-",
-                 "no": "﴿١٥﴾"
-             },
-             "16": {
-                 "ar": "الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
-                 "bn": "যারা বলে, হে আমাদের পালনকর্তা, আমরা ঈমান এনেছি, কাজেই আমাদের গোনাহ ক্ষমা করে দাও আর আমাদেরকে দোযখের আযাব থেকে রক্ষা কর।",
-                 "en": "(Namely), those who say: 'Our Lord! we have indeed believed: forgive us, then, our sins, and save us from the agony of the Fire;'-",
-                 "no": "﴿١٦﴾"
-             },
-             "17": {
-                 "ar": "الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ",
-                 "bn": "তারা ধৈর্য্যধারণকারী, সত্যবাদী, নির্দেশ সম্পাদনকারী, সৎপথে ব্যয়কারী এবং শেষরাতে ক্ষমা প্রার্থনাকারী।",
-                 "en": "Those who show patience, Firmness and self-control; who are true (in word and deed); who worship devoutly; who spend (in the way of Allah.; and who pray for forgiveness in the early hours of the morning.",
-                 "no": "﴿١٧﴾"
-             },
-             "18": {
-                 "ar": "شَهِدَ اللَّـهُ أَنَّهُ لَا إِلَـٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَـٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
-                 "bn": "আল্লাহ সাক্ষ্য দিয়েছেন যে, তাঁকে ছাড়া আর কোন উপাস্য নেই। ফেরেশতাগণ এবং ন্যায়নিষ্ঠ জ্ঞানীগণও সাক্ষ্য দিয়েছেন যে, তিনি ছাড়া আর কোন ইলাহ নেই। তিনি পরাক্রমশালী প্রজ্ঞাময়।",
-                 "en": "There is no god but He: That is the witness of Allah, His angels, and those endued with knowledge, standing firm on justice. There is no god but He, the Exalted in Power, the Wise.",
-                 "no": "﴿١٨﴾"
-             },
-             "19": {
-                 "ar": "إِنَّ الدِّينَ عِندَ اللَّـهِ الْإِسْلَامُ ۗ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِآيَاتِ اللَّـهِ فَإِنَّ اللَّـهَ سَرِيعُ الْحِسَابِ",
-                 "bn": "নিঃসন্দেহে আল্লাহর নিকট গ্রহণযোগ্য দ্বীন একমাত্র ইসলাম। এবং যাদের প্রতি কিতাব দেয়া হয়েছে তাদের নিকট প্রকৃত জ্ঞান আসার পরও ওরা মতবিরোধে লিপ্ত হয়েছে, শুধুমাত্র পরস্পর বিদ্বেষবশতঃ, যারা আল্লাহর নিদর্শনসমূহের প্রতি কুফরী করে তাদের জানা উচিত যে, নিশ্চিতরূপে আল্লাহ হিসাব গ্রহণে অত্যন্ত দ্রুত।",
-                 "en": "The Religion before Allah is Islam (submission to His Will): Nor did the People of the Book dissent therefrom except through envy of each other, after knowledge had come to them. But if any deny the Signs of Allah, Allah is swift in calling to account.",
-                 "no": "﴿١٩﴾"
-             },
-             "20": {
-                 "ar": "فَإِنْ حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّـهِ وَمَنِ اتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوا ۖ وَّإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ ۗ وَاللَّـهُ بَصِيرٌ بِالْعِبَادِ",
-                 "bn": "যদি তারা তোমার সাথে বিতর্কে অবতীর্ণ হয় তবে বলে দাও, 'আমি এবং আমার অনুসরণকারীগণ আল্লাহর প্রতি আত্নসমর্পণ করেছি।' আর আহলে কিতাবদের এবং নিরক্ষরদের বলে দাও যে, তোমরাও কি আত্নসমর্পণ করেছ? তখন যদি তারা আত্নসমর্পণ করে, তবে সরল পথ প্রাপ্ত হলো, আর যদি মুখ ঘুরিয়ে নেয়, তাহলে তোমার দায়িত্ব হলো শুধু পৌছে দেয়া। আর আল্লাহর দৃষ্টিতে রয়েছে সকল বান্দা।",
-                 "en": "So if they dispute with thee, say: 'I have submitted My whole self to Allah and so have those who follow me.' And say to the People of the Book and to those who are unlearned: 'Do ye (also) submit yourselves?' If they do, they are in right guidance, but if they turn back, Thy duty is to convey the Message; and in Allah.s sight are (all) His servants.",
-                 "no": "﴿٢٠﴾"
-             }
-             ,
-             "21": {
-                 "ar": "إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّـهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
-                 "bn": "যারা আল্লাহর নিদর্শনাবলীকে অস্বীকার করে এবং পয়গম্বরগণকে হত্যা করে অন্যায়ভাবে, আর সেসব লোককে হত্যা করে যারা ন্যায়পরায়ণতার নির্দেশ দেয় তাদেরকে বেদনাদায়ক শাস্তির সংবাদ দিন।",
-                 "en": "As to those who deny the Signs of Allah and in defiance of right, slay the prophets, and slay those who teach just dealing with mankind, announce to them a grievous penalty.",
-                 "no": "﴿٢١﴾"
-             }
-             ,
-             "22": {
-                 "ar": "أُولَـٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُم مِّن نَّاصِرِينَ",
-                 "bn": "এরাই হলো সে লোক যাদের সমগ্র আমল দুনিয়া ও আখেরাত উভয়লোকেই বিনষ্ট হয়ে গেছে। পক্ষান্তরে তাদের কোন সাহায্যকারীও নেই।",
-                 "en": "They are those whose works will bear no fruit in this world and in the Hereafter nor will they have anyone to help.",
-                 "no": "﴿٢٢﴾"
-             }
-              
-           
-
-           
-           
-            }
-        }
-
+      }
+      
 
 
 

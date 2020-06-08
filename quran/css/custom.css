@@ -264,7 +264,8 @@ body {
 .suraContainer .suraname {
   text-align: center;
 
-  font-size: 2.15em;
+  font-size: 2.15em !important;
+  line-height: 1.15em !important;
   font-weight: normal;
   background: #6d859e;
   padding: 10px 20px;
@@ -276,7 +277,7 @@ body {
 
 }
 
-.suraContainer .ar {
+.ar {
   text-align: justify;
   font-family: "KFGQPC Uthman Taha Naskh", KFGQPC_Naskh;
   font-size: 3.15em;
@@ -309,7 +310,7 @@ body {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.15em;
-  line-height: 28px;
+  line-height: 1.9em;
   font-weight: normal;
   color: #e3e3e3;
   background: rgb(45, 80, 117);
@@ -322,7 +323,7 @@ body {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.15em;
-  line-height: 28px;
+  line-height: 1.9em;
   font-weight: normal;
   color: #e3e3e3;
   background: rgb(45, 80, 117);
@@ -440,8 +441,8 @@ div#sideBarFixed {
 padding: 30px !important;
 border: 30px solid #9aabbd !important;
 border-style: solid double !important;
-font-size: 20px !important;
-line-height: 5vh !important;
+font-size: 20px;
+line-height: 5vh;
 display:blcok!important;
 text-align:justify !important;
 direction: ltr !important;
@@ -517,7 +518,8 @@ direction: ltr !important;
 
   .suraContainer .suraname {
     margin-top: 20px;
-    font-size: 6vw;
+    font-size: 6vw !important;
+    line-height: 6vw !important;
   }
 
   .quranContainer {
@@ -534,9 +536,9 @@ direction: ltr !important;
     display: none;
   }
 
-  .suraContainer .ar {
+  /* .suraContainer .ar {
     line-height: 50px;
-  }
+  } */
 
   span.bnNameCover {
     font-size: 5vh;
@@ -559,7 +561,8 @@ direction: ltr !important;
   } */
 
   .suraContainer .suraname {
-    font-size: 3vw;
+    font-size: 3vw !important;
+    line-height: 3vw !important;
   }
 
   span.bnName {
@@ -641,7 +644,8 @@ direction: ltr !important;
 
   .suraContainer .suraname {
     margin-top: 20px;
-    font-size: 6vw;
+    font-size: 6vw !important;
+    line-height: 6vw !important;
   }
 
   .quranContainer {
@@ -658,9 +662,9 @@ direction: ltr !important;
     display: none;
   }
 
-  .suraContainer .ar {
+  /* .suraContainer .ar {
     line-height: 50px;
-  }
+  } */
 
   span.bnNameCover {
     font-size: 5vh;

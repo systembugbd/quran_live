@@ -5,6 +5,8 @@ let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
 // let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
 
 
+let fontRange = document.getElementById("fontRange");
+let fontReset = document.getElementById("fontReset");
 let playAudioBtn = document.getElementById("playAudioBtn");
 let selectedSura = document.getElementById("suraMenu");
 let suraContainer = document.getElementById("suraContainer");
@@ -47,8 +49,58 @@ let translationMouseOver = false;
 
 let msg = document.createElement('span');
 
+
+ function setLocalStorage(key, val){
+  localStorage.setItem(key, val);
+ }
+ function getLocalStorage(key){
+  return localStorage.getItem(key);
+}
+
+
+fontRange.addEventListener('change',function(){
+ 
+      setLocalStorage('fontSize', this.value+"px");
+      setLocalStorage('lineHeight',this.value+"em");
+    
+  let fontSizes = getLocalStorage('fontSize');
+  let lineHeights = getLocalStorage('lineHeight');
+
+  $('.suraContainer').css({
+    fontSize:fontSizes,
+    lineHeight:lineHeights
+  });
+ 
+
+});
+
+$('.suraContainer').css({
+  fontSize:getLocalStorage('fontSize'),
+  lineHeight:getLocalStorage('lineHeight')
+});
+ 
+// console.log(getLocalStorage('fontSize'));
+// console.log(getLocalStorage('lineHeight'));
+
+fontReset.addEventListener('click', function(){
+  localStorage.removeItem('fontSize');
+  localStorage.removeItem('lineHeight');
+  $('.suraContainer').css({
+    fontSize:'16px',
+    lineHeight:'16px'
+  });
+  fontRange.value= 16;
+
+  if (mq.matches) {
+    $(sideBar).removeClass("toggled");
+  }
+
+
+});
 let searchState = async (input) => {
   
+
+
   $('.loading').show();
 
   let res = await fetch("./quran.json");
@@ -65,6 +117,10 @@ let searchState = async (input) => {
 };
 
 function showData(data, input) {
+
+ 
+  
+
 
   $("#customtransBnEn").hide();
   msg.innerHTML= '';
