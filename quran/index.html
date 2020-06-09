@@ -94,40 +94,45 @@
           
        
          
+         
        
           <div class="form-group" id="translationSection">
+            <fieldset> 
+            <legend>Reading Help</legend>
            
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="autoScrollonOff">
-              <label class="custom-control-label" for="autoScrollonOff">Auto Scrolling ( On | Off )</label>
+              <label class="custom-control-label" for="autoScrollonOff">Auto Scrolling</label>
             </div>
              
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="translationFixedOnOff">
-              <label class="custom-control-label" for="translationFixedOnOff">Show Fixed</label>
+              <label class="custom-control-label" for="translationFixedOnOff">Show/Hide Fixed</label>
             </div>
            
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="translationWithVideoOnOff">
-              <label class="custom-control-label" for="translationWithVideoOnOff">Show/Hide Aya By Aya</label>
+              <label class="custom-control-label" for="translationWithVideoOnOff">Aya By Aya With Audio</label>
             </div>
             <div class="custom-control custom-switch">
               <input type="checkbox" class="custom-control-input" id="translationOffMouseOver" checked>
               <label class="custom-control-label" for="translationOffMouseOver">Show/Hide on Hover</label>
             </div>
-
+          </fieldset>
              
            
-            
+          <br>
+          <br>
 
-        </fieldset>
+
+    
     
 
         <fieldset  id="langSelection">
-          <!-- <legend>Translation Onlys</legend> -->
+          <legend>Translation BN/EN</legend>
           <div class="custom-control custom-switch">
             <input type="checkbox" class="custom-control-input" id="showOnlyTranslation">
-            <label class="custom-control-label" for="showOnlyTranslation">Show Translation Only</label>
+            <label class="custom-control-label" for="showOnlyTranslation">Show Translation</label>
             
           </div>
 
@@ -137,21 +142,24 @@
           </div>
         </fieldset>
 
-     
+     <br>
 
+     <br>
 
 
           
           <fieldset class="form-group">
-            <label for="customRange1">Font Resize<span id="currentFontSize"></span></label>
+            <legend>Font Resize</legend>
+            <label for="customRange1">Current Font Size<span id="currentFontSize"> is - 16px</span></label>
             <input type="range" min="6" class="custom-range" id="fontRange" value="15" max="25">  
            
-            <button type="button" class="btn dropdown-item" id="fontReset">Reset font</button>
+            <button type="button" class="btn dropdown-item" id="fontReset">Reset Font Size</button>
             
 
 
           </fieldset> 
          
+       
 
         </div>
         

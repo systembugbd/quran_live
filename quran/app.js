@@ -72,8 +72,11 @@ fontRange.addEventListener('change',function(){
         lineHeight:lineHeights+"em"
       });
 
-
- 
+if(this.value){
+      currentFontSize.innerHTML = " is - " + this.value+"px";
+      currentFontSize.style.fontSize = this.value;
+}
+      
 
 });
 
@@ -82,9 +85,13 @@ $('.suraContainer').css({
   lineHeight:getLocalStorage('lineHeight')+"em"
 });
  
-// console.log(getLocalStorage('fontSize'));
-// console.log(getLocalStorage('lineHeight'));
+if(getLocalStorage('fontSize')){
+
+currentFontSize.innerHTML = " is - " + getLocalStorage('fontSize')+"px";
+
+}
 fontRange.value= getLocalStorage('fontSize');
+
 fontReset.addEventListener('click', function(){
   window.localStorage.removeItem('fontSize');
   window.localStorage.removeItem('lineHeight');
@@ -93,10 +100,12 @@ fontReset.addEventListener('click', function(){
     lineHeight:'16px'
   });
   fontRange.value= 16;
-
+ 
   if (mq.matches) {
     $(sideBar).removeClass("toggled");
   }
+
+  currentFontSize.innerHTML = " is - 16px";
 
 
 });

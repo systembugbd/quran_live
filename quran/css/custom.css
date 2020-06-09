@@ -29,6 +29,22 @@
     url("../font/loveahegena-yw1ym-webfont#webfont") format("svg");
 }
 
+
+legend {
+  text-align: center;
+  font-size: 20px;
+}
+
+fieldset {
+  min-width: auto;
+  padding: 10px; 
+  margin: auto; 
+  border: 1px solid #fff;
+  border-radius: 7px;
+  
+}
+
+
 .loading{
   position: absolute;
   top: 0%;
