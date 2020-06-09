@@ -1,10 +1,11 @@
-let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
+// let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abdullah_Basfar_64kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps/`;
-// let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
+let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
 
 
+let currentFontSize = document.getElementById("currentFontSize");
 let fontRange = document.getElementById("fontRange");
 let fontReset = document.getElementById("fontReset");
 let playAudioBtn = document.getElementById("playAudioBtn");
@@ -63,13 +64,15 @@ fontRange.addEventListener('change',function(){
       setLocalStorage('fontSize', this.value);
       setLocalStorage('lineHeight',this.value);
     
-  let fontSizes = getLocalStorage('fontSize');
-  let lineHeights = getLocalStorage('lineHeight');
+      let fontSizes = getLocalStorage('fontSize');
+      let lineHeights = getLocalStorage('lineHeight');
 
-  $('.suraContainer').css({
-    fontSize:fontSizes+"px",
-    lineHeight:lineHeights+"em"
-  });
+      $('.suraContainer').css({
+        fontSize:fontSizes+"px",
+        lineHeight:lineHeights+"em"
+      });
+
+
  
 
 });
