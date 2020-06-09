@@ -60,28 +60,28 @@ let msg = document.createElement('span');
 
 fontRange.addEventListener('change',function(){
  
-      setLocalStorage('fontSize', this.value+"px");
-      setLocalStorage('lineHeight',this.value+"em");
+      setLocalStorage('fontSize', this.value);
+      setLocalStorage('lineHeight',this.value);
     
   let fontSizes = getLocalStorage('fontSize');
   let lineHeights = getLocalStorage('lineHeight');
 
   $('.suraContainer').css({
-    fontSize:fontSizes,
-    lineHeight:lineHeights
+    fontSize:fontSizes+"px",
+    lineHeight:lineHeights+"em"
   });
  
 
 });
 
 $('.suraContainer').css({
-  fontSize:getLocalStorage('fontSize'),
-  lineHeight:getLocalStorage('lineHeight')
+  fontSize:getLocalStorage('fontSize')+"px",
+  lineHeight:getLocalStorage('lineHeight')+"em"
 });
  
 // console.log(getLocalStorage('fontSize'));
 // console.log(getLocalStorage('lineHeight'));
-
+fontRange.value= getLocalStorage('fontSize');
 fontReset.addEventListener('click', function(){
   window.localStorage.removeItem('fontSize');
   window.localStorage.removeItem('lineHeight');
