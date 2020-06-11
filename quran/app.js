@@ -1,8 +1,8 @@
-// let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
+let BASE_URL = `https://everyayah.com/data/Alafasy_128kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abdullah_Basfar_64kbps/`;
 // let BASE_URL = `https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps/`;
-let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
+// let BASE_URL = `https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/`;
 
 
 let currentFontSize = document.getElementById("currentFontSize");
